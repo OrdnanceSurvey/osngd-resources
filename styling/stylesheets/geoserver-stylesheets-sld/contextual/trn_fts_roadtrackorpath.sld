@@ -371,7 +371,7 @@
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Transport Curtilage </ogc:Literal>
+            <ogc:Literal>Transport Curtilage</ogc:Literal>
           </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>

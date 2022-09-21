@@ -1,4 +1,4 @@
-The **default** style defines a colour for each theme (then hues of the colour a collection level).
+The **analytical** style defines a colour for each theme (then hues of the colour a collection level).
 
 The **contextual** style takes a select few datasets (Building Part, Land, Landform, Structure, Rail, Road Track Or Path, and Water) from the NGD data offering to define a simple 'skin of the earth' view of Great Britain, without any data gaps. When applied, the data will resemble something similar to the current styling for the topographic areas within the OS MasterMap Topography Layer.
 

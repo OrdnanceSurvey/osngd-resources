@@ -55,10 +55,12 @@
                 "add-isl-prebuildaddress": "circle",
                 "add-isl-streetaddress": "circle"
             },
-            "main-color": "#dc5b6e",
-            "collection-colors": {
-                "gb": "#dc5b6e",
-                "isl": "#e06c7d"
+            "default-color": "#dc5b6e",
+            "analytical-colors": {
+                "collections": {
+                    "gb": "#dc5b6e",
+                    "isl": "#e06c7d"
+                }
             }
         },
         "asu": {
@@ -82,9 +84,11 @@
                 "asu-bdy-region": "fill",
                 "asu-bdy-regionalauthority": "fill"
             },
-            "main-color": "#6a54b4",
-            "collection-colors": {
-                "bdy": "#6a54b4"
+            "default-color": "#6a54b4",
+            "analytical-colors": {
+                "collections": {
+                    "bdy": "#6a54b4"
+                }
             }
         },
         "bld": {
@@ -93,9 +97,11 @@
                 "bld-fts-buildingline": "line",
                 "bld-fts-buildingpart": "fill"
             },
-            "main-color": "#ead04b",
-            "collection-colors": {
-                "fts": "#ead04b"
+            "default-color": "#ead04b",
+            "analytical-colors": {
+                "collections": {
+                    "fts": "#ead04b"
+                }
             },
             "contextual-colors": {
                 "bld-fts-buildingpart": "#dcd7c6"
@@ -107,9 +113,11 @@
                 "gnm-fts-namedarea": "fill",
                 "gnm-fts-namedpoint": "circle"
             },
-            "main-color": "#857b82",
-            "collection-colors": {
-                "fts": "#857b82"
+            "default-color": "#857b82",
+            "analytical-colors": {
+                "collections": {
+                    "fts": "#857b82"
+                }
             }
         },
         "lnd": {
@@ -121,9 +129,11 @@
                 "lnd-fts-landformline": "line",
                 "lnd-fts-landformpoint": "circle"
             },
-            "main-color": "#55a973",
-            "collection-colors": {
-                "fts": "#55a973"
+            "default-color": "#55a973",
+            "analytical-colors": {
+                "collections": {
+                    "fts": "#55a973"
+                }
             },
             "contextual-colors": {
                 "lnd-fts-land": [
@@ -149,9 +159,11 @@
                 "lus-fts-siteaccesslocation": "circle",
                 "lus-fts-siteroutingpoint": "circle"
             },
-            "main-color": "#b38b6d",
-            "collection-colors": {
-                "fts": "#b38b6d"
+            "default-color": "#b38b6d",
+            "analytical-colors": {
+                "collections": {
+                    "fts": "#b38b6d"
+                }
             }
         },
         "str": {
@@ -162,9 +174,11 @@
                 "str-fts-structureline": "line",
                 "str-fts-structurepoint": "circle"
             },
-            "main-color": "#edb5b5",
-            "collection-colors": {
-                "fts": "#edb5b5"
+            "default-color": "#edb5b5",
+            "analytical-colors": {
+                "collections": {
+                    "fts": "#edb5b5"
+                }
             },
             "contextual-colors": {
                 "str-fts-structure": "#e7c9c8"
@@ -204,11 +218,13 @@
                 "trn-rami-specialdesignationline": "line",
                 "trn-rami-specialdesignationpoint": "circle"
             },
-            "main-color": "#f19748",
-            "collection-colors": {
-                "fts": "#f19748",
-                "ntwk": "#f6bc89",
-                "rami": "#a6540d"
+            "default-color": "#f19748",
+            "analytical-colors": {
+                "collections": {
+                    "fts": "#f19748",
+                    "ntwk": "#f6bc89",
+                    "rami": "#a6540d"
+                }
             },
             "contextual-colors": {
                 "trn-fts-rail": "#cccbcb",
@@ -235,7 +251,7 @@
                     "Towing Path", "#fcfdff",
                     "Track", "#dcdcdb",
                     "Traffic Calming", "#fcfdff",
-                    "Transport Curtilage ", "#cccbcb",
+                    "Transport Curtilage", "#cccbcb",
                     "Travelling Walkway", "#dcdcdb",
                     "Vehicle Dip", "#fcfdff",
                     "#000000"
@@ -253,10 +269,12 @@
                 "wtr-ntwk-waternode": "circle",
                 "wtr-ntwk-waterlinkset": "line"
             },
-            "main-color": "#2d8fb6",
-            "collection-colors": {
-                "fts": "#2d8fb6",
-                "ntwk": "#99d0e6"
+            "default-color": "#2d8fb6",
+            "analytical-colors": {
+                "collections": {
+                    "fts": "#2d8fb6",
+                    "ntwk": "#99d0e6"
+                }
             },
             "contextual-colors": {
                 "wtr-fts-water": "#aadeef"

@@ -1,4 +1,4 @@
-This folder contains stylesheets for the OS National Geographic Database (NGD) data
+This folder contains stylesheets for the OS National Geographic Database (NGD) data.
 
 Select the **format of stylesheet** that you need for your software package.
 

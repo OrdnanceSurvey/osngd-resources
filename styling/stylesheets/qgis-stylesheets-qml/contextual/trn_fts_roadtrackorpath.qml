@@ -23,7 +23,7 @@
       <category label="Towing Path" render="true" symbol="18" value="Towing Path"/>
       <category label="Track" render="true" symbol="19" value="Track"/>
       <category label="Traffic Calming" render="true" symbol="20" value="Traffic Calming"/>
-      <category label="Transport Curtilage " render="true" symbol="21" value="Transport Curtilage "/>
+      <category label="Transport Curtilage" render="true" symbol="21" value="Transport Curtilage"/>
       <category label="Travelling Walkway" render="true" symbol="22" value="Travelling Walkway"/>
       <category label="Vehicle Dip" render="true" symbol="23" value="Vehicle Dip"/>
     </categories>
