@@ -20,9 +20,9 @@ CREATE TABLE trn_rami_highwaydedication (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_highwaydedication_hwydedntwkref (
-	networkreferenceid varchar(36),
+	networkreferenceid uuid,
 	networkfeaturetype varchar(9),
-	highwaydedicationid varchar(36),
+	highwaydedicationid uuid,
 	highwaydedicationversiondate date,
 	PRIMARY KEY (networkreferenceid,highwaydedicationid,highwaydedicationversiondate)
 );
@@ -164,7 +164,7 @@ CREATE TABLE trn_rami_restriction (
 	restriction varchar(26) not null,
 	trafficsign1 varchar(120),
 	trafficsign2 varchar(120),
-	structure varchar(40),
+	"structure" varchar(40),
 	inclusion varchar(1209),
 	exemption varchar(1209),
 	timeinterval varchar(254),
@@ -179,8 +179,8 @@ CREATE TABLE trn_rami_restriction (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_restriction_datetimequal (
-	datetimequalifierid varchar(36),
-	restrictionid varchar(36),
+	datetimequalifierid uuid,
+	restrictionid uuid,
 	restrictionversiondate date,
 	nameddate varchar(9),
 	startdate date,
@@ -195,11 +195,11 @@ CREATE TABLE trn_rami_restriction_datetimequal (
 	PRIMARY KEY (datetimequalifierid,restrictionversiondate)
 );
 CREATE TABLE trn_rami_restriction_restrictntwkref (
-	networkreferenceid varchar(36),
+	networkreferenceid uuid,
 	networkfeaturetype varchar(9),
 	roadlinkdirection varchar(21),
 	roadlinksequence integer,
-	restrictionid varchar(36),
+	restrictionid uuid,
 	restrictionversiondate date,
 	PRIMARY KEY (networkreferenceid,restrictionid,restrictionversiondate)
 );
@@ -220,9 +220,9 @@ CREATE TABLE trn_rami_routinghazard (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_routinghazard_routhazntwkref (
-	networkreferenceid varchar(36),
+	networkreferenceid uuid,
 	networkfeaturetype varchar(9),
-	routinghazardid varchar(36),
+	routinghazardid uuid,
 	routinghazardversiondate date,
 	PRIMARY KEY (networkreferenceid,routinghazardid,routinghazardversiondate)
 );
@@ -243,9 +243,9 @@ CREATE TABLE trn_rami_routingstructure (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_routingstructure_routstructntwkref (
-	networkreferenceid varchar(36),
+	networkreferenceid uuid,
 	networkfeaturetype varchar(9),
-	routingstructureid varchar(36),
+	routingstructureid uuid,
 	routingstructureversiondate date,
 	PRIMARY KEY (networkreferenceid,routingstructureid,routingstructureversiondate)
 );
@@ -273,8 +273,8 @@ CREATE TABLE trn_rami_specialdesignationarea (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_specialdesignationarea_datetimequal (
-	datetimequalifierid varchar(36),
-	specialdesignationid varchar(36),
+	datetimequalifierid uuid,
+	specialdesignationid uuid,
 	specialdesignationversiondate date,
 	nameddate varchar(9),
 	startdate date,
@@ -312,8 +312,8 @@ CREATE TABLE trn_rami_specialdesignationline (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_specialdesignationline_datetimequal (
-	datetimequalifierid varchar(36),
-	specialdesignationid varchar(36),
+	datetimequalifierid uuid,
+	specialdesignationid uuid,
 	specialdesignationversiondate date,
 	nameddate varchar(9),
 	startdate date,
@@ -350,8 +350,8 @@ CREATE TABLE trn_rami_specialdesignationpoint (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_specialdesignationpoint_datetimequal (
-	datetimequalifierid varchar(36),
-	specialdesignationid varchar(36),
+	datetimequalifierid uuid,
+	specialdesignationid uuid,
 	specialdesignationversiondate date,
 	nameddate varchar(9),
 	startdate date,

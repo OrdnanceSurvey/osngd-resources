@@ -27,19 +27,19 @@ CREATE TABLE wtr_ntwk_waterlink (
 	catchmentid varchar(20),
 	width numeric(7,2),
 	gradient numeric(5,2),
-	startnode varchar(36) not null,
-	endnode varchar(36) not null,
-	nameid varchar(36),
+	startnode uuid not null,
+	endnode uuid not null,
+	nameid uuid,
 	name1_text varchar(254),
 	name1_language varchar(3),
 	name2_text varchar(254),
 	name2_language varchar(3),
-	namesecondaryid varchar(36),
+	namesecondaryid uuid,
 	namesecondary1_text varchar(254),
 	namesecondary1_language varchar(3),
 	namesecondary2_text varchar(254),
 	namesecondary2_language varchar(3),
-	nametertiaryid varchar(36),
+	nametertiaryid uuid,
 	nametertiary1_text varchar(254),
 	nametertiary1_language varchar(3),
 	nametertiary2_text varchar(254),
@@ -75,8 +75,8 @@ CREATE TABLE wtr_ntwk_waterlinkset (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE wtr_ntwk_waterlinkset_wtrlinkref (
-	waterlinkid varchar(36),
-	waterlinksetid varchar(36),
+	waterlinkid uuid,
+	waterlinksetid uuid,
 	waterlinksetversiondate date,
 	PRIMARY KEY (waterlinkid,waterlinksetid,waterlinksetversiondate)
 );

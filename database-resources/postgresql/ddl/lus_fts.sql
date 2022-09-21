@@ -52,9 +52,9 @@ CREATE TABLE lus_fts_siteaccesslocation (
 	accesstype_evidencedate date,
 	accesstype_updatedate date not null,
 	accesstype_source varchar(50),
-	siteid varchar(36) not null,
-	routingpointid varchar(36),
-	roadnodeid varchar(36),
+	siteid uuid not null,
+	routingpointid uuid,
+	roadnodeid uuid,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE lus_fts_siteroutingpoint (
@@ -71,6 +71,6 @@ CREATE TABLE lus_fts_siteroutingpoint (
 	theme varchar(40) not null,
 	description varchar(15) not null,
 	startdistance numeric(7,2),
-	roadlinkid varchar(36),
+	roadlinkid uuid,
 	PRIMARY KEY (osid)
 );

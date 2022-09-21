@@ -10,7 +10,7 @@ CREATE TABLE add_gb_builtaddress (
 	poboxnumber varchar(13),
 	subname varchar(110),
 	name varchar(110),
-	number varchar(13),
+	"number" varchar(13),
 	streetname varchar(100) not null,
 	locality varchar(35),
 	townname varchar(35),
@@ -74,14 +74,14 @@ CREATE TABLE add_gb_builtaddress_pstladd (
 	welshposttown varchar(30),
 	poboxnumber varchar(6),
 	processdate date,
-	source varchar(30),
+	"source" varchar(30),
 	updatedate date,
 	effectivestartdate date not null,
 	effectiveenddate date,
 	PRIMARY KEY (udprn,featuretypeversiondate)
 );
 CREATE TABLE add_gb_builtaddress_altadd (
-	alternateaddressid varchar(36),
+	alternateaddressid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	usrn integer not null,
@@ -93,7 +93,7 @@ CREATE TABLE add_gb_builtaddress_altadd (
 	locality varchar(35),
 	townname varchar(35),
 	islandname varchar(50),
-	language varchar(3),
+	"language" varchar(3),
 	postcode varchar(8) not null,
 	floorlevel varchar(30),
 	updatedate date,
@@ -102,18 +102,18 @@ CREATE TABLE add_gb_builtaddress_altadd (
 	PRIMARY KEY (alternateaddressid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_builtaddress_rltenty (
-	relatedentityid varchar(36),
+	relatedentityid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	crossreferencefeature varchar(30),
 	crossreferenceid varchar(36),
 	relationshiptype varchar(30),
-	source varchar(110),
+	"source" varchar(110),
 	updatedate date,
 	PRIMARY KEY (relatedentityid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_builtaddress_otrclass (
-	otherclassificationid varchar(36),
+	otherclassificationid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	classificationcode varchar(6) not null,
@@ -135,7 +135,7 @@ CREATE TABLE add_gb_historicaddress (
 	poboxnumber varchar(13),
 	subname varchar(110),
 	name varchar(110),
-	number varchar(13),
+	"number" varchar(13),
 	streetname varchar(100) not null,
 	locality varchar(35),
 	townname varchar(35),
@@ -199,14 +199,14 @@ CREATE TABLE add_gb_historicaddress_pstladd (
 	welshposttown varchar(30),
 	poboxnumber varchar(6),
 	processdate date,
-	source varchar(30),
+	"source" varchar(30),
 	updatedate date,
 	effectivestartdate date not null,
 	effectiveenddate date,
 	PRIMARY KEY (udprn,featuretypeversiondate)
 );
 CREATE TABLE add_gb_historicaddress_altadd (
-	alternateaddressid varchar(36),
+	alternateaddressid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	usrn integer not null,
@@ -218,7 +218,7 @@ CREATE TABLE add_gb_historicaddress_altadd (
 	locality varchar(35),
 	townname varchar(35),
 	islandname varchar(50),
-	language varchar(3),
+	"language" varchar(3),
 	postcode varchar(8) not null,
 	floorlevel varchar(30),
 	updatedate date,
@@ -227,18 +227,18 @@ CREATE TABLE add_gb_historicaddress_altadd (
 	PRIMARY KEY (alternateaddressid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_historicaddress_rltenty (
-	relatedentityid varchar(36),
+	relatedentityid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	crossreferencefeature varchar(30),
 	crossreferenceid varchar(36),
 	relationshiptype varchar(30),
-	source varchar(110),
+	"source" varchar(110),
 	updatedate date,
 	PRIMARY KEY (relatedentityid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_historicaddress_otrclass (
-	otherclassificationid varchar(36),
+	otherclassificationid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	classificationcode varchar(6) not null,
@@ -260,7 +260,7 @@ CREATE TABLE add_gb_nonaddressableobject (
 	poboxnumber varchar(13),
 	subname varchar(110),
 	name varchar(110),
-	number varchar(13),
+	"number" varchar(13),
 	streetname varchar(100) not null,
 	locality varchar(35),
 	townname varchar(35),
@@ -324,14 +324,14 @@ CREATE TABLE add_gb_nonaddressableobject_pstladd (
 	welshposttown varchar(30),
 	poboxnumber varchar(6),
 	processdate date,
-	source varchar(30),
+	"source" varchar(30),
 	updatedate date,
 	effectivestartdate date not null,
 	effectiveenddate date,
 	PRIMARY KEY (udprn,featuretypeversiondate)
 );
 CREATE TABLE add_gb_nonaddressableobject_altadd (
-	alternateaddressid varchar(36),
+	alternateaddressid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	usrn integer not null,
@@ -343,7 +343,7 @@ CREATE TABLE add_gb_nonaddressableobject_altadd (
 	locality varchar(35),
 	townname varchar(35),
 	islandname varchar(50),
-	language varchar(3),
+	"language" varchar(3),
 	postcode varchar(8) not null,
 	floorlevel varchar(30),
 	updatedate date,
@@ -352,18 +352,18 @@ CREATE TABLE add_gb_nonaddressableobject_altadd (
 	PRIMARY KEY (alternateaddressid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_nonaddressableobject_rltenty (
-	relatedentityid varchar(36),
+	relatedentityid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	crossreferencefeature varchar(30),
 	crossreferenceid varchar(36),
 	relationshiptype varchar(30),
-	source varchar(110),
+	"source" varchar(110),
 	updatedate date,
 	PRIMARY KEY (relatedentityid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_nonaddressableobject_otrclass (
-	otherclassificationid varchar(36),
+	otherclassificationid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	classificationcode varchar(6) not null,
@@ -385,7 +385,7 @@ CREATE TABLE add_gb_prebuildaddress (
 	poboxnumber varchar(13),
 	subname varchar(110),
 	name varchar(110),
-	number varchar(13),
+	"number" varchar(13),
 	streetname varchar(100) not null,
 	locality varchar(35),
 	townname varchar(35),
@@ -449,14 +449,14 @@ CREATE TABLE add_gb_prebuildaddress_pstladd (
 	welshposttown varchar(30),
 	poboxnumber varchar(6),
 	processdate date,
-	source varchar(30),
+	"source" varchar(30),
 	updatedate date,
 	effectivestartdate date not null,
 	effectiveenddate date,
 	PRIMARY KEY (udprn,featuretypeversiondate)
 );
 CREATE TABLE add_gb_prebuildaddress_altadd (
-	alternateaddressid varchar(36),
+	alternateaddressid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	usrn integer not null,
@@ -468,7 +468,7 @@ CREATE TABLE add_gb_prebuildaddress_altadd (
 	locality varchar(35),
 	townname varchar(35),
 	islandname varchar(50),
-	language varchar(3),
+	"language" varchar(3),
 	postcode varchar(8) not null,
 	floorlevel varchar(30),
 	updatedate date,
@@ -477,18 +477,18 @@ CREATE TABLE add_gb_prebuildaddress_altadd (
 	PRIMARY KEY (alternateaddressid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_prebuildaddress_rltenty (
-	relatedentityid varchar(36),
+	relatedentityid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	crossreferencefeature varchar(30),
 	crossreferenceid varchar(36),
 	relationshiptype varchar(30),
-	source varchar(110),
+	"source" varchar(110),
 	updatedate date,
 	PRIMARY KEY (relatedentityid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_prebuildaddress_otrclass (
-	otherclassificationid varchar(36),
+	otherclassificationid uuid,
 	uprn bigint not null,
 	featuretypeversiondate date,
 	classificationcode varchar(6) not null,

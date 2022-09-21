@@ -9,8 +9,8 @@ CREATE TABLE trn_ntwk_connectinglink (
 	geometry_length numeric(15,6) not null,
 	theme varchar(40) not null,
 	description varchar(15) not null,
-	connectingnodeid varchar(36) not null,
-	pathnodeid varchar(36) not null,
+	connectingnodeid uuid not null,
+	pathnodeid uuid not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_connectingnode (
@@ -23,7 +23,7 @@ CREATE TABLE trn_ntwk_connectingnode (
 	geometry geometry(PointZ, 27700) not null,
 	theme varchar(40) not null,
 	description varchar(15) not null,
-	roadlinkid varchar(36),
+	roadlinkid uuid,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_ferrylink (
@@ -40,8 +40,8 @@ CREATE TABLE trn_ntwk_ferrylink (
 	fictitious boolean,
 	vehicularferry boolean not null,
 	routeoperator varchar(250),
-	startnode varchar(36) not null,
-	endnode varchar(36) not null,
+	startnode uuid not null,
+	endnode uuid not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_ferrynode (
@@ -71,10 +71,10 @@ CREATE TABLE trn_ntwk_ferryterminal (
 	name2_text varchar(254),
 	name2_language varchar(3),
 	ferryterminalcode varchar(10),
-	roadnodeid varchar(36),
-	pathnodeid varchar(36),
-	ferrynodeid varchar(36) not null,
-	siteid varchar(36),
+	roadnodeid uuid,
+	pathnodeid uuid,
+	ferrynodeid uuid not null,
+	siteid uuid,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_path (
@@ -95,8 +95,8 @@ CREATE TABLE trn_ntwk_path (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_path_pathlinkref (
-	pathlinkid varchar(36),
-	pathid varchar(36),
+	pathlinkid uuid,
+	pathid uuid,
 	pathversiondate date,
 	PRIMARY KEY (pathlinkid,pathid,pathversiondate)
 );
@@ -127,9 +127,9 @@ CREATE TABLE trn_ntwk_pathlink (
 	heightingmethod varchar(19) not null,
 	capturespecification varchar(10) not null,
 	matchstatus varchar(39) not null,
-	startnode varchar(36) not null,
+	startnode uuid not null,
 	startgradeseparation integer not null,
-	endnode varchar(36) not null,
+	endnode uuid not null,
 	endgradeseparation integer not null,
 	PRIMARY KEY (osid)
 );
@@ -171,8 +171,8 @@ CREATE TABLE trn_ntwk_road (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_road_rdlinkref (
-	roadlinkid varchar(36),
-	roadid varchar(36),
+	roadlinkid uuid,
+	roadid uuid,
 	roadversiondate date,
 	PRIMARY KEY (roadlinkid,roadid,roadversiondate)
 );
@@ -195,8 +195,8 @@ CREATE TABLE trn_ntwk_roadjunction (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadjunction_rdnoderef (
-	roadnodeid varchar(36),
-	roadjunctionid varchar(36),
+	roadnodeid uuid,
+	roadjunctionid uuid,
 	roadjunctionversiondate date,
 	PRIMARY KEY (roadnodeid,roadjunctionid,roadjunctionversiondate)
 );
@@ -237,15 +237,15 @@ CREATE TABLE trn_ntwk_roadlink (
 	heightingmethod varchar(19) not null,
 	capturespecification varchar(10) not null,
 	matchstatus varchar(39) not null,
-	startnode varchar(36) not null,
+	startnode uuid not null,
 	startgradeseparation integer,
-	endnode varchar(36) not null,
+	endnode uuid not null,
 	endgradeseparation integer,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadlink_rdtrkpthref (
-	roadtrackorpathid varchar(36),
-	roadlinkid varchar(36),
+	roadtrackorpathid uuid,
+	roadlinkid uuid,
 	roadlinkversiondate date,
 	PRIMARY KEY (roadtrackorpathid,roadlinkid,roadlinkversiondate)
 );
@@ -269,8 +269,8 @@ CREATE TABLE trn_ntwk_roadnode (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadnode_rdtrkpthref (
-	roadtrackorpathid varchar(36),
-	roadnodeid varchar(36),
+	roadtrackorpathid uuid,
+	roadnodeid uuid,
 	roadnodeversiondate date,
 	PRIMARY KEY (roadtrackorpathid,roadnodeid,roadnodeversiondate)
 );
@@ -329,7 +329,7 @@ CREATE TABLE trn_ntwk_street (
 	PRIMARY KEY (usrn)
 );
 CREATE TABLE trn_ntwk_street_pathlinkref (
-	pathlinkid varchar(36),
+	pathlinkid uuid,
 	usrn integer not null,
 	streetversiondate date,
 	PRIMARY KEY (pathlinkid,usrn,streetversiondate)
@@ -337,6 +337,6 @@ CREATE TABLE trn_ntwk_street_pathlinkref (
 CREATE TABLE trn_ntwk_street_rdlinkref (
 	usrn integer not null,
 	streetversiondate date,
-	roadlinkid varchar(36),
+	roadlinkid uuid,
 	PRIMARY KEY (roadlinkid,usrn,streetversiondate)
 );
