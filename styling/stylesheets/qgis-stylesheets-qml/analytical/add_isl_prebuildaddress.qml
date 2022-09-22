@@ -5,14 +5,14 @@
       <symbol force_rhr="0" name="0" alpha="1" clip_to_extent="1" type="marker">
         <layer class="SimpleMarker" pass="0" enabled="1" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="224,108,125,255"/>
+          <prop k="color" v="235,145,162,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="224,108,125,230"/>
+          <prop k="outline_color" v="235,145,162,230"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.2"/>
           <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
