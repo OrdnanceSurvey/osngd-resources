@@ -5,7 +5,7 @@ CREATE TABLE wtr_ntwk_waterlink (
 	versionavailablefromdate timestamp not null,
 	versionavailabletodate timestamp,
 	changetype varchar(50) not null,
-	geometry geometry(LineStringZ, 27700) not null,
+	geometry geometry(LineStringZ, 7405) not null,
 	geometry_length numeric(15,6) not null,
 	geometry_evidencedate date,
 	geometry_updatedate date not null,
@@ -87,7 +87,7 @@ CREATE TABLE wtr_ntwk_waternode (
 	versionavailablefromdate timestamp not null,
 	versionavailabletodate timestamp,
 	changetype varchar(50) not null,
-	geometry geometry(PointZ, 27700) not null,
+	geometry geometry(PointZ, 7405) not null,
 	theme varchar(40) not null,
 	description varchar(8) not null,
 	PRIMARY KEY (osid)
