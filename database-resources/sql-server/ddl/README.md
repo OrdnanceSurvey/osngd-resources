@@ -1,7 +1,9 @@
 # SQL Server DDL
 
-## <em><strong>Coming Soon</strong></em>
+This directory contains all the Data Definition Language (DDL) files for Microsoft SQL Server.
 
-This directory will contain all the Data Definition Language (DDL) files for SQL Server
+The SQL within them includes all the `CREATE TABLE` statements.
 
-For further information view the [OS NGD Documentation](https://osngd.gitbook.io/osngd/)
+They are split by OS NGD Collection types.
+
+For further information view the [OS NGD Documentation](http://docs.os.uk/osngd).
