@@ -9,7 +9,6 @@ CREATE TABLE asu_bdy_boundaryhighwatermark (
 	theme nvarchar(40) not null,
 	description nvarchar(50) not null,
 	boundarytype nvarchar(50) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_ceremonialcounty (
@@ -30,7 +29,6 @@ CREATE TABLE asu_bdy_ceremonialcounty (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_country (
@@ -53,7 +51,6 @@ CREATE TABLE asu_bdy_country (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_devolvedparliamentconstituency (
@@ -83,7 +80,6 @@ CREATE TABLE asu_bdy_devolvedparliamentconstituency (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_devolvedparliamentelectoralregion (
@@ -106,7 +102,6 @@ CREATE TABLE asu_bdy_devolvedparliamentelectoralregion (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_electoraldivision (
@@ -143,8 +138,7 @@ CREATE TABLE asu_bdy_electoraldivision (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	hasdetachedpart boolean not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
+	hasdetachedpart BIT not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_glaassemblyconstituency (
@@ -174,7 +168,6 @@ CREATE TABLE asu_bdy_glaassemblyconstituency (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_historiccounty (
@@ -195,7 +188,6 @@ CREATE TABLE asu_bdy_historiccounty (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_historiceuropeanregion (
@@ -216,7 +208,6 @@ CREATE TABLE asu_bdy_historiceuropeanregion (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_lowertierlocalauthority (
@@ -246,8 +237,7 @@ CREATE TABLE asu_bdy_lowertierlocalauthority (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	isborough boolean not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
+	isborough BIT not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_parishorcommunity (
@@ -284,9 +274,8 @@ CREATE TABLE asu_bdy_parishorcommunity (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	hassharedarea boolean not null,
-	hasdetachedpart boolean not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
+	hassharedarea BIT not null,
+	hasdetachedpart BIT not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_pollingdistrict (
@@ -332,7 +321,6 @@ CREATE TABLE asu_bdy_pollingdistrict (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_region (
@@ -355,7 +343,6 @@ CREATE TABLE asu_bdy_region (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_regionalauthority (
@@ -378,7 +365,6 @@ CREATE TABLE asu_bdy_regionalauthority (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_uppertierlocalauthority (
@@ -401,8 +387,7 @@ CREATE TABLE asu_bdy_uppertierlocalauthority (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	isborough boolean not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
+	isborough BIT not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_ward (
@@ -439,8 +424,7 @@ CREATE TABLE asu_bdy_ward (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	hasdetachedpart boolean not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
+	hasdetachedpart BIT not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE asu_bdy_westminsterconstituency (
@@ -463,6 +447,5 @@ CREATE TABLE asu_bdy_westminsterconstituency (
 	landareahectares numeric(15,6) not null,
 	tidalareahectares numeric(15,6) not null,
 	totalareahectares numeric(15,6) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );

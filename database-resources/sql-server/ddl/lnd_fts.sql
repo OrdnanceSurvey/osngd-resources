@@ -27,13 +27,12 @@ CREATE TABLE lnd_fts_land (
 	oslanduse_evidencedate date,
 	oslanduse_updatedate date not null,
 	oslanduse_source nvarchar(50),
-	istidal boolean not null,
+	istidal BIT not null,
 	associatedstructure nvarchar(25),
 	operationalstatus nvarchar(10),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE lnd_fts_landform (
@@ -65,7 +64,6 @@ CREATE TABLE lnd_fts_landform (
 	name2_updatedate date,
 	name2_source nvarchar(50),
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE lnd_fts_landformline (
@@ -86,9 +84,8 @@ CREATE TABLE lnd_fts_landformline (
 	description_evidencedate date,
 	description_updatedate date not null,
 	description_source nvarchar(50),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE lnd_fts_landformpoint (
@@ -118,9 +115,8 @@ CREATE TABLE lnd_fts_landformpoint (
 	name2_evidencedate date,
 	name2_updatedate date,
 	name2_source nvarchar(50),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE lnd_fts_landpoint (
@@ -151,9 +147,8 @@ CREATE TABLE lnd_fts_landpoint (
 	name2_updatedate date,
 	name2_source nvarchar(50),
 	operationalstatus nvarchar(10) not null,
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );

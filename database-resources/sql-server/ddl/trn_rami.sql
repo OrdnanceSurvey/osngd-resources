@@ -11,13 +11,12 @@ CREATE TABLE trn_rami_highwaydedication (
 	geometry_length numeric(15,6) not null,
 	theme nvarchar(40) not null,
 	description nvarchar(35) not null,
-	publicrightofway boolean not null,
-	nationalcycleroute boolean not null,
-	quietroute boolean,
-	obstruction boolean not null,
-	planningorder boolean,
-	worksprohibited boolean,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
+	publicrightofway BIT not null,
+	nationalcycleroute BIT not null,
+	quietroute BIT,
+	obstruction BIT not null,
+	planningorder BIT,
+	worksprohibited BIT,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_highwaydedication_hwydedntwkref (
@@ -46,9 +45,8 @@ CREATE TABLE trn_rami_maintenancearea (
 	highwayauthority_identifier nvarchar(4) not null,
 	highwayauthority_authorityname nvarchar(100) not null,
 	locationdescription nvarchar(250),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_maintenanceline (
@@ -70,9 +68,8 @@ CREATE TABLE trn_rami_maintenanceline (
 	highwayauthority_identifier nvarchar(4) not null,
 	highwayauthority_authorityname nvarchar(100) not null,
 	locationdescription nvarchar(250),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_maintenancepoint (
@@ -93,9 +90,8 @@ CREATE TABLE trn_rami_maintenancepoint (
 	highwayauthority_identifier nvarchar(4) not null,
 	highwayauthority_authorityname nvarchar(100) not null,
 	locationdescription nvarchar(250),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_reinstatementarea (
@@ -113,9 +109,8 @@ CREATE TABLE trn_rami_reinstatementarea (
 	description nvarchar(20) not null,
 	reinstatementtype nvarchar(60) not null,
 	locationdescription nvarchar(250),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_reinstatementline (
@@ -133,9 +128,8 @@ CREATE TABLE trn_rami_reinstatementline (
 	description nvarchar(20) not null,
 	reinstatementtype nvarchar(60) not null,
 	locationdescription nvarchar(250),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_reinstatementpoint (
@@ -152,9 +146,8 @@ CREATE TABLE trn_rami_reinstatementpoint (
 	description nvarchar(20) not null,
 	reinstatementtype nvarchar(60) not null,
 	locationdescription nvarchar(250),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_restriction (
@@ -183,7 +176,6 @@ CREATE TABLE trn_rami_restriction (
 	measure2_sourceofmeasure nvarchar(10),
 	atpositionxcoordinate numeric(10,3),
 	atpositionycoordinate numeric(10,3),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_restriction_datetimequal (
@@ -225,7 +217,6 @@ CREATE TABLE trn_rami_routinghazard (
 	hazarddescription nvarchar(50),
 	atpositionxcoordinate numeric(10,3),
 	atpositionycoordinate numeric(10,3),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_routinghazard_routhazntwkref (
@@ -249,7 +240,6 @@ CREATE TABLE trn_rami_routingstructure (
 	structuredescription nvarchar(50),
 	atpositionxcoordinate numeric(10,3),
 	atpositionycoordinate numeric(10,3),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_routingstructure_routstructntwkref (
@@ -278,9 +268,8 @@ CREATE TABLE trn_rami_specialdesignationarea (
 	timeinterval nvarchar(254),
 	contactauthority_identifier nvarchar(4),
 	contactauthority_authorityname nvarchar(100),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_specialdesignationarea_datetimequal (
@@ -318,9 +307,8 @@ CREATE TABLE trn_rami_specialdesignationline (
 	timeinterval nvarchar(254),
 	contactauthority_identifier nvarchar(4),
 	contactauthority_authorityname nvarchar(100),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_specialdesignationline_datetimequal (
@@ -357,9 +345,8 @@ CREATE TABLE trn_rami_specialdesignationpoint (
 	timeinterval nvarchar(254),
 	contactauthority_identifier nvarchar(4),
 	contactauthority_authorityname nvarchar(100),
-	partialreference boolean not null,
+	partialreference BIT not null,
 	usrn integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_specialdesignationpoint_datetimequal (

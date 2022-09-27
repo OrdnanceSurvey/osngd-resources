@@ -11,7 +11,6 @@ CREATE TABLE trn_ntwk_connectinglink (
 	description nvarchar(15) not null,
 	connectingnodeid uniqueidentifier not null,
 	pathnodeid uniqueidentifier not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_connectingnode (
@@ -25,7 +24,6 @@ CREATE TABLE trn_ntwk_connectingnode (
 	theme nvarchar(40) not null,
 	description nvarchar(15) not null,
 	roadlinkid uniqueidentifier,
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_ferrylink (
@@ -39,12 +37,11 @@ CREATE TABLE trn_ntwk_ferrylink (
 	geometry_length numeric(15,6) not null,
 	theme nvarchar(40) not null,
 	description nvarchar(10) not null,
-	fictitious boolean,
-	vehicularferry boolean not null,
+	fictitious BIT,
+	vehicularferry BIT not null,
 	routeoperator nvarchar(250),
 	startnode uniqueidentifier not null,
 	endnode uniqueidentifier not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_ferrynode (
@@ -57,7 +54,6 @@ CREATE TABLE trn_ntwk_ferrynode (
 	geometry geometry not null,
 	theme nvarchar(40) not null,
 	description nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_ferryterminal (
@@ -79,7 +75,6 @@ CREATE TABLE trn_ntwk_ferryterminal (
 	pathnodeid uniqueidentifier,
 	ferrynodeid uniqueidentifier not null,
 	siteid uniqueidentifier,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_path (
@@ -97,7 +92,6 @@ CREATE TABLE trn_ntwk_path (
 	name1_language nvarchar(3),
 	name2_text nvarchar(254),
 	name2_language nvarchar(3),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_path_pathlinkref (
@@ -127,7 +121,7 @@ CREATE TABLE trn_ntwk_pathlink (
 	alternatename2_language nvarchar(3),
 	surfacetype nvarchar(13),
 	cyclefacility nvarchar(45),
-	cyclefacility_wholelink boolean,
+	cyclefacility_wholelink BIT,
 	elevationgain_indirection numeric(6,1) not null,
 	elevationgain_againstdirection numeric(6,1) not null,
 	heightingmethod nvarchar(19) not null,
@@ -137,7 +131,6 @@ CREATE TABLE trn_ntwk_pathlink (
 	startgradeseparation integer not null,
 	endnode uniqueidentifier not null,
 	endgradeseparation integer not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_pathnode (
@@ -152,7 +145,6 @@ CREATE TABLE trn_ntwk_pathnode (
 	description nvarchar(9) not null,
 	formofroadnode nvarchar(21) not null,
 	classification nvarchar(21),
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_road (
@@ -176,7 +168,6 @@ CREATE TABLE trn_ntwk_road (
 	designatedname2_responsibleauthorityname nvarchar(100),
 	nationalroadcode nvarchar(10),
 	roadclassification nvarchar(21),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_road_rdlinkref (
@@ -201,7 +192,6 @@ CREATE TABLE trn_ntwk_roadjunction (
 	name2_language nvarchar(3),
 	roadclassificationnumber nvarchar(10),
 	junctionnumber nvarchar(10),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadjunction_rdnoderef (
@@ -223,8 +213,8 @@ CREATE TABLE trn_ntwk_roadlink (
 	description nvarchar(42) not null,
 	roadclassification nvarchar(21) not null,
 	routehierarchy nvarchar(32) not null,
-	trunkroad boolean,
-	primaryroute boolean,
+	trunkroad BIT,
+	primaryroute BIT,
 	roadclassificationnumber nvarchar(10),
 	name1_text nvarchar(254),
 	name1_language nvarchar(3),
@@ -237,7 +227,7 @@ CREATE TABLE trn_ntwk_roadlink (
 	operationalstate nvarchar(19) not null,
 	directionality nvarchar(21) not null,
 	cyclefacility nvarchar(45),
-	cyclefacility_wholelink boolean,
+	cyclefacility_wholelink BIT,
 	roadstructure nvarchar(14),
 	roadwidth_average numeric(3,1),
 	roadwidth_minimum numeric(3,1),
@@ -251,7 +241,6 @@ CREATE TABLE trn_ntwk_roadlink (
 	startgradeseparation integer,
 	endnode uniqueidentifier not null,
 	endgradeseparation integer,
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadlink_rdtrkpthref (
@@ -277,7 +266,6 @@ CREATE TABLE trn_ntwk_roadnode (
 	junctionname1_language nvarchar(3),
 	junctionname2_text nvarchar(254),
 	junctionname2_language nvarchar(3),
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadnode_rdtrkpthref (
@@ -338,7 +326,6 @@ CREATE TABLE trn_ntwk_street (
 	gsscode1 nvarchar(9),
 	gsscoderole2 nvarchar(27),
 	gsscode2 nvarchar(9),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (usrn)
 );
 CREATE TABLE trn_ntwk_street_pathlinkref (

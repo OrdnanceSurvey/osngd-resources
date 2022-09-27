@@ -16,10 +16,9 @@ CREATE TABLE bld_fts_buildingline (
 	description_evidencedate date,
 	description_updatedate date not null,
 	description_source nvarchar(50),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE bld_fts_buildingpart (
@@ -60,9 +59,8 @@ CREATE TABLE bld_fts_buildingpart (
 	height_updatedate date,
 	height_source nvarchar(50),
 	associatedstructure nvarchar(25),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );

@@ -33,7 +33,6 @@ CREATE TABLE lus_fts_site (
 	name2_source nvarchar(50),
 	primaryuprn bigint,
 	extentdefinition nvarchar(30) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE lus_fts_siteaccesslocation (
@@ -56,7 +55,6 @@ CREATE TABLE lus_fts_siteaccesslocation (
 	siteid uniqueidentifier not null,
 	routingpointid uniqueidentifier,
 	roadnodeid uniqueidentifier,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE lus_fts_siteroutingpoint (
@@ -74,6 +72,5 @@ CREATE TABLE lus_fts_siteroutingpoint (
 	description nvarchar(15) not null,
 	startdistance numeric(7,2),
 	roadlinkid uniqueidentifier,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );

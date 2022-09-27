@@ -36,7 +36,6 @@ CREATE TABLE str_fts_compoundstructure (
 	name4_source nvarchar(50),
 	operationalstatus nvarchar(10) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE str_fts_structure (
@@ -86,14 +85,13 @@ CREATE TABLE str_fts_structure (
 	name2_evidencedate date,
 	name2_updatedate date,
 	name2_source nvarchar(50),
-	istidal boolean not null,
-	ishistoric boolean not null,
+	istidal BIT not null,
+	ishistoric BIT not null,
 	associatedstructure nvarchar(25),
 	operationalstatus nvarchar(10),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE str_fts_structureline (
@@ -114,13 +112,12 @@ CREATE TABLE str_fts_structureline (
 	description_evidencedate date,
 	description_updatedate date not null,
 	description_source nvarchar(50),
-	istidal boolean not null,
-	ishistoric boolean not null,
+	istidal BIT not null,
+	ishistoric BIT not null,
 	operationalstatus nvarchar(10),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE str_fts_structurepoint (
@@ -150,11 +147,10 @@ CREATE TABLE str_fts_structurepoint (
 	name2_evidencedate date,
 	name2_updatedate date,
 	name2_source nvarchar(50),
-	ishistoric boolean not null,
+	ishistoric BIT not null,
 	operationalstatus nvarchar(10),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );

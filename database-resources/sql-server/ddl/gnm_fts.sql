@@ -40,7 +40,6 @@ CREATE TABLE gnm_fts_namedarea (
 	sameasgeonames nvarchar(100),
 	sameasdbobih integer,
 	height numeric(6,2),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE gnm_fts_namedpoint (
@@ -94,6 +93,5 @@ CREATE TABLE gnm_fts_namedpoint (
 	sameasgeonames nvarchar(100),
 	sameasdbobih integer,
 	height numeric(6,2),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );

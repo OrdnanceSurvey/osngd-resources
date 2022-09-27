@@ -44,7 +44,6 @@ CREATE TABLE wtr_ntwk_waterlink (
 	nametertiary1_language nvarchar(3),
 	nametertiary2_text nvarchar(254),
 	nametertiary2_language nvarchar(3),
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE wtr_ntwk_waterlinkset (
@@ -73,7 +72,6 @@ CREATE TABLE wtr_ntwk_waterlinkset (
 	name2_evidencedate date,
 	name2_updatedate date,
 	name2_source nvarchar(50),
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE wtr_ntwk_waterlinkset_wtrlinkref (
@@ -92,6 +90,5 @@ CREATE TABLE wtr_ntwk_waternode (
 	geometry geometry not null,
 	theme nvarchar(40) not null,
 	description nvarchar(8) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 7405) persisted,
 	PRIMARY KEY (osid)
 );

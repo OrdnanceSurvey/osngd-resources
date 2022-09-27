@@ -17,10 +17,9 @@ CREATE TABLE wtr_fts_intertidalline (
 	description_updatedate date not null,
 	description_source nvarchar(50),
 	operationalstatus nvarchar(10) not null,
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE wtr_fts_tidalboundary (
@@ -42,10 +41,9 @@ CREATE TABLE wtr_fts_tidalboundary (
 	description_updatedate date not null,
 	description_source nvarchar(50),
 	watermark nvarchar(40) not null,
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE wtr_fts_water (
@@ -79,10 +77,9 @@ CREATE TABLE wtr_fts_water (
 	watertype nvarchar(10) not null,
 	associatedstructure nvarchar(25),
 	operationalstatus nvarchar(10) not null,
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE wtr_fts_waterpoint (
@@ -113,9 +110,8 @@ CREATE TABLE wtr_fts_waterpoint (
 	name2_updatedate date,
 	name2_source nvarchar(50),
 	operationalstatus nvarchar(10) not null,
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );

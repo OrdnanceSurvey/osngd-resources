@@ -48,7 +48,6 @@ CREATE TABLE add_gb_builtaddress (
 	positionalaccuracy nvarchar(25) not null,
 	effectivestartdate date not null,
 	effectiveenddate date,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (uprn)
 );
 CREATE TABLE add_gb_builtaddress_pstladd (
@@ -174,7 +173,6 @@ CREATE TABLE add_gb_historicaddress (
 	positionalaccuracy nvarchar(25) not null,
 	effectivestartdate date not null,
 	effectiveenddate date,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (uprn)
 );
 CREATE TABLE add_gb_historicaddress_pstladd (
@@ -300,7 +298,6 @@ CREATE TABLE add_gb_nonaddressableobject (
 	positionalaccuracy nvarchar(25) not null,
 	effectivestartdate date not null,
 	effectiveenddate date,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (uprn)
 );
 CREATE TABLE add_gb_nonaddressableobject_pstladd (
@@ -426,7 +423,6 @@ CREATE TABLE add_gb_prebuildaddress (
 	positionalaccuracy nvarchar(25) not null,
 	effectivestartdate date not null,
 	effectiveenddate date,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (uprn)
 );
 CREATE TABLE add_gb_prebuildaddress_pstladd (
@@ -539,6 +535,5 @@ CREATE TABLE add_gb_streetaddress (
 	streettolerance integer not null,
 	effectivestartdate date not null,
 	effectiveenddate date,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (usrn)
 );

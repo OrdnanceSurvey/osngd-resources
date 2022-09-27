@@ -17,10 +17,9 @@ CREATE TABLE trn_fts_cartographicraildetail (
 	description_updatedate date not null,
 	description_source nvarchar(50),
 	operationalstatus nvarchar(10) not null,
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_fts_rail (
@@ -53,10 +52,9 @@ CREATE TABLE trn_fts_rail (
 	oslanduse_source nvarchar(50),
 	associatedstructure nvarchar(25),
 	operationalstatus nvarchar(10) not null,
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_fts_roadline (
@@ -77,11 +75,10 @@ CREATE TABLE trn_fts_roadline (
 	description_evidencedate date,
 	description_updatedate date not null,
 	description_source nvarchar(50),
-	istidal boolean not null,
-	isobscured boolean not null,
+	istidal BIT not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_fts_roadtrackorpath (
@@ -112,11 +109,10 @@ CREATE TABLE trn_fts_roadtrackorpath (
 	oslanduse_evidencedate date,
 	oslanduse_updatedate date not null,
 	oslanduse_source nvarchar(50),
-	istidal boolean not null,
+	istidal BIT not null,
 	associatedstructure nvarchar(25),
-	isobscured boolean not null,
+	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	mssql_geom as geometry::STGeomFromText(geometry, 27700) persisted,
 	PRIMARY KEY (osid)
 );
