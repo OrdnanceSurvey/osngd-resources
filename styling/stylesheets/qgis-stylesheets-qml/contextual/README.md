@@ -14,7 +14,7 @@ These are QML files for OS NGD Contextual data in geopackage format for use in Q
 
 **4.**  Your Layers window should now look like below. This is the recommended layer order.
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/QGIS%20stylesheets%20%28QML%29/Backdrop%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+   ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/osngd-resources/master/styling/stylesheets/qgis-stylesheets-qml/contextual/images/ngd_contextual_layer_order.png "Recommended layer order for OS NGD Contextual")
 
 ## Compatibility notes
 
