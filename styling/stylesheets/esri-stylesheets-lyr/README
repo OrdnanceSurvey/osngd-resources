@@ -9,4 +9,4 @@ The recommended draw order for the contextual style is as follows:
 - Land (lnd-fts-land)
 - Rail (trn-fts-rail)
 - Road Track Or Path (trn-fts-roadtrackorpath)
-- Water (wtr-fts-water) 
+- Water (wtr-fts-water)
