@@ -38,10 +38,6 @@ Repeat step 6 for all layers.
 
 Repeat step 6 for all layers.
 
-## Compatibility notes
-
-These Layer Files are compatible with ESRI ArcGIS 9.3 and later
-
 ## Additional information
 
 [More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
