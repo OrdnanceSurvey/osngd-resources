@@ -6,7 +6,7 @@ These are SLD files for OS NGD Analytical in Geopackage format for use in GeoSer
 
 ## Quick start guide
 
-**1.**  Fork or [download](https://github.com/OrdnanceSurvey/osngd-resources/archive/master.zip) the contents of this repository
+**1.**  Fork or [download](https://github.com/OrdnanceSurvey/osngd-resources/archive/master.zip) the contents of this repository.
 
 **2.**  Load your OS NGD Analytical data into GeoServer.
 
