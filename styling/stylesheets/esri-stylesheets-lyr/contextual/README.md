@@ -14,7 +14,7 @@ These are LYR files for OS NGD Contextual data in Geopackage format for use in E
 
 **5.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurveyosngd-resources/master/styling/stylesheets/esri-stylesheets-lyr/contextual/images/ngd_contextual_layer_order.png "Recommended layer order for OS NGD Contextual")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/osngd-resources/master/styling/stylesheets/esri-stylesheets-lyr/contextual/images/ngd_contextual_layer_order.png "Recommended layer order for OS NGD Contextual")
 
 **6.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS NGD Contextual data > select the geopackage > select the data that matches the layer > select ‘Add’
 
