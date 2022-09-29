@@ -25,8 +25,6 @@ These are SLD files for OS NGD Contextual in Geopackage format for use in GeoSer
 - Structure (str-fts-structure)
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
-Although every feature is styled, for use as a general contextual map we have commented some of them out by default.
-The scale denominators have been set to allow viewing between **1:1,000** and **1:15,000**, although this will vary slightly by resolution.
 
 ## Additional information
 
