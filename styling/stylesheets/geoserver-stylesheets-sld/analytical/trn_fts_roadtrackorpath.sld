@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Road Track Or Path (Analytical)</Name>
+        <Name>Road Track Or Path</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f19748</CssParameter>

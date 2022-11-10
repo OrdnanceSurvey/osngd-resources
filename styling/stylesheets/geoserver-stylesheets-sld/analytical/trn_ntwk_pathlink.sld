@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Path Link (Analytical)</Name>
+        <Name>Path Link</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f6bc89</CssParameter>

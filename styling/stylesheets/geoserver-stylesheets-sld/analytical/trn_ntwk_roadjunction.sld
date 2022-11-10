@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Road Junction (Analytical)</Name>
+        <Name>Road Junction</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

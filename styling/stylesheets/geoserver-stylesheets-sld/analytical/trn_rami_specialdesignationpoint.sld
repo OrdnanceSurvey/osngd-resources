@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Special Designation Point (Analytical)</Name>
+        <Name>Special Designation Point</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Name>Water (Contextual)</Name>
+          <Name>Water</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#aadeef</CssParameter>

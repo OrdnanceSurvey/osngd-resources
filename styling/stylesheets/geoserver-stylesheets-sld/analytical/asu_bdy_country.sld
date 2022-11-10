@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Country (Analytical)</Name>
+        <Name>Country</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6a54b4</CssParameter>

@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Excavated Or Deposited</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -29,7 +29,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Made</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -47,7 +47,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Mineral</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -65,7 +65,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Multiple</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -83,7 +83,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Open Vegetation</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -101,7 +101,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Open Vegetation And Mineral</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -119,7 +119,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Trees</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -137,7 +137,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Under Construction</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -155,7 +155,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Land (Contextual)</Name>
+          <Name>Water</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>

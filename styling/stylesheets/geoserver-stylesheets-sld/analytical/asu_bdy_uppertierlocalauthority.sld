@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Upper Tier Local Authority (Analytical)</Name>
+        <Name>Upper Tier Local Authority</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6a54b4</CssParameter>

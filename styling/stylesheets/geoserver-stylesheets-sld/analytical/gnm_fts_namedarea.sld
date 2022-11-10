@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Named Area (Analytical)</Name>
+        <Name>Named Area</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#857b82</CssParameter>

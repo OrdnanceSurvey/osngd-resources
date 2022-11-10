@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Boundary High Water Mark (Analytical)</Name>
+        <Name>Boundary High Water Mark</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#6a54b4</CssParameter>

@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Site Access Location (Analytical)</Name>
+        <Name>Site Access Location</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

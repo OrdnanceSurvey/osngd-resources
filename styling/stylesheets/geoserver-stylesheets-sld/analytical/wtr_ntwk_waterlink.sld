@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Water Link (Analytical)</Name>
+        <Name>Water Link</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#99d0e6</CssParameter>

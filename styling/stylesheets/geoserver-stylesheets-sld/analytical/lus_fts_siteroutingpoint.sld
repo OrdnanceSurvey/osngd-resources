@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Site Routing Point (Analytical)</Name>
+        <Name>Site Routing Point</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

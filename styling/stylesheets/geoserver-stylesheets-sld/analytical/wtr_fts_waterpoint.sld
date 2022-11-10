@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Water Point (Analytical)</Name>
+        <Name>Water Point</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Structure Line (Analytical)</Name>
+        <Name>Structure Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#edb5b5</CssParameter>

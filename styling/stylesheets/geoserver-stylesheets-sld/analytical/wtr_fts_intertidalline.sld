@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Inter Tidal Line (Analytical)</Name>
+        <Name>Inter Tidal Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#2d8fb6</CssParameter>

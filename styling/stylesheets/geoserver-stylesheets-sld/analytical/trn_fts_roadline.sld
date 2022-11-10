@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Road Line (Analytical)</Name>
+        <Name>Road Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f19748</CssParameter>

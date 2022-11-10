@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Rail (Analytical)</Name>
+        <Name>Rail</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f19748</CssParameter>

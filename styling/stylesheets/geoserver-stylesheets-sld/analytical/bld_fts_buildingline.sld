@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Building Line (Analytical)</Name>
+        <Name>Building Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ead04b</CssParameter>

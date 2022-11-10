@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Connecting Node (Analytical)</Name>
+        <Name>Connecting Node</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

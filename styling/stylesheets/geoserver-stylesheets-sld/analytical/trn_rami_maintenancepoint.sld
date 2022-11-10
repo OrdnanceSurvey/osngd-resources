@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Maintenance Point (Analytical)</Name>
+        <Name>Maintenance Point</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

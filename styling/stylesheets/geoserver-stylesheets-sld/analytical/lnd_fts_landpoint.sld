@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Land Point (Analytical)</Name>
+        <Name>Land Point</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

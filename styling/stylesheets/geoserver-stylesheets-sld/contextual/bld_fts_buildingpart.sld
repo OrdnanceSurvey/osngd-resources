@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Name>Building Part (Contextual)</Name>
+          <Name>Building Part</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dcd7c6</CssParameter>

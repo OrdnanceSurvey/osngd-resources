@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Water Node (Analytical)</Name>
+        <Name>Water Node</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

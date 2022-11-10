@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Central Reservation</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -29,7 +29,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Cycle Way</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -47,7 +47,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Escape Lane</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -65,7 +65,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Ford</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -83,7 +83,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Lay-by</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -101,7 +101,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Level Crossing</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -119,7 +119,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Path</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -137,7 +137,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Path And Steps</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -155,7 +155,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Path On Pipe</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -173,7 +173,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Pavement</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -191,7 +191,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Pavement And Steps</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -209,7 +209,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Pedestrian Crossing</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -227,7 +227,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Road</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -245,7 +245,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Road Turntable</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -263,7 +263,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Roofed Path</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -281,7 +281,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Roofed Track</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -299,7 +299,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Sand Drag</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -317,7 +317,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Shared Use Carriageway</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -335,7 +335,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Towing Path</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -353,7 +353,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Track</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -371,7 +371,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Traffic Calming</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -389,7 +389,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Transport Curtilage</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -407,7 +407,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Travelling Walkway</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -425,7 +425,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>Road Track Or Path (Contextual)</Name>
+          <Name>Vehicle Dip</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>

@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Compound Structure (Analytical)</Name>
+        <Name>Compound Structure</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#edb5b5</CssParameter>

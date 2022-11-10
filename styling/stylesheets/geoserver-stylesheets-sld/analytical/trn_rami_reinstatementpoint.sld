@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Reinstatement Point (Analytical)</Name>
+        <Name>Reinstatement Point</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

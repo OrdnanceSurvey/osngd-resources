@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Landform (Analytical)</Name>
+        <Name>Landform</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#55a973</CssParameter>

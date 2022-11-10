@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Non Addressable Object (Analytical)</Name>
+        <Name>Non Addressable Object</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Pre-Build Address (Analytical)</Name>
+        <Name>Pre-Build Address</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

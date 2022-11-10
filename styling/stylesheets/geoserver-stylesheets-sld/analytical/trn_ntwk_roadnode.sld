@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Road Node (Analytical)</Name>
+        <Name>Road Node</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

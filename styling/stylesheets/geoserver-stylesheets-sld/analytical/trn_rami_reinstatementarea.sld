@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Reinstatement Area (Analytical)</Name>
+        <Name>Reinstatement Area</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a6540d</CssParameter>

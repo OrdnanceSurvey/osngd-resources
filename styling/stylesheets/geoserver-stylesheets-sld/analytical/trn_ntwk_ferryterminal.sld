@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Ferry Terminal (Analytical)</Name>
+        <Name>Ferry Terminal</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

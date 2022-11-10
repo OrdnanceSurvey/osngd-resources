@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Landform Line (Analytical)</Name>
+        <Name>Landform Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#55a973</CssParameter>

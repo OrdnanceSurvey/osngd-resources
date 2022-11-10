@@ -11,7 +11,7 @@
       <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Street Address (Analytical)</Name>
+        <Name>Street Address</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>
