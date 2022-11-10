@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>bld_fts_buildingline</Name>
+    <Name>OS NGD Buildings | Building Features | Building Line</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: bld_fts_buildingline</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Building Line (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ead04b</CssParameter>

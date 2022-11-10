@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>wtr_fts_tidalboundary</Name>
+    <Name>OS NGD Water | Water Features | Tidal Boundary</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: wtr_fts_tidalboundary</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Tidal Boundary (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#2d8fb6</CssParameter>

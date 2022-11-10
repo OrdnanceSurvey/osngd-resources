@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>lnd_fts_landpoint</Name>
+    <Name>OS NGD Land | Land Features | Land Point</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: lnd_fts_landpoint</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Land Point (Analytical)</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

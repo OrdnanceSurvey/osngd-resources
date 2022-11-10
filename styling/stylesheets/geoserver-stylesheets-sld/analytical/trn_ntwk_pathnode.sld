@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>trn_ntwk_pathnode</Name>
+    <Name>OS NGD Transport | Transport Network | Path Node</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: trn_ntwk_pathnode</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Path Node (Analytical)</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

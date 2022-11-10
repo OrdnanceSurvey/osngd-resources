@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>lnd_fts_land</Name>
+    <Name>OS NGD Land | Land Features | Land</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: lnd_fts_land</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -28,6 +29,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -45,6 +47,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -62,6 +65,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -79,6 +83,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -96,6 +101,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -113,6 +119,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -130,6 +137,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
@@ -147,6 +155,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Land (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>

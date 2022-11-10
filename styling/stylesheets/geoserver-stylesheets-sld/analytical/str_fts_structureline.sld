@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>str_fts_structureline</Name>
+    <Name>OS NGD Structures | Structure Features | Structure Line</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: str_fts_structureline</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Structure Line (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#edb5b5</CssParameter>

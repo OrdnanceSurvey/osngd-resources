@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>trn_fts_roadtrackorpath</Name>
+    <Name>OS NGD Transport | Transport Features | Road Track Or Path</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: trn_fts_roadtrackorpath</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -28,6 +29,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -45,6 +47,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -62,6 +65,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -79,6 +83,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -96,6 +101,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -113,6 +119,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -130,6 +137,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -147,6 +155,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -164,6 +173,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -181,6 +191,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -198,6 +209,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -215,6 +227,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -232,6 +245,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -249,6 +263,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -266,6 +281,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -283,6 +299,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -300,6 +317,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -317,6 +335,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -334,6 +353,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -351,6 +371,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -368,6 +389,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -385,6 +407,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>
@@ -402,6 +425,7 @@
           </PolygonSymbolizer>
         </Rule>
         <Rule>
+          <Name>Road Track Or Path (Contextual)</Name>
           <ogc:Filter>
           <ogc:PropertyIsEqualTo>
             <ogc:PropertyName>description</ogc:PropertyName>

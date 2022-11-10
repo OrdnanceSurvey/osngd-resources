@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>wtr_ntwk_waternode</Name>
+    <Name>OS NGD Water | Water Network | Water Node</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: wtr_ntwk_waternode</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Water Node (Analytical)</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

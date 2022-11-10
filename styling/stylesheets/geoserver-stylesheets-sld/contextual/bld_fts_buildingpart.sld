@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>bld_fts_buildingpart</Name>
+    <Name>OS NGD Buildings | Building Features | Building Part</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: bld_fts_buildingpart</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+          <Name>Building Part (Contextual)</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#dcd7c6</CssParameter>

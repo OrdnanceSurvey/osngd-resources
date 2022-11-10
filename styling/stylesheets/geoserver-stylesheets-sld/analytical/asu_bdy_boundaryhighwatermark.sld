@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>asu_bdy_boundaryhighwatermark</Name>
+    <Name>OS NGD Administrative and Statistical Units | Boundaries | Boundary High Water Mark</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: asu_bdy_boundaryhighwatermark</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Boundary High Water Mark (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#6a54b4</CssParameter>

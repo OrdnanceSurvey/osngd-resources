@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>wtr_fts_intertidalline</Name>
+    <Name>OS NGD Water | Water Features | Inter Tidal Line</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: wtr_fts_intertidalline</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Inter Tidal Line (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#2d8fb6</CssParameter>

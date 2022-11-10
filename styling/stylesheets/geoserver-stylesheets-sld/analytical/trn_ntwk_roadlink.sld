@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>trn_ntwk_roadlink</Name>
+    <Name>OS NGD Transport | Transport Network | Road Link</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: trn_ntwk_roadlink</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Road Link (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f6bc89</CssParameter>

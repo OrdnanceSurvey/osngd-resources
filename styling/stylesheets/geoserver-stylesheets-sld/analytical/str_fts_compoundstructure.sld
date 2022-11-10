@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>str_fts_compoundstructure</Name>
+    <Name>OS NGD Structures | Structure Features | Compound Structure</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: str_fts_compoundstructure</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Compound Structure (Analytical)</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#edb5b5</CssParameter>

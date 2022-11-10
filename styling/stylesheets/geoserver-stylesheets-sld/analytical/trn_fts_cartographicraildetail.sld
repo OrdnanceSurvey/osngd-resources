@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>trn_fts_cartographicraildetail</Name>
+    <Name>OS NGD Transport | Transport Features | Cartographic Rail Detail</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: trn_fts_cartographicraildetail</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Cartographic Rail Detail (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f19748</CssParameter>

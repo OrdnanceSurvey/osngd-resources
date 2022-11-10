@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>trn_fts_rail</Name>
+    <Name>OS NGD Transport | Transport Features | Rail</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: trn_fts_rail</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+          <Name>Rail (Contextual)</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#cccbcb</CssParameter>

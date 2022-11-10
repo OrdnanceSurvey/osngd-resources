@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>gnm_fts_namedpoint</Name>
+    <Name>OS NGD Geographical Names | Named Features | Named Point</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: gnm_fts_namedpoint</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Named Point (Analytical)</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

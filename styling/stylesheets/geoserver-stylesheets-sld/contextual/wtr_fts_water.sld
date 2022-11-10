@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>wtr_fts_water</Name>
+    <Name>OS NGD Water | Water Features | Water</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: wtr_fts_water</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+          <Name>Water (Contextual)</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#aadeef</CssParameter>

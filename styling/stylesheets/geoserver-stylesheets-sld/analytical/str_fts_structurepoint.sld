@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>str_fts_structurepoint</Name>
+    <Name>OS NGD Structures | Structure Features | Structure Point</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: str_fts_structurepoint</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Structure Point (Analytical)</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

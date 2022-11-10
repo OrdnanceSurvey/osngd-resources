@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>lus_fts_site</Name>
+    <Name>OS NGD Land Use | Land Use Features | Site</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: lus_fts_site</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Site (Analytical)</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#b38b6d</CssParameter>

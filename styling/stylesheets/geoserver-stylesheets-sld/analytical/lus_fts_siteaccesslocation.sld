@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>lus_fts_siteaccesslocation</Name>
+    <Name>OS NGD Land Use | Land Use Features | Site Access Location</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: lus_fts_siteaccesslocation</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Site Access Location (Analytical)</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

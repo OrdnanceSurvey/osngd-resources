@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>trn_rami_reinstatementline</Name>
+    <Name>OS NGD Transport | RAMI | Reinstatement Line</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: trn_rami_reinstatementline</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Reinstatement Line (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a6540d</CssParameter>

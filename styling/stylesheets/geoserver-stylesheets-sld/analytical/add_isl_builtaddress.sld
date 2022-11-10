@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>add_isl_builtaddress</Name>
+    <Name>OS NGD Address | Islands Address | Built Address</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: add_isl_builtaddress</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Built Address (Analytical)</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>

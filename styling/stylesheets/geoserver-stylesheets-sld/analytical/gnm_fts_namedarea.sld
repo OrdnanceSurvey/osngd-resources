@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>gnm_fts_namedarea</Name>
+    <Name>OS NGD Geographical Names | Named Features | Named Area</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: gnm_fts_namedarea</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Named Area (Analytical)</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#857b82</CssParameter>

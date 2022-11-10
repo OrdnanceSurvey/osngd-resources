@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>asu_bdy_devolvedparliamentelectoralregion</Name>
+    <Name>OS NGD Administrative and Statistical Units | Boundaries | Devolved Parliament Electoral Region</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: asu_bdy_devolvedparliamentelectoralregion</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Devolved Parliament Electoral Region (Analytical)</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6a54b4</CssParameter>

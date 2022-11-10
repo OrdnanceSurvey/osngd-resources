@@ -6,11 +6,12 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>lnd_fts_landformline</Name>
+    <Name>OS NGD Land | Land Features | Landform Line</Name>
     <UserStyle>
-      <Title>Ordnance Survey National Geospatial Database: lnd_fts_landformline</Title>
+      <Title>Product SLD - November 2022</Title>
       <FeatureTypeStyle>
         <Rule>
+        <Name>Landform Line (Analytical)</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#55a973</CssParameter>
