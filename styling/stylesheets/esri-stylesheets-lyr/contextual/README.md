@@ -42,7 +42,7 @@ Repeat step 6 for all layers.
 
 [More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
 
-[More information about OS VectorMap Local](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-local.html)
+[More information about OS National Geographic Database](https://www.ordnancesurvey.co.uk/business-government/products/os-select-build)
 
 [More information about cartographic design at Ordnance Survey](https://www.ordnancesurvey.co.uk/resources/carto-design/)
 
