@@ -1,7 +1,7 @@
 {
   "type" : "CIMLayerDocument",
-  "version" : "2.9.0",
-  "build" : 32739,
+  "version" : "3.0.0",
+  "build" : 36056,
   "layers" : [
     "CIMPATH=map/main_trn_rami_reinstatementarea.xml"
   ],
@@ -17,13 +17,12 @@
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "mapElevationID" : "{0DFF877C-D51D-4C30-9DD1-C7848C0457FE}"
+        "elevationSurfaceLayerURI" : "CIMPATH=map/ground.json"
       },
       "expanded" : true,
       "layerType" : "Operational",
       "showLegends" : true,
-      "transparency" : 70,
-      "visibility" : true,
+      "visibility" : false,
       "displayCacheType" : "Permanent",
       "maxDisplayCacheAge" : 5,
       "showPopups" : true,
@@ -219,7 +218,7 @@
         },
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\Analytical Data\\NGD Analytical Geodatabase.gdb",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\Analytical Data\\NGD Analytical Geodatabase.gdb",
           "workspaceFactory" : "FileGDB",
           "dataset" : "main_trn_rami_reinstatementarea",
           "datasetType" : "esriDTFeatureClass"
@@ -229,11 +228,11 @@
       },
       "featureTemplates" : [
         {
-          "type" : "CIMFeatureTemplate",
+          "type" : "CIMRowTemplate",
           "name" : "main_trn_rami_reinstatementarea",
           "tags" : "Polygon",
-          "toolProgID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
-          "toolFilter" : [
+          "defaultToolGUID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
+          "excludedToolGUIDs" : [
             "6c6970a7-5ca9-448c-9c7d-0d716cd2ac64",
             "a281e635-0f22-47d4-a438-e4d29b920e22",
             "d304243a-5c3a-4ccc-b98b-93684b15fd83"
@@ -554,13 +553,32 @@
       "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20220928</CreaDate><CreaTime>10544900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>main_trn_rami_reinstatementarea</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
     }
   ],
-  "elevationSurfaces" : [
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
     {
-      "type" : "CIMMapElevationSurface",
-      "elevationMode" : "BaseGlobeSurface",
+      "type" : "CIMElevationSurfaceLayer",
       "name" : "Ground",
+      "uRI" : "CIMPATH=map/ground.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
       "verticalExaggeration" : 1,
-      "mapElevationID" : "{0DFF877C-D51D-4C30-9DD1-C7848C0457FE}",
       "color" : {
         "type" : "CIMRGBColor",
         "values" : [
@@ -570,11 +588,7 @@
           100
         ]
       },
-      "surfaceTINShadingMode" : "Smooth",
-      "visibility" : true,
-      "expanded" : true
+      "surfaceTINShadingMode" : "Smooth"
     }
-  ],
-  "rGBColorProfile" : "sRGB IEC61966-2.1",
-  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+  ]
 }
