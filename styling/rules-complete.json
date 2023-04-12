@@ -204,6 +204,7 @@
                 "trn-ntwk-roadlink": "line",
                 "trn-ntwk-roadnode": "circle",
                 "trn-ntwk-street": "line",
+                "trn-rami-averageandindicativespeed": "line",
                 "trn-rami-highwaydedication": "line",
                 "trn-rami-restriction": "line",
                 "trn-rami-routinghazard": "line",
@@ -262,8 +263,10 @@
             "name": "Water",
             "feature-types": {
                 "wtr-fts-intertidalline": "line",
+                "wtr-fts-riverbasindistrictcatchment": "fill",
                 "wtr-fts-tidalboundary": "line",
                 "wtr-fts-water": "fill",
+                "wtr-fts-waterbodycatchment": "fill",
                 "wtr-fts-waterpoint": "circle",
                 "wtr-ntwk-waterlink": "line",
                 "wtr-ntwk-waternode": "circle",
