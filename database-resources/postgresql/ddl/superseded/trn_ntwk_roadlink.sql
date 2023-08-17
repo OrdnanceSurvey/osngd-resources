@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 2.0 */
+/* This DDL is based on data schema version 1.0 */
 CREATE TABLE trn_ntwk_roadlink (
 	osid uuid not null,
 	toid varchar(20),
@@ -7,7 +7,7 @@ CREATE TABLE trn_ntwk_roadlink (
 	versionavailabletodate timestamp,
 	changetype varchar(50) not null,
 	geometry geometry(LineStringZ, 7405) not null,
-	geometry_length_m numeric(15,3) not null,
+	geometry_length numeric(15,6) not null,
 	theme varchar(40) not null,
 	description varchar(42) not null,
 	roadclassification varchar(21) not null,
@@ -40,18 +40,6 @@ CREATE TABLE trn_ntwk_roadlink (
 	startgradeseparation integer,
 	endnode uuid not null,
 	endgradeseparation integer,
-	presenceofpavement_overall_m numeric(6,2) not null,
-	presenceofpavement_overallpercentage integer not null,
-	presenceofpavement_left_m numeric(6,2) not null,
-	presenceofpavement_leftpercentage integer not null,
-	presenceofpavement_right_m numeric(6,2) not null,
-	presenceofpavement_rightpercentage integer not null,
-	presenceofpavement_minimumwidth_m numeric(6,2) not null,
-	presenceofpavement_averagewidth_m numeric(6,2) not null,
-	presenceofpavement_evidencedate date,
-	presenceofpavement_updatedate date not null,
-	presenceofpavement_source varchar(85),
-	presenceofpavement_capturemethod varchar(25) not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadlink_rdtrkpthref (
