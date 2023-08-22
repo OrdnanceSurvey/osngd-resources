@@ -2,8 +2,8 @@
 CREATE TABLE bld_fts_building (
 	osid uuid not null,
 	versiondate date not null,
-	versionavailablefromdate date not null,
-	versionavailabletodate date,
+	versionavailablefromdate timestamp not null,
+	versionavailabletodate timestamp,
 	changetype varchar(50) not null,
 	geometry geometry(Polygon, 27700) not null,
 	geometry_area_m2 numeric(15,3) not null,
