@@ -1,0 +1,646 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.0.0",
+  "build" : 36056,
+  "layers" : [
+    "CIMPATH=map/osdata_osngd__2023_09_releases_bld_fts_building.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMFeatureLayer",
+      "name" : "osdata.osngd__2023_09_releases.bld_fts_building",
+      "uRI" : "CIMPATH=map/osdata_osngd__2023_09_releases_bld_fts_building.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "osdata.osngd__2023_09_releases.bld_fts_building",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/ee822ccf879046f4a6e5a3caa98acae0.json"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "autoGenerateFeatureTemplates" : true,
+      "featureElevationExpression" : "0",
+      "featureTable" : {
+        "type" : "CIMFeatureTable",
+        "displayField" : "versiondate",
+        "editable" : true,
+        "dataConnection" : {
+          "type" : "CIMSqlQueryDataConnection",
+          "workspaceConnectionString" : "SERVER=LP194.ordsvy.gov.uk;INSTANCE=sde:postgresql:LP194.ordsvy.gov.uk;DBCLIENT=postgresql;DB_CONNECTION_PROPERTIES=LP194.ordsvy.gov.uk;DATABASE=osdata;AUTHENTICATION_MODE=DBMS",
+          "workspaceFactory" : "SDE",
+          "dataset" : "osdata.osngd__2023_09_releases.%bld_fts_building",
+          "datasetType" : "esriDTFeatureClass",
+          "sqlQuery" : "select osid,versiondate,versionavailablefromdate,versionavailabletodate,changetype,geometry,geometry_area_m2,geometry_updatedate,theme,buildingpartcount,isinsite,primarysite_id,containingsitecount,ismainbuilding,mainbuilding_id,mainbuilding_updatedate,buildinguse,oslandusetiera,addresscount_total,addresscount_residential,addresscount_commercial,addresscount_other,buildinguse_updatedate,connectivity,connectivitycount,connectivity_updatedate from osdata.osngd__2023_09_releases.bld_fts_building",
+          "srid" : "27700",
+          "spatialReference" : {
+            "wkid" : 27700,
+            "latestWkid" : 27700,
+            "xyTolerance" : 0.001,
+            "zTolerance" : 0.001,
+            "mTolerance" : 0.001,
+            "falseX" : -5220400,
+            "falseY" : -15524400,
+            "xyUnits" : 10000,
+            "falseZ" : -100000,
+            "zUnits" : 10000,
+            "falseM" : -100000,
+            "mUnits" : 10000
+          },
+          "oIDFields" : "osid",
+          "geometryType" : "esriGeometryPolygon",
+          "extent" : {
+            "xmin" : 9252.36000000033528,
+            "ymin" : 6441.02600000053644,
+            "xmax" : 655555.490000000224,
+            "ymax" : 1219702.08000000007,
+            "spatialReference" : {
+              "wkid" : 27700,
+              "latestWkid" : 27700,
+              "xyTolerance" : 0.001,
+              "zTolerance" : 0.001,
+              "mTolerance" : 0.001,
+              "falseX" : -5220400,
+              "falseY" : -15524400,
+              "xyUnits" : 10000,
+              "falseZ" : -100000,
+              "zUnits" : 10000,
+              "falseM" : -100000,
+              "mUnits" : 10000
+            }
+          },
+          "queryFields" : [
+            {
+              "name" : "osid",
+              "type" : "esriFieldTypeGUID",
+              "isNullable" : true,
+              "length" : 38,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 12
+            },
+            {
+              "name" : "versiondate",
+              "type" : "esriFieldTypeDate",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 7
+            },
+            {
+              "name" : "versionavailablefromdate",
+              "type" : "esriFieldTypeDate",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 7
+            },
+            {
+              "name" : "versionavailabletodate",
+              "type" : "esriFieldTypeDate",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 7
+            },
+            {
+              "name" : "changetype",
+              "type" : "esriFieldTypeString",
+              "isNullable" : true,
+              "length" : 50,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 5
+            },
+            {
+              "name" : "geometry",
+              "type" : "esriFieldTypeGeometry",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 0,
+              "scale" : 0,
+              "geometryDef" : {
+                "avgNumPoints" : 0,
+                "geometryType" : "esriGeometryPolygon",
+                "hasM" : false,
+                "hasZ" : false,
+                "spatialReference" : {
+                  "wkid" : 27700,
+                  "latestWkid" : 27700,
+                  "xyTolerance" : 0.001,
+                  "zTolerance" : 0.001,
+                  "mTolerance" : 0.001,
+                  "falseX" : -5220400,
+                  "falseY" : -15524400,
+                  "xyUnits" : 10000,
+                  "falseZ" : -100000,
+                  "zUnits" : 10000,
+                  "falseM" : -100000,
+                  "mUnits" : 10000
+                }
+              },
+              "dbmsType" : 8
+            },
+            {
+              "name" : "geometry_area_m2",
+              "type" : "esriFieldTypeDouble",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 15,
+              "scale" : 3,
+              "dbmsType" : 4
+            },
+            {
+              "name" : "geometry_updatedate",
+              "type" : "esriFieldTypeDate",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 7
+            },
+            {
+              "name" : "theme",
+              "type" : "esriFieldTypeString",
+              "isNullable" : true,
+              "length" : 40,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 5
+            },
+            {
+              "name" : "buildingpartcount",
+              "type" : "esriFieldTypeInteger",
+              "isNullable" : true,
+              "length" : 4,
+              "precision" : 10,
+              "scale" : 0,
+              "dbmsType" : 2
+            },
+            {
+              "name" : "isinsite",
+              "type" : "esriFieldTypeSmallInteger",
+              "isNullable" : true,
+              "length" : 2,
+              "precision" : 5,
+              "scale" : 0,
+              "dbmsType" : 1
+            },
+            {
+              "name" : "primarysite_id",
+              "type" : "esriFieldTypeGUID",
+              "isNullable" : true,
+              "length" : 38,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 12
+            },
+            {
+              "name" : "containingsitecount",
+              "type" : "esriFieldTypeInteger",
+              "isNullable" : true,
+              "length" : 4,
+              "precision" : 10,
+              "scale" : 0,
+              "dbmsType" : 2
+            },
+            {
+              "name" : "ismainbuilding",
+              "type" : "esriFieldTypeSmallInteger",
+              "isNullable" : true,
+              "length" : 2,
+              "precision" : 5,
+              "scale" : 0,
+              "dbmsType" : 1
+            },
+            {
+              "name" : "mainbuilding_id",
+              "type" : "esriFieldTypeGUID",
+              "isNullable" : true,
+              "length" : 38,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 12
+            },
+            {
+              "name" : "mainbuilding_updatedate",
+              "type" : "esriFieldTypeDate",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 7
+            },
+            {
+              "name" : "buildinguse",
+              "type" : "esriFieldTypeString",
+              "isNullable" : true,
+              "length" : 100,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 5
+            },
+            {
+              "name" : "oslandusetiera",
+              "type" : "esriFieldTypeString",
+              "isNullable" : true,
+              "length" : 50,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 5
+            },
+            {
+              "name" : "addresscount_total",
+              "type" : "esriFieldTypeInteger",
+              "isNullable" : true,
+              "length" : 4,
+              "precision" : 10,
+              "scale" : 0,
+              "dbmsType" : 2
+            },
+            {
+              "name" : "addresscount_residential",
+              "type" : "esriFieldTypeInteger",
+              "isNullable" : true,
+              "length" : 4,
+              "precision" : 10,
+              "scale" : 0,
+              "dbmsType" : 2
+            },
+            {
+              "name" : "addresscount_commercial",
+              "type" : "esriFieldTypeInteger",
+              "isNullable" : true,
+              "length" : 4,
+              "precision" : 10,
+              "scale" : 0,
+              "dbmsType" : 2
+            },
+            {
+              "name" : "addresscount_other",
+              "type" : "esriFieldTypeInteger",
+              "isNullable" : true,
+              "length" : 4,
+              "precision" : 10,
+              "scale" : 0,
+              "dbmsType" : 2
+            },
+            {
+              "name" : "buildinguse_updatedate",
+              "type" : "esriFieldTypeDate",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 7
+            },
+            {
+              "name" : "connectivity",
+              "type" : "esriFieldTypeString",
+              "isNullable" : true,
+              "length" : 15,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 5
+            },
+            {
+              "name" : "connectivitycount",
+              "type" : "esriFieldTypeInteger",
+              "isNullable" : true,
+              "length" : 4,
+              "precision" : 10,
+              "scale" : 0,
+              "dbmsType" : 2
+            },
+            {
+              "name" : "connectivity_updatedate",
+              "type" : "esriFieldTypeDate",
+              "isNullable" : true,
+              "length" : 8,
+              "precision" : 0,
+              "scale" : 0,
+              "dbmsType" : 7
+            }
+          ],
+          "spatialStorageType" : 8,
+          "isTableBased" : true
+        },
+        "studyAreaSpatialRel" : "esriSpatialRelUndefined",
+        "searchOrder" : "esriSearchOrderSpatial"
+      },
+      "htmlPopupEnabled" : true,
+      "selectable" : true,
+      "featureCacheType" : "Session",
+      "displayFiltersType" : "ByScale",
+      "featureBlendingMode" : "Alpha",
+      "labelClasses" : [
+        {
+          "type" : "CIMLabelClass",
+          "expressionTitle" : "Custom",
+          "expression" : "$feature.versiondate",
+          "expressionEngine" : "Arcade",
+          "featuresToLabel" : "AllVisibleFeatures",
+          "maplexLabelPlacementProperties" : {
+            "type" : "CIMMaplexLabelPlacementProperties",
+            "featureType" : "Polygon",
+            "avoidPolygonHoles" : true,
+            "canOverrunFeature" : true,
+            "canPlaceLabelOutsidePolygon" : true,
+            "canRemoveOverlappingLabel" : true,
+            "canStackLabel" : true,
+            "connectionType" : "Unambiguous",
+            "constrainOffset" : "NoConstraint",
+            "contourAlignmentType" : "Page",
+            "contourLadderType" : "Straight",
+            "contourMaximumAngle" : 90,
+            "enableConnection" : true,
+            "featureWeight" : 0,
+            "fontHeightReductionLimit" : 4,
+            "fontHeightReductionStep" : 0.5,
+            "fontWidthReductionLimit" : 90,
+            "fontWidthReductionStep" : 5,
+            "graticuleAlignmentType" : "Straight",
+            "keyNumberGroupName" : "Default",
+            "labelBuffer" : 15,
+            "labelLargestPolygon" : true,
+            "labelPriority" : -1,
+            "labelStackingProperties" : {
+              "type" : "CIMMaplexLabelStackingProperties",
+              "stackAlignment" : "ChooseBest",
+              "maximumNumberOfLines" : 3,
+              "minimumNumberOfCharsPerLine" : 3,
+              "maximumNumberOfCharsPerLine" : 24,
+              "separators" : [
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : " ",
+                  "splitAfter" : true
+                },
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : ",",
+                  "visible" : true,
+                  "splitAfter" : true
+                }
+              ],
+              "trimStackingSeparators" : true
+            },
+            "lineFeatureType" : "General",
+            "linePlacementMethod" : "OffsetCurvedFromLine",
+            "maximumLabelOverrun" : 80,
+            "maximumLabelOverrunUnit" : "Point",
+            "minimumFeatureSizeUnit" : "Map",
+            "multiPartOption" : "OneLabelPerPart",
+            "offsetAlongLineProperties" : {
+              "type" : "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod" : "BestPositionAlongLine",
+              "labelAnchorPoint" : "CenterOfLabel",
+              "distanceUnit" : "Percentage",
+              "useLineDirection" : true
+            },
+            "pointExternalZonePriorities" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "polygonAnchorPointType" : "GeometricCenter",
+            "polygonBoundaryWeight" : 0,
+            "polygonExternalZones" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "polygonFeatureType" : "General",
+            "polygonInternalZones" : {
+              "type" : "CIMMaplexInternalZonePriorities",
+              "center" : 1
+            },
+            "polygonPlacementMethod" : "HorizontalInPolygon",
+            "primaryOffset" : 1,
+            "primaryOffsetUnit" : "Point",
+            "removeExtraWhiteSpace" : true,
+            "repetitionIntervalUnit" : "Point",
+            "rotationProperties" : {
+              "type" : "CIMMaplexRotationProperties",
+              "rotationType" : "Arithmetic",
+              "alignmentType" : "Straight"
+            },
+            "secondaryOffset" : 100,
+            "strategyPriorities" : {
+              "type" : "CIMMaplexStrategyPriorities",
+              "stacking" : 1,
+              "overrun" : 2,
+              "fontCompression" : 3,
+              "fontReduction" : 4,
+              "abbreviation" : 5
+            },
+            "thinningDistanceUnit" : "Point",
+            "truncationMarkerCharacter" : ".",
+            "truncationMinimumLength" : 1,
+            "truncationPreferredCharacters" : "aeiou",
+            "truncationExcludedCharacters" : "0123456789",
+            "polygonAnchorPointPerimeterInsetUnit" : "Point"
+          },
+          "name" : "Class 1",
+          "priority" : -1,
+          "standardLabelPlacementProperties" : {
+            "type" : "CIMStandardLabelPlacementProperties",
+            "featureType" : "Line",
+            "featureWeight" : "None",
+            "labelWeight" : "High",
+            "numLabelsOption" : "OneLabelPerName",
+            "lineLabelPosition" : {
+              "type" : "CIMStandardLineLabelPosition",
+              "above" : true,
+              "inLine" : true,
+              "parallel" : true
+            },
+            "lineLabelPriorities" : {
+              "type" : "CIMStandardLineLabelPriorities",
+              "aboveStart" : 3,
+              "aboveAlong" : 3,
+              "aboveEnd" : 3,
+              "centerStart" : 3,
+              "centerAlong" : 3,
+              "centerEnd" : 3,
+              "belowStart" : 3,
+              "belowAlong" : 3,
+              "belowEnd" : 3
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "pointPlacementPriorities" : {
+              "type" : "CIMStandardPointPlacementPriorities",
+              "aboveLeft" : 2,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerLeft" : 3,
+              "centerRight" : 2,
+              "belowLeft" : 3,
+              "belowCenter" : 3,
+              "belowRight" : 2
+            },
+            "rotationType" : "Arithmetic",
+            "polygonPlacementMethod" : "AlwaysHorizontal"
+          },
+          "textSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMTextSymbol",
+              "blockProgression" : "TTB",
+              "depth3D" : 1,
+              "extrapolateBaselines" : true,
+              "fontEffects" : "Normal",
+              "fontEncoding" : "Unicode",
+              "fontFamilyName" : "Tahoma",
+              "fontStyleName" : "Regular",
+              "fontType" : "Unspecified",
+              "haloSize" : 1,
+              "height" : 10,
+              "hinting" : "Default",
+              "horizontalAlignment" : "Left",
+              "kerning" : true,
+              "letterWidth" : 100,
+              "ligatures" : true,
+              "lineGapType" : "ExtraLeading",
+              "symbol" : {
+                "type" : "CIMPolygonSymbol",
+                "symbolLayers" : [
+                  {
+                    "type" : "CIMSolidFill",
+                    "enable" : true,
+                    "color" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "textCase" : "Normal",
+              "textDirection" : "LTR",
+              "verticalAlignment" : "Bottom",
+              "verticalGlyphOrientation" : "Right",
+              "wordSpacing" : 100,
+              "billboardMode3D" : "FaceNearPlane"
+            }
+          },
+          "useCodedValue" : true,
+          "visibility" : true,
+          "iD" : -1
+        }
+      ],
+      "renderer" : {
+        "type" : "CIMSimpleRenderer",
+        "patch" : "Default",
+        "symbol" : {
+          "type" : "CIMSymbolReference",
+          "symbol" : {
+            "type" : "CIMPolygonSymbol",
+            "symbolLayers" : [
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "capStyle" : "Round",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 0.69999999999999996,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    208,
+                    75,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMSolidFill",
+                "enable" : true,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    208,
+                    75,
+                    30
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "scaleSymbols" : true,
+      "snappable" : true
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
+    {
+      "type" : "CIMElevationSurfaceLayer",
+      "name" : "Ground",
+      "uRI" : "CIMPATH=Map/ee822ccf879046f4a6e5a3caa98acae0.json",
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
+      "verticalExaggeration" : 1,
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}
