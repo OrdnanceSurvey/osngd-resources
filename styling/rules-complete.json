@@ -1,41 +1,54 @@
 {
     "style-options": {
-        "fill": {
-            "fill-color": "#000000",
-            "fill-opacity": 0.3,
-            "fill-outline-color": "#000000",
-            "fill-outline-opacity": 1.0,
-            "fill-outline-width": 1
+        "analytical": {
+            "fill": {
+                "fill-color": "{color-options[default:string]}",
+                "fill-opacity": 0.3,
+                "fill-outline-color": "#000000",
+                "fill-outline-opacity": 1.0,
+                "fill-outline-width": 1
+            },
+            "line": {
+                "line-color": "{color-options[default:string]}",
+                "line-width": 1,
+                "line-cap": "butt",
+                "line-dasharray": [ 2, 2 ],
+                "line-opacity": 1.0
+            },
+            "circle": {
+                "circle-radius": 4,
+                "circle-color": "{color-options[default:string]}",
+                "circle-opacity": 1.0,
+                "circle-stroke-color": "#ffffff",
+                "circle-stroke-opacity": 0.9,
+                "circle-stroke-width": 1
+            },
+            "symbol": {
+                "icon-image": "marker.svg",
+                "icon-anchor": [ 0, 0 ],
+                "icon-size": [ 24, 24 ],
+                "icon-rotate": 0,
+                "icon-opacity": 1.0
+            }
         },
-        "line": {
-            "line-color": "#000000",
-            "line-width": 1,
-            "*line-cap": "butt",
-            "*line-dasharray": [ 2, 2 ],
-            "line-opacity": 1.0
-        },
-        "circle": {
-            "circle-radius": 4,
-            "circle-color": "#000000",
-            "circle-opacity": 1.0,
-            "circle-stroke-color": "#ffffff",
-            "circle-stroke-opacity": 0.9,
-            "circle-stroke-width": 1
-        },
-        "*symbol": {
-            "icon-image": "marker.svg",
-            "icon-anchor": [ 0, 0 ],
-            "icon-size": [ 24, 24 ],
-            "icon-rotate": 0,
-            "icon-opacity": 1.0
+        "contextual": {
+            "fill": {
+                "fill-color": "{color-options[default:string]}",
+                "fill-opacity": 1.0,
+                "fill-outline-color": "#cccccc",
+                "fill-outline-opacity": 1.0,
+                "fill-outline-width": 1                
+            }     
         }
     },
     "color-options": {
         "string": "#000000",
         "array": [
             "description",
-            "val1", "#000000",
-            "val2", "#000000",
+            {
+                "val1": "#000000",
+                "val2": "#000000"
+            },
             "#000000"
         ],
         "pattern": "data:image/png;base64,..."
@@ -139,15 +152,17 @@
             "contextual-colors": {
                 "lnd-fts-land": [
                     "oslandcovertiera",
-                    "Excavated Or Deposited", "#eaeae4",
-                    "Made", "#f2f2e9",
-                    "Mineral", "#eaead3",
-                    "Multiple", "#eeefda",
-                    "Open Vegetation", "#e4efda",
-                    "Open Vegetation And Mineral", "#e4efda",
-                    "Trees", "#cee6bd",
-                    "Under Construction", "#f8f6f0",
-                    "Water", "#aadeef",
+                    {
+                        "Excavated Or Deposited": "#eaeae4",
+                        "Made": "#f2f2e9",
+                        "Mineral": "#eaead3",
+                        "Multiple": "#eeefda",
+                        "Open Vegetation": "#e4efda",
+                        "Open Vegetation And Mineral": "#e4efda",
+                        "Trees": "#cee6bd",
+                        "Under Construction": "#f8f6f0",
+                        "Water": "#aadeef"
+                    },
                     "#000000"
                 ],
                 "lnd-fts-landform": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAArwAAAK8AFCrDSYAAAAB3RJTUUH5gMEDzAgK3/uvgAAAtpJREFUeNrt2bENACAMA0H23yDTmg2cHq6g4ipLiOJPkrOdmQnH/eiMwnHFGYXjijMKxxVnFI4rzigcV5xROK44o3BcuTcKx7UHYhSOW34Qo3Ccks5xSjrHKekcp6RznJLOcUo6xynpHKekc5ySbjyOU9I5TknnOCWd45R0jlPSOU5J5zglneOUdI5T0o3HKelG4TglneOUdI5T0jlOSec4JZ3jlHSOU9I5TknnOCXdeBynpHOcks5xSjrHKekcp6RznJLOcUo6xynpHKekG49T0o3CcUo6xynpHKekc5ySznFKOscp6RynpHOcks5xSrrxOE5J5zglneOUdI5T0jlOSec4JZ3jlHSOU9I5TknnOCXdKBynpHOcks5xSjrHKekcp6RznJLOcUo6xynpHKekG49T0o3CcUo6xynpHKekc5ySznFKOscp6RynpHOcks5xSrpROE5J5zglneOUdI5T0jlOSec4JZ3jlHSOU9I5Tkk3HqekG4XjlHSOU9I5TknnOCWd45R0jlPSOU5J5zglneOUdONxnJLOcUo6xynpHKekc5ySznFKOscp6RynpHOckm48Tkk3Cscp6RynpHOcks5xSjrHKekcp6RznJLOcUo6xynpxuM4JZ3jlHSOU9I5TknnOCWd45R0jlPSOU5J5zgl3Xickm4UjlPSOU5J5zglneOUdI5T0jlOSec4JZ3jlHSOU9KNx3FKOscp6RynpHOcks5xSjrHKekcp6RznJLOcUo6xynpRuE4JZ3jlHSOU9I5TknnOCWd45R0jlPSOU5J5zgl3Xickm4UjlPSOU5J5zglneOUdI5T0jlOSec4JZ3jlHSOU9KNwnFKOscp6RynpHOcks5xSjrHKekcp6RznJLOcUq68Tgl3Sgcp6RznJLOcUo6xynpHKekc5ySznFKOscp6RynpBuP45R0jlPSOU5J5zglneOUdI5T0jlOSec4JZ3jHncXLOvpgoZEV/4AAAAASUVORK5CYII="
@@ -236,30 +251,32 @@
                 "trn-fts-rail": "#cccbcb",
                 "trn-fts-roadtrackorpath": [
                     "description",
-                    "Central Reservation", "#cccbcb",
-                    "Cycle Way", "#fcfdff",
-                    "Escape Lane", "#fcfdff",
-                    "Ford", "#fcfdff",
-                    "Lay-by", "#fcfdff",
-                    "Level Crossing", "#fcfdff",
-                    "Path", "#dcdcdb",
-                    "Path And Steps", "#dcdcdb",
-                    "Path On Pipe", "#dcdcdb",
-                    "Pavement", "#cccbcb",
-                    "Pavement And Steps", "#cccbcb",
-                    "Pedestrian Crossing", "#fcfdff",
-                    "Road", "#fcfdff",
-                    "Road Turntable", "#fcfdff",
-                    "Roofed Path", "#dcdcdb",
-                    "Roofed Track", "#dcdcdb",
-                    "Sand Drag", "#f4f0d3",
-                    "Shared Use Carriageway", "#fcfdff",
-                    "Towing Path", "#fcfdff",
-                    "Track", "#dcdcdb",
-                    "Traffic Calming", "#fcfdff",
-                    "Transport Curtilage", "#cccbcb",
-                    "Travelling Walkway", "#dcdcdb",
-                    "Vehicle Dip", "#fcfdff",
+                    {
+                        "Central Reservation": "#cccbcb",
+                        "Cycle Way": "#fcfdff",
+                        "Escape Lane": "#fcfdff",
+                        "Ford": "#fcfdff",
+                        "Lay-by": "#fcfdff",
+                        "Level Crossing": "#fcfdff",
+                        "Path": "#dcdcdb",
+                        "Path And Steps": "#dcdcdb",
+                        "Path On Pipe": "#dcdcdb",
+                        "Pavement": "#cccbcb",
+                        "Pavement And Steps": "#cccbcb",
+                        "Pedestrian Crossing": "#fcfdff",
+                        "Road": "#fcfdff",
+                        "Road Turntable": "#fcfdff",
+                        "Roofed Path": "#dcdcdb",
+                        "Roofed Track": "#dcdcdb",
+                        "Sand Drag": "#f4f0d3",
+                        "Shared Use Carriageway": "#fcfdff",
+                        "Towing Path": "#fcfdff",
+                        "Track": "#dcdcdb",
+                        "Traffic Calming": "#fcfdff",
+                        "Transport Curtilage": "#cccbcb",
+                        "Travelling Walkway": "#dcdcdb",
+                        "Vehicle Dip": "#fcfdff"
+                    },
                     "#000000"
                 ]
             }
