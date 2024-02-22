@@ -125,7 +125,8 @@
             "name": "Geographical Names",
             "feature-types": {
                 "gnm-fts-namedarea": "fill",
-                "gnm-fts-namedpoint": "circle"
+                "gnm-fts-namedpoint": "circle",
+                "gnm-fts-namedroadjunction": "circle"
             },
             "default-color": "#857b82",
             "analytical-colors": {
@@ -186,6 +187,7 @@
             "name": "Structures",
             "feature-types": {
                 "str-fts-compoundstructure": "fill",
+                "str-fts-fieldboundary": "line",
                 "str-fts-structure": "fill",
                 "str-fts-structureline": "line",
                 "str-fts-structurepoint": "circle"
@@ -224,6 +226,7 @@
                 "trn-ntwk-roadlink": "line",
                 "trn-ntwk-roadnode": "circle",
                 "trn-ntwk-street": "line",
+                "trn-ntwk-tramonroad": "line",
                 "trn-rami-averageandindicativespeed": "line",
                 "trn-rami-highwaydedication": "line",
                 "trn-rami-maintenancearea": "fill",
@@ -340,6 +343,7 @@
             "bld-fts-buildingpart": "OS NGD Buildings | Building Features | Building Part",
             "gnm-fts-namedarea": "OS NGD Geographical Names | Named Features | Named Area",
             "gnm-fts-namedpoint": "OS NGD Geographical Names | Named Features | Named Point",
+            "gnm-fts-namedroadjunction": "OS NGD Geographical Names | Named Features | Named Road Junction",
             "lnd-fts-land": "OS NGD Land | Land Features | Land",
             "lnd-fts-landpoint": "OS NGD Land | Land Features | Land Point",
             "lnd-fts-landform": "OS NGD Land | Land Features | Landform",
@@ -349,6 +353,7 @@
             "lus-fts-siteaccesslocation": "OS NGD Land Use | Land Use Features | Site Access Location",
             "lus-fts-siteroutingpoint": "OS NGD Land Use | Land Use Features | Site Routing Point",
             "str-fts-compoundstructure": "OS NGD Structures | Structure Features | Compound Structure",
+            "str-fts-fieldboundary": "OS NGD Structures | Structure Features | Field Boundary",
             "str-fts-structure": "OS NGD Structures | Structure Features | Structure",
             "str-fts-structureline": "OS NGD Structures | Structure Features | Structure Line",
             "str-fts-structurepoint": "OS NGD Structures | Structure Features | Structure Point",
@@ -387,6 +392,7 @@
             "trn-ntwk-roadlink": "OS NGD Transport | Transport Network | Road Link",
             "trn-ntwk-roadnode": "OS NGD Transport | Transport Network | Road Node",
             "trn-ntwk-street": "OS NGD Transport | Transport Network | Street",
+            "trn-ntwk-tramonroad": "OS NGD Transport | Transport Network | Tram On Road",
             "wtr-fts-intertidalline": "OS NGD Water | Water Features | Inter Tidal Line",
             "wtr-fts-riverbasindistrictcatchment": "OS NGD Water | Water Features | River Basin District Catchment",
             "wtr-fts-tidalboundary": "OS NGD Water | Water Features | Tidal Boundary",
