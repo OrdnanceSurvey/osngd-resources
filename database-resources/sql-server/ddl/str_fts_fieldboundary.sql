@@ -1,0 +1,26 @@
+/* This DDL is based on data schema version 1.0 */
+CREATE TABLE str_fts_fieldboundary (
+	osid uniqueidentifier not null,
+	structureline_osid nvarchar(36),
+	versiondate date not null,
+	versionavailablefromdate datetime not null,
+	versionavailabletodate datetime,
+	changetype nvarchar(50) not null,
+	geometry geometry not null,
+	geometry_length_m numeric(15,3) not null,
+	geometry_evidencedate date,
+	geometry_updatedate date not null,
+	theme nvarchar(40) not null,
+	description nvarchar(15) not null,
+	imagery_evidencedate date,
+	minimumheight_m numeric(5,1),
+	maximumheight_m numeric(5,1),
+	averageheight_m numeric(5,1),
+	minimumwidth_m numeric(5,1),
+	maximumwidth_m numeric(5,1),
+	averagewidth_m numeric(5,1),
+	iswoodlandboundary BIT not null,
+	iswoodlandboundary_evidencedate date not null,
+	iswoodlandboundary_updatedate date,
+	PRIMARY KEY (osid)
+);

@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 2.0 */
+/* This DDL is based on data schema version 3.0 */
 CREATE TABLE trn_ntwk_roadlink (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),
@@ -52,6 +52,10 @@ CREATE TABLE trn_ntwk_roadlink (
 	presenceofpavement_updatedate date not null,
 	presenceofpavement_source nvarchar(85),
 	presenceofpavement_capturemethod nvarchar(25) not null,
+	presenceoftram_extentoflink nvarchar(15),
+	presenceoftram_linkdirection nvarchar(21),
+	presenceoftram_updatedate date,
+	presenceoftram_source nvarchar(85),
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadlink_rdtrkpthref (

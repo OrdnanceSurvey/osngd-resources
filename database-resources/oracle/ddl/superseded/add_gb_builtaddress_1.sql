@@ -82,7 +82,7 @@ CREATE TABLE add_gb_builtaddress_pstladd (
 	PRIMARY KEY (udprn,featuretypeversiondate)
 );
 CREATE TABLE add_gb_builtaddress_altadd (
-	ALTERNATEADDRESSID VARCHAR2(32),
+	ALTERNATEADDRESSID VARCHAR2(36),
 	UPRN NUMBER(12) not null,
 	FEATURETYPEVERSIONDATE DATE,
 	USRN NUMBER(8) not null,
@@ -103,7 +103,7 @@ CREATE TABLE add_gb_builtaddress_altadd (
 	PRIMARY KEY (alternateaddressid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_builtaddress_rltenty (
-	RELATEDENTITYID VARCHAR2(32),
+	RELATEDENTITYID VARCHAR2(36),
 	UPRN NUMBER(12) not null,
 	FEATURETYPEVERSIONDATE DATE,
 	CROSSREFERENCEFEATURE VARCHAR2(40),
@@ -114,7 +114,7 @@ CREATE TABLE add_gb_builtaddress_rltenty (
 	PRIMARY KEY (relatedentityid,featuretypeversiondate)
 );
 CREATE TABLE add_gb_builtaddress_otrclass (
-	OTHERCLASSIFICATIONID VARCHAR2(32),
+	OTHERCLASSIFICATIONID VARCHAR2(36),
 	UPRN NUMBER(12) not null,
 	FEATURETYPEVERSIONDATE DATE,
 	CLASSIFICATIONCODE VARCHAR2(6) not null,

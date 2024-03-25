@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version . */
+/* This DDL is based on data schema version 2.0 */
 CREATE TABLE lnd_fts_land (
 	osid uuid not null,
 	toid varchar(20),
@@ -8,26 +8,26 @@ CREATE TABLE lnd_fts_land (
 	firstdigitalcapturedate date,
 	changetype varchar(50) not null,
 	geometry geometry(Polygon, 27700) not null,
-	geometry_area numeric(15,6) not null,
+	geometry_area_m2 numeric(15,3),
 	geometry_evidencedate date,
 	geometry_updatedate date not null,
-	geometry_source varchar(50),
+	geometry_capturemethod varchar(25),
 	theme varchar(40) not null,
 	description varchar(100) not null,
 	description_evidencedate date,
 	description_updatedate date not null,
-	description_source varchar(50),
+	description_capturemethod varchar(25),
 	oslandcovertiera varchar(30) not null,
 	oslandcovertierb varchar(120) not null,
 	landform varchar(20),
 	oslandcover_evidencedate date,
 	oslandcover_updatedate date not null,
-	oslandcover_source varchar(50),
+	oslandcover_capturemethod varchar(25),
 	oslandusetiera varchar(50) not null,
 	oslandusetierb varchar(88),
 	oslanduse_evidencedate date,
 	oslanduse_updatedate date not null,
-	oslanduse_source varchar(50),
+	oslanduse_capturemethod varchar(25),
 	istidal boolean not null,
 	associatedstructure varchar(25),
 	operationalstatus varchar(10),
@@ -35,4 +35,15 @@ CREATE TABLE lnd_fts_land (
 	physicallevel varchar(15) not null,
 	capturespecification varchar(10) not null,
 	PRIMARY KEY (osid)
+);
+CREATE TABLE lnd_fts_land_habcovref (
+	osid uuid not null,
+	scheme varchar(20),
+	habitatcode varchar(5),
+	habitatdescription varchar(80),
+	percentage integer,
+	percentage_evidencedate date,
+	percentage_updatedate date,
+	featuretypeversiondate date,
+	PRIMARY KEY (osid,featuretypeversiondate,habitatdescription)
 );

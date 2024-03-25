@@ -1,6 +1,6 @@
 /* This DDL is based on data schema version 1.0 */
 CREATE TABLE TRN_NTWK_PATH (
-	OSID VARCHAR2(32) not null,
+	OSID VARCHAR2(36) not null,
 	TOID VARCHAR2(20),
 	VERSIONDATE DATE not null,
 	VERSIONAVAILABLEFROMDATE TIMESTAMP not null,
@@ -17,8 +17,8 @@ CREATE TABLE TRN_NTWK_PATH (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_path_pathlinkref (
-	PATHLINKID VARCHAR2(32),
-	PATHID VARCHAR2(32),
+	PATHLINKID VARCHAR2(36),
+	PATHID VARCHAR2(36),
 	PATHVERSIONDATE DATE,
 	PRIMARY KEY (pathlinkid,pathid,pathversiondate)
 );

@@ -1,6 +1,6 @@
 /* This DDL is based on data schema version 1.0 */
 CREATE TABLE TRN_RAMI_MAINTENANCEAREA (
-	OSID VARCHAR2(32) not null,
+	OSID VARCHAR2(36) not null,
 	AUTHORITYID VARCHAR2(17) not null,
 	VERSIONDATE DATE not null,
 	VERSIONAVAILABLEFROMDATE TIMESTAMP not null,

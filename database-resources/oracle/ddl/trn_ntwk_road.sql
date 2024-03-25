@@ -1,6 +1,6 @@
 /* This DDL is based on data schema version 1.0 */
 CREATE TABLE TRN_NTWK_ROAD (
-	OSID VARCHAR2(32) not null,
+	OSID VARCHAR2(36) not null,
 	TOID VARCHAR2(20),
 	VERSIONDATE DATE not null,
 	VERSIONAVAILABLEFROMDATE TIMESTAMP not null,
@@ -23,8 +23,8 @@ CREATE TABLE TRN_NTWK_ROAD (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_road_rdlinkref (
-	ROADLINKID VARCHAR2(32),
-	ROADID VARCHAR2(32),
+	ROADLINKID VARCHAR2(36),
+	ROADID VARCHAR2(36),
 	ROADVERSIONDATE DATE,
 	PRIMARY KEY (roadlinkid,roadid,roadversiondate)
 );

@@ -54,7 +54,7 @@ CREATE TABLE TRN_NTWK_STREET (
 	PRIMARY KEY (usrn)
 );
 CREATE TABLE trn_ntwk_street_pathlinkref (
-	PATHLINKID VARCHAR2(32),
+	PATHLINKID VARCHAR2(36),
 	USRN NUMBER(8) not null,
 	STREETVERSIONDATE DATE,
 	PRIMARY KEY (pathlinkid,usrn,streetversiondate)
@@ -62,6 +62,6 @@ CREATE TABLE trn_ntwk_street_pathlinkref (
 CREATE TABLE trn_ntwk_street_rdlinkref (
 	USRN NUMBER(8) not null,
 	STREETVERSIONDATE DATE,
-	ROADLINKID VARCHAR2(32),
+	ROADLINKID VARCHAR2(36),
 	PRIMARY KEY (roadlinkid,usrn,streetversiondate)
 );
