@@ -14,7 +14,7 @@
           <prop k="dash_pattern_offset_unit" v="MM"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
-          <prop k="line_color" v="246,188,137,255"/>
+          <prop k="line_color" v="237,181,181,255"/>
           <prop k="line_style" v="solid"/>
           <prop k="line_width" v="0.2"/>
           <prop k="line_width_unit" v="MM"/>

@@ -6,15 +6,15 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>OS NGD Transport | Transport Network | Tram On Road</Name>
+    <Name>OS NGD Structures | Structure Features | Field Boundary</Name>
     <UserStyle>
       <Title>Product SLD - March 2024</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Tram On Road</Name>
+        <Name>Field Boundary</Name>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#f6bc89</CssParameter>
+              <CssParameter name="stroke">#edb5b5</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
           </LineSymbolizer>
