@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 2.0 */
+/* This DDL is based on data schema version 3.0 */
 CREATE TABLE bld_fts_building (
 	osid uuid not null,
 	versiondate date not null,
@@ -13,20 +13,20 @@ CREATE TABLE bld_fts_building (
 	description_updatedate date not null,
 	buildingpartcount integer not null,
 	isinsite boolean not null,
-	primarysite_id uuid,
+	primarysiteid uuid,
 	containingsitecount integer not null,
-	ismainbuilding boolean,
-	mainbuilding_id uuid,
-	mainbuilding_updatedate date not null,
+	mainbuildingid uuid,
+	mainbuildingid_ismainbuilding varchar(5),
+	mainbuildingid_updatedate date not null,
 	buildinguse varchar(100) not null,
-	oslandusetiera varchar(50),
-	addresscount_total integer not null,
-	addresscount_residential integer not null,
-	addresscount_commercial integer not null,
-	addresscount_other integer not null,
+	buildinguse_oslandusetiera varchar(50),
+	buildinguse_addresscount_total integer not null,
+	buildinguse_addresscount_residential integer not null,
+	buildinguse_addresscount_commercial integer not null,
+	buildinguse_addresscount_other integer not null,
 	buildinguse_updatedate date not null,
 	connectivity varchar(15) not null,
-	connectivitycount integer not null,
+	connectivity_count integer not null,
 	connectivity_updatedate date not null,
 	constructionmaterial varchar(40),
 	constructionmaterial_evidencedate date,
@@ -48,23 +48,28 @@ CREATE TABLE bld_fts_building (
 	basementpresence_source varchar(85),
 	basementpresence_capturemethod varchar(25),
 	basementpresence_thirdpartyprovenance varchar(65),
+	numberoffloors integer,
+	numberoffloors_evidencedate date,
+	numberoffloors_updatedate date,
+	numberoffloors_source varchar(40),
+	numberoffloors_capturemethod varchar(25),
 	PRIMARY KEY (osid)
 );
 CREATE TABLE bld_fts_building_bldtostecrossref (
-	siteid uuid,
-	buildingid uuid,
-	buildingversiondate date,
+	siteid uuid not null,
+	buildingid uuid not null,
+	buildingversiondate date not null,
 	PRIMARY KEY (siteid,buildingid,buildingversiondate)
 );
 CREATE TABLE bld_fts_building_bldtobldprtcrossref (
-	buildingpartid uuid,
-	buildingid uuid,
-	buildingversiondate date,
+	buildingpartid uuid not null,
+	buildingid uuid not null,
+	buildingversiondate date not null,
 	PRIMARY KEY (buildingpartid,buildingid,buildingversiondate)
 );
 CREATE TABLE bld_fts_building_bldtoaddrcrossref (
-	uprn bigint,
-	buildingid uuid,
-	buildingversiondate date,
+	uprn bigint not null,
+	buildingid uuid not null,
+	buildingversiondate date not null,
 	PRIMARY KEY (uprn,buildingid,buildingversiondate)
 );

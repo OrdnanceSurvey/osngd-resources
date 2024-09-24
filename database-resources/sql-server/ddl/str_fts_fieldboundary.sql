@@ -1,7 +1,7 @@
 /* This DDL is based on data schema version 1.0 */
 CREATE TABLE str_fts_fieldboundary (
 	osid uniqueidentifier not null,
-	structureline_osid nvarchar(36),
+	structureline_osid uuid,
 	versiondate date not null,
 	versionavailablefromdate datetime not null,
 	versionavailabletodate datetime,

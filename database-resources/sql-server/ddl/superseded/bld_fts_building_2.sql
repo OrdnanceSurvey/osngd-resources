@@ -13,7 +13,7 @@ CREATE TABLE bld_fts_building (
 	description_updatedate date not null,
 	buildingpartcount integer not null,
 	isinsite BIT not null,
-	primarysite_id nvarchar(36),
+	primarysite_id uuid,
 	containingsitecount integer not null,
 	ismainbuilding BIT,
 	mainbuilding_id uniqueidentifier,
