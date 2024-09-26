@@ -23,7 +23,7 @@ CREATE TABLE wtr_fts_water (
 	oslandcover_updatedate date not null,
 	oslandcover_capturemethod varchar(25) not null,
 	oslandusetiera varchar(50) not null,
-	oslandusetierb varchar(88) not null,
+	oslandusetierb varchar(88),
 	oslanduse_evidencedate date,
 	oslanduse_updatedate date not null,
 	oslanduse_capturemethod varchar(25) not null,

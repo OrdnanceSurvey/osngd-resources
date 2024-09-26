@@ -23,7 +23,7 @@ CREATE TABLE trn_fts_roadtrackorpath (
 	oslandcover_updatedate date not null,
 	oslandcover_capturemethod nvarchar(25) not null,
 	oslandusetiera nvarchar(50) not null,
-	oslandusetierb nvarchar(88) not null,
+	oslandusetierb nvarchar(88),
 	oslanduse_evidencedate date,
 	oslanduse_updatedate date not null,
 	oslanduse_capturemethod nvarchar(25) not null,
