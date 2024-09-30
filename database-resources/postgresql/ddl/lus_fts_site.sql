@@ -17,7 +17,7 @@ CREATE TABLE lus_fts_site (
 	description_updatedate date not null,
 	description_capturemethod varchar(25) not null,
 	oslandusetiera varchar(50) not null,
-	oslandusetierb varchar(166) not null,
+	oslandusetierb varchar(166),
 	oslanduse_evidencedate date,
 	oslanduse_updatedate date not null,
 	oslanduse_capturemethod varchar(25) not null,
