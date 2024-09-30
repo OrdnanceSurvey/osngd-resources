@@ -35,7 +35,7 @@ CREATE TABLE trn_fts_roadtrackorpath (
 	containingsitecount integer not null,
 	smallestsite_siteid uuid,
 	smallestsite_landusetiera varchar(50),
-	smallestsite_landusetierb varchar(88),
+	smallestsite_landusetierb varchar(200),
 	largestsite_landusetiera varchar(50),
 	largestsite_landusetierb varchar(88),
 	nlud_code varchar(4),

@@ -35,7 +35,7 @@ CREATE TABLE wtr_fts_water (
 	containingsitecount integer not null,
 	smallestsite_siteid uniqueidentifier,
 	smallestsite_landusetiera nvarchar(50),
-	smallestsite_landusetierb nvarchar(88),
+	smallestsite_landusetierb nvarchar(200),
 	largestsite_landusetiera nvarchar(50),
 	largestsite_landusetierb nvarchar(88),
 	nlud_code nvarchar(4),

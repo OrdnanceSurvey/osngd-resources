@@ -52,7 +52,7 @@ CREATE TABLE str_fts_structure (
 	containingsitecount integer,
 	smallestsite_siteid uniqueidentifier,
 	smallestsite_landusetiera nvarchar(50),
-	smallestsite_landusetierb nvarchar(88),
+	smallestsite_landusetierb nvarchar(200),
 	largestsite_landusetiera nvarchar(50),
 	largestsite_landusetierb nvarchar(88),
 	nlud_code nvarchar(4),
