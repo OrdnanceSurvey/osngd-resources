@@ -6,4 +6,4 @@ What is a CSVT file?
 
 > "A CSVT file is a one-line text file which holds information on the data types of the columns of the CSV file it corresponds to."
 
-For further information view the [OS NGD Documentation](https://osngd.gitbook.io/osngd/).
+For further information view the [OS NGD Documentation](https://docs.os.uk/osngd/accessing-os-ngd/downloading-with-os-select+build/getting-started-with-csv).
