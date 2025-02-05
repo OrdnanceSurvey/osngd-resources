@@ -45,7 +45,7 @@ CREATE TABLE trn_fts_rail (
 	address_secondarydescription nvarchar(120),
 	lowertierlocalauthority_gsscode nvarchar(10),
 	lowertierlocalauthority_count integer not null,
-	status nvarchar(10),
+	status nvarchar(20),
 	status_updatedate date,
 	PRIMARY KEY (osid)
 );

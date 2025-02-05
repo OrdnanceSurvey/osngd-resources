@@ -53,7 +53,7 @@ CREATE TABLE bld_fts_buildingpart (
 	address_secondarydescription varchar(120),
 	lowertierlocalauthority_gsscode varchar(10),
 	lowertierlocalauthority_count integer not null,
-	status varchar(10),
+	status varchar(20),
 	status_updatedate date,
 	PRIMARY KEY (osid)
 );

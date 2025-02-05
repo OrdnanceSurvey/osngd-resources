@@ -63,7 +63,7 @@ CREATE TABLE str_fts_structure (
 	address_secondarydescription varchar(120),
 	lowertierlocalauthority_gsscode varchar(10),
 	lowertierlocalauthority_count integer,
-	status varchar(10),
+	status varchar(20),
 	status_updatedate date,
 	PRIMARY KEY (osid)
 );
