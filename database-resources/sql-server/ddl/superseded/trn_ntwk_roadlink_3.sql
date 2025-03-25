@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 4.0 */
+/* This DDL is based on data schema version 3.0 */
 CREATE TABLE trn_ntwk_roadlink (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),
@@ -12,8 +12,8 @@ CREATE TABLE trn_ntwk_roadlink (
 	description nvarchar(42) not null,
 	roadclassification nvarchar(21) not null,
 	routehierarchy nvarchar(32) not null,
-	trunkroad BIT not null,
-	primaryroute BIT not null,
+	trunkroad BIT,
+	primaryroute BIT,
 	roadclassificationnumber nvarchar(10),
 	name1_text nvarchar(254),
 	name1_language nvarchar(3),
@@ -25,7 +25,7 @@ CREATE TABLE trn_ntwk_roadlink (
 	alternatename2_language nvarchar(3),
 	operationalstate nvarchar(19) not null,
 	directionality nvarchar(21) not null,
-	cyclefacility nvarchar(50),
+	cyclefacility nvarchar(45),
 	cyclefacility_wholelink BIT,
 	roadstructure nvarchar(14),
 	roadwidth_average numeric(3,1),
@@ -56,15 +56,11 @@ CREATE TABLE trn_ntwk_roadlink (
 	presenceoftram_linkdirection nvarchar(21),
 	presenceoftram_updatedate date,
 	presenceoftram_source nvarchar(85),
-	presenceofstreetlight_coverage nvarchar(15) not null,
-	presenceofstreetlight_evidencedate date not null,
-	presenceofstreetlight_updatedate date not null,
-	presenceofstreetlight_capturemethod nvarchar(25) not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadlink_rdtrkpthref (
-	roadtrackorpathid uniqueidentifier not null,
-	roadlinkid uniqueidentifier not null,
+	roadtrackorpathid uniqueidentifier,
+	roadlinkid uniqueidentifier,
 	roadlinkversiondate date,
 	PRIMARY KEY (roadtrackorpathid,roadlinkid,roadlinkversiondate)
 );
