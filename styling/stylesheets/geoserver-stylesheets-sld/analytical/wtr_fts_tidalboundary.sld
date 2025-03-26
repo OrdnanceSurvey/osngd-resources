@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Water | Water Features | Tidal Boundary</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Tidal Boundary</Name>
+          <Name>Tidal Boundary</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#2d8fb6</CssParameter>

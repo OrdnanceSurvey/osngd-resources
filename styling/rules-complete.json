@@ -37,8 +37,8 @@
                 "fill-opacity": 1.0,
                 "fill-outline-color": "#cccccc",
                 "fill-outline-opacity": 1.0,
-                "fill-outline-width": 1                
-            }     
+                "fill-outline-width": 1
+            }
         }
     },
     "color-options": {
@@ -109,7 +109,8 @@
             "feature-types": {
                 "bld-fts-building": "fill",
                 "bld-fts-buildingline": "line",
-                "bld-fts-buildingpart": "fill"
+                "bld-fts-buildingpart": "fill",
+                "bld-fts-buildingaccesslocation": "circle"
             },
             "default-color": "#ead04b",
             "analytical-colors": {
@@ -126,7 +127,8 @@
             "feature-types": {
                 "gnm-fts-namedarea": "fill",
                 "gnm-fts-namedpoint": "circle",
-                "gnm-fts-namedroadjunction": "circle"
+                "gnm-fts-namedroadjunction": "circle",
+                "gnm-fts-crowdsourcednamepoint": "circle"
             },
             "default-color": "#857b82",
             "analytical-colors": {
@@ -209,6 +211,7 @@
                 "trn-fts-rail": "fill",
                 "trn-fts-roadline": "line",
                 "trn-fts-roadtrackorpath": "fill",
+                "trn-fts-streetlight": "circle",
                 "trn-ntwk-connectinglink": "line",
                 "trn-ntwk-connectingnode": "circle",
                 "trn-ntwk-ferrylink": "line",
@@ -341,9 +344,11 @@
             "bld-fts-building": "OS NGD Buildings | Building Features | Building",
             "bld-fts-buildingline": "OS NGD Buildings | Building Features | Building Line",
             "bld-fts-buildingpart": "OS NGD Buildings | Building Features | Building Part",
+            "bld-fts-buildingaccesslocation": "OS NGD Buildings | Building Features | Building Access Location",
             "gnm-fts-namedarea": "OS NGD Geographical Names | Named Features | Named Area",
             "gnm-fts-namedpoint": "OS NGD Geographical Names | Named Features | Named Point",
             "gnm-fts-namedroadjunction": "OS NGD Geographical Names | Named Features | Named Road Junction",
+            "gnm-fts-crowdsourcednamepoint": "OS NGD Geographical Names | Named Features | Crowd Sourced Name Point",
             "lnd-fts-land": "OS NGD Land | Land Features | Land",
             "lnd-fts-landpoint": "OS NGD Land | Land Features | Land Point",
             "lnd-fts-landform": "OS NGD Land | Land Features | Landform",
@@ -375,6 +380,7 @@
             "trn-fts-rail": "OS NGD Transport | Transport Features | Rail",
             "trn-fts-roadline": "OS NGD Transport | Transport Features | Road Line",
             "trn-fts-roadtrackorpath": "OS NGD Transport | Transport Features | Road Track Or Path",
+            "trn-fts-streetlight": "OS NGD Transport | Transport Features | Street Light",
             "trn-ntwk-connectinglink": "OS NGD Transport | Transport Network | Connecting Link",
             "trn-ntwk-connectingnode": "OS NGD Transport | Transport Network | Connecting Node",
             "trn-ntwk-ferrylink": "OS NGD Transport | Transport Network | Ferry Link",

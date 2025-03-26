@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Water | Water Features | Water</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Water</Name>
+          <Name>Water</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2d8fb6</CssParameter>

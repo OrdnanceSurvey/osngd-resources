@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Buildings | Building Features | Building Line</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Building Line</Name>
+          <Name>Building Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ead04b</CssParameter>

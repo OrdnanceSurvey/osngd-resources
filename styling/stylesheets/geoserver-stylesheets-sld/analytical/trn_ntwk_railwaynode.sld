@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Network | Railway Node</Name>
     <UserStyle>
-      <Title>Product SLD - August 2023</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Railway Node</Name>
+          <Name>Railway Node</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -25,7 +25,7 @@
                   <CssParameter name="stroke-opacity">0.9</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>5</Size>
+              <Size>4</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>

@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Water | Water Features | River Basin District Catchment</Name>
     <UserStyle>
-      <Title>Product SLD - March 2023</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>River Basin District Catchment</Name>
+          <Name>River Basin District Catchment</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#2d8fb6</CssParameter>

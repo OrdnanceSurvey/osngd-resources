@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Network | Tram On Road</Name>
     <UserStyle>
-      <Title>Product SLD - March 2024</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Tram On Road</Name>
+          <Name>Tram On Road</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f6bc89</CssParameter>

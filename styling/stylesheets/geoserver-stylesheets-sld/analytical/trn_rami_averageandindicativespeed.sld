@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | RAMI | Average And Indicative Speed</Name>
     <UserStyle>
-      <Title>Product SLD - March 2023</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Average And Indicative Speed</Name>
+          <Name>Average And Indicative Speed</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a6540d</CssParameter>

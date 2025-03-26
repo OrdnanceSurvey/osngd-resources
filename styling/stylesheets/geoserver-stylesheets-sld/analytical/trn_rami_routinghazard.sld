@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | RAMI | Routing Hazard</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Routing Hazard</Name>
+          <Name>Routing Hazard</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a6540d</CssParameter>

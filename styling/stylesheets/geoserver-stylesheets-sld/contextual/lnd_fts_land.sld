@@ -8,15 +8,15 @@
   <NamedLayer>
     <Name>OS NGD Land | Land Features | Land</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Contextual Style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Excavated Or Deposited</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Excavated Or Deposited</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Excavated Or Deposited</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -31,10 +31,10 @@
         <Rule>
           <Name>Made</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Made</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Made</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -49,10 +49,10 @@
         <Rule>
           <Name>Mineral</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Mineral</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Mineral</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -67,10 +67,10 @@
         <Rule>
           <Name>Multiple</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Multiple</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Multiple</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -85,10 +85,10 @@
         <Rule>
           <Name>Open Vegetation</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Open Vegetation</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Open Vegetation</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -103,10 +103,10 @@
         <Rule>
           <Name>Open Vegetation And Mineral</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Open Vegetation And Mineral</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Open Vegetation And Mineral</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -121,10 +121,10 @@
         <Rule>
           <Name>Trees</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Trees</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Trees</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -139,10 +139,10 @@
         <Rule>
           <Name>Under Construction</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Under Construction</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Under Construction</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -157,10 +157,10 @@
         <Rule>
           <Name>Water</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
-            <ogc:Literal>Water</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>oslandcovertiera</ogc:PropertyName>
+              <ogc:Literal>Water</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>

@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Structures | Structure Features | Structure</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Structure</Name>
+          <Name>Structure</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#edb5b5</CssParameter>

@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Water | Water Network | Water Link Set</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Water Link Set</Name>
+          <Name>Water Link Set</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#99d0e6</CssParameter>

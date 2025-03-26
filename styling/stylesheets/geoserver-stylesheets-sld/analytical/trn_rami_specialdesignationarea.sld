@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | RAMI | Special Designation Area</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Special Designation Area</Name>
+          <Name>Special Designation Area</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a6540d</CssParameter>

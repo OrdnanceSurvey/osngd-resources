@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Network | Pavement Link</Name>
     <UserStyle>
-      <Title>Product SLD - August 2023</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Pavement Link</Name>
+          <Name>Pavement Link</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f6bc89</CssParameter>

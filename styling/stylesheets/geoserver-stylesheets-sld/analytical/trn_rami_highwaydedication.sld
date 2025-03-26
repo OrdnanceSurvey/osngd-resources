@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | RAMI | Highway Dedication</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Highway Dedication</Name>
+          <Name>Highway Dedication</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a6540d</CssParameter>

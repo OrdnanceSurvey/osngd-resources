@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | RAMI | Reinstatement Area</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Reinstatement Area</Name>
+          <Name>Reinstatement Area</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#a6540d</CssParameter>

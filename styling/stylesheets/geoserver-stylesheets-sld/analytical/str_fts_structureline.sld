@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Structures | Structure Features | Structure Line</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Structure Line</Name>
+          <Name>Structure Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#edb5b5</CssParameter>

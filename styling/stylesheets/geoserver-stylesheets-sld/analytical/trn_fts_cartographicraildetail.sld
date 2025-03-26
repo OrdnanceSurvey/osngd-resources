@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Features | Cartographic Rail Detail</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Cartographic Rail Detail</Name>
+          <Name>Cartographic Rail Detail</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f19748</CssParameter>

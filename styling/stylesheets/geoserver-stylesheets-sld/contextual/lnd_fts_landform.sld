@@ -8,22 +8,22 @@
   <NamedLayer>
     <Name>OS NGD Land | Land Features | Landform</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Contextual Style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Landform</Name>
           <PolygonSymbolizer>
             <Fill>
               <GraphicFill>
-              <Graphic>
-                <Mark>
-                  <WellKnownName>shape://slash</WellKnownName>
-                  <Stroke>
-                    <CssParameter name="stroke">#999999</CssParameter>
-                  </Stroke>
-                </Mark>
-                <Size>8</Size>
-              </Graphic>
+                <Graphic>
+                  <Mark>
+                    <WellKnownName>shape://slash</WellKnownName>
+                    <Stroke>
+                      <CssParameter name="stroke">#999999</CssParameter>
+                    </Stroke>
+                  </Mark>
+                  <Size>8</Size>
+                </Graphic>
               </GraphicFill>
             </Fill>
             <Stroke>

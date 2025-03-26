@@ -8,7 +8,7 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Features | Rail</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Contextual Style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Rail</Name>

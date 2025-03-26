@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Land | Land Features | Landform Line</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Landform Line</Name>
+          <Name>Landform Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#55a973</CssParameter>

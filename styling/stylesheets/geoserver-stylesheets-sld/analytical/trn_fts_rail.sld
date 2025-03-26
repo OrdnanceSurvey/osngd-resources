@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Features | Rail</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Rail</Name>
+          <Name>Rail</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f19748</CssParameter>

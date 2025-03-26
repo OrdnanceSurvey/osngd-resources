@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Water | Water Features | Water Point</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Water Point</Name>
+          <Name>Water Point</Name>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -25,7 +25,7 @@
                   <CssParameter name="stroke-opacity">0.9</CssParameter>
                 </Stroke>
               </Mark>
-              <Size>5</Size>
+              <Size>4</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>

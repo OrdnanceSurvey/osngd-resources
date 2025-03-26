@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Water | Water Features | Inter Tidal Line</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Inter Tidal Line</Name>
+          <Name>Inter Tidal Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#2d8fb6</CssParameter>

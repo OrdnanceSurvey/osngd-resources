@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Administrative and Statistical Units | Boundaries | Boundary High Water Mark</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Boundary High Water Mark</Name>
+          <Name>Boundary High Water Mark</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#6a54b4</CssParameter>

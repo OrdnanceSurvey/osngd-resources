@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Buildings | Building Features | Building</Name>
     <UserStyle>
-      <Title>Product SLD - August 2023</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Building</Name>
+          <Name>Building</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ead04b</CssParameter>

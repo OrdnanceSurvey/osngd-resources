@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Administrative and Statistical Units | Boundaries | Historic County</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Historic County</Name>
+          <Name>Historic County</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6a54b4</CssParameter>

@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Administrative and Statistical Units | Boundaries | Lower Tier Local Authority</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Lower Tier Local Authority</Name>
+          <Name>Lower Tier Local Authority</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#6a54b4</CssParameter>

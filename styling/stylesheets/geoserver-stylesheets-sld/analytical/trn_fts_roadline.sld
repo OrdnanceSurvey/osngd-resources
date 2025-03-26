@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Features | Road Line</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Road Line</Name>
+          <Name>Road Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f19748</CssParameter>

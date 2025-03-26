@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Network | Ferry Link</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Ferry Link</Name>
+          <Name>Ferry Link</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f6bc89</CssParameter>

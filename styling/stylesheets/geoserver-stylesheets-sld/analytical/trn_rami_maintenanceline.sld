@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | RAMI | Maintenance Line</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Maintenance Line</Name>
+          <Name>Maintenance Line</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#a6540d</CssParameter>

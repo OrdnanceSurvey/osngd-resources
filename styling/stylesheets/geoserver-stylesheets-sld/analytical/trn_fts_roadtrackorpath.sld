@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Features | Road Track Or Path</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Road Track Or Path</Name>
+          <Name>Road Track Or Path</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#f19748</CssParameter>

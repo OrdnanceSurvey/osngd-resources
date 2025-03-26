@@ -1,22 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:se="http://www.opengis.net/se" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.0.0"
+    xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <se:Name>trn_ntwk_railwaylink</se:Name>
+    <Name>OS NGD Transport | Transport Network | Railway Link</Name>
     <UserStyle>
-      <se:Name>trn_ntwk_railwaylink</se:Name>
-      <se:FeatureTypeStyle>
-        <se:Rule>
-          <se:Name>Single symbol</se:Name>
-          <se:LineSymbolizer>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#f6b984</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-              <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-            </se:Stroke>
-          </se:LineSymbolizer>
-        </se:Rule>
-      </se:FeatureTypeStyle>
+      <Title>Analytical Style</Title>
+      <FeatureTypeStyle>
+        <Rule>
+          <Name>Railway Link</Name>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#f6bc89</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>

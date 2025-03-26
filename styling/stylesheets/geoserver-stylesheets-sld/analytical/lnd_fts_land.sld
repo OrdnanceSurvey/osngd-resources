@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Land | Land Features | Land</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Land</Name>
+          <Name>Land</Name>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#55a973</CssParameter>

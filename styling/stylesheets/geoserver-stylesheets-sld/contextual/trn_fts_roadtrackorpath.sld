@@ -8,15 +8,15 @@
   <NamedLayer>
     <Name>OS NGD Transport | Transport Features | Road Track Or Path</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Contextual Style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Central Reservation</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Central Reservation</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Central Reservation</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -31,10 +31,10 @@
         <Rule>
           <Name>Cycle Way</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Cycle Way</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Cycle Way</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -49,10 +49,10 @@
         <Rule>
           <Name>Escape Lane</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Escape Lane</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Escape Lane</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -67,10 +67,10 @@
         <Rule>
           <Name>Ford</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Ford</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Ford</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -85,10 +85,10 @@
         <Rule>
           <Name>Lay-by</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Lay-by</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Lay-by</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -103,10 +103,10 @@
         <Rule>
           <Name>Level Crossing</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Level Crossing</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Level Crossing</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -121,10 +121,10 @@
         <Rule>
           <Name>Path</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Path</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Path</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -139,10 +139,10 @@
         <Rule>
           <Name>Path And Steps</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Path And Steps</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Path And Steps</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -157,10 +157,10 @@
         <Rule>
           <Name>Path On Pipe</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Path On Pipe</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Path On Pipe</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -175,10 +175,10 @@
         <Rule>
           <Name>Pavement</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Pavement</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Pavement</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -193,10 +193,10 @@
         <Rule>
           <Name>Pavement And Steps</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Pavement And Steps</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Pavement And Steps</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -211,10 +211,10 @@
         <Rule>
           <Name>Pedestrian Crossing</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Pedestrian Crossing</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Pedestrian Crossing</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -229,10 +229,10 @@
         <Rule>
           <Name>Road</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Road</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Road</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -247,10 +247,10 @@
         <Rule>
           <Name>Road Turntable</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Road Turntable</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Road Turntable</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -265,10 +265,10 @@
         <Rule>
           <Name>Roofed Path</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Roofed Path</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Roofed Path</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -283,10 +283,10 @@
         <Rule>
           <Name>Roofed Track</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Roofed Track</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Roofed Track</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -301,10 +301,10 @@
         <Rule>
           <Name>Sand Drag</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Sand Drag</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Sand Drag</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -319,10 +319,10 @@
         <Rule>
           <Name>Shared Use Carriageway</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Shared Use Carriageway</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Shared Use Carriageway</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -337,10 +337,10 @@
         <Rule>
           <Name>Towing Path</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Towing Path</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Towing Path</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -355,10 +355,10 @@
         <Rule>
           <Name>Track</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Track</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Track</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -373,10 +373,10 @@
         <Rule>
           <Name>Traffic Calming</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Traffic Calming</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Traffic Calming</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -391,10 +391,10 @@
         <Rule>
           <Name>Transport Curtilage</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Transport Curtilage</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Transport Curtilage</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -409,10 +409,10 @@
         <Rule>
           <Name>Travelling Walkway</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Travelling Walkway</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Travelling Walkway</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>
@@ -427,10 +427,10 @@
         <Rule>
           <Name>Vehicle Dip</Name>
           <ogc:Filter>
-          <ogc:PropertyIsEqualTo>
-            <ogc:PropertyName>description</ogc:PropertyName>
-            <ogc:Literal>Vehicle Dip</ogc:Literal>
-          </ogc:PropertyIsEqualTo>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>description</ogc:PropertyName>
+              <ogc:Literal>Vehicle Dip</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <PolygonSymbolizer>
             <Fill>

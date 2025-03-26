@@ -8,7 +8,7 @@
   <NamedLayer>
     <Name>OS NGD Buildings | Building Features | Building Part</Name>
     <UserStyle>
-      <Title>Product SLD - November 2022</Title>
+      <Title>Contextual Style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Building Part</Name>

@@ -8,10 +8,10 @@
   <NamedLayer>
     <Name>OS NGD Structures | Structure Features | Field Boundary</Name>
     <UserStyle>
-      <Title>Product SLD - March 2024</Title>
+      <Title>Analytical Style</Title>
       <FeatureTypeStyle>
         <Rule>
-        <Name>Field Boundary</Name>
+          <Name>Field Boundary</Name>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#edb5b5</CssParameter>
