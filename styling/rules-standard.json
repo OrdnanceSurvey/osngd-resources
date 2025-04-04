@@ -1,0 +1,1284 @@
+{
+    "collections": [
+        {
+            "id": "add-gb-builtaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#dc5b6e",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-gb-historicaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#f19748",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-gb-nonaddressableobject",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#55a973",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-gb-prebuildaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-gb-streetaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#6a54b4",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-isl-builtaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#eb91a2",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-isl-historicaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#f6bc89",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-isl-nonaddressableobject",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#55a973",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-isl-prebuildaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-isl-streetaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#7b6bb7",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-boundaryhighwatermark",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#6a54b4",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-ceremonialcounty",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-country",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-pollingdistrict",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-devolvedparliamentconstituency",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-devolvedparliamentelectoralregion",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-electoraldivision",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-ward",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-westminsterconstituency",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-glaassemblyconstituency",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-lowertierlocalauthority",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-parishorcommunity",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-uppertierlocalauthority",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-historiccounty",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-historiceuropeanregion",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-region",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-bdy-regionalauthority",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#6a54b4",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#6a54b4",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "bld-fts-building",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#ead04b",
+                    "fill-opacity": 1,
+                    "fill-outline-color": "#333333",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "bld-fts-buildingline",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#333333",
+                    "line-width": 0.5,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        4,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "bld-fts-buildingpart",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#ead04b",
+                    "fill-opacity": 1,
+                    "fill-outline-color": "#333333",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 0.5
+                }
+            ]
+        },
+        {
+            "id": "bld-fts-buildingaccesslocation",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#9b7e05",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "gnm-fts-namedarea",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#857b82",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#857b82",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "gnm-fts-namedpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#857b82",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "gnm-fts-namedroadjunction",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#857b82",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "gnm-fts-crowdsourcednamepoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#857b82",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                },
+                {
+                    "circle-radius": 1.5,
+                    "circle-color": "#857b82",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#857b82",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 0.5
+                }
+            ]
+        },
+        {
+            "id": "lnd-fts-land",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#55a973",
+                    "fill-opacity": 0.5,
+                    "fill-outline-color": "#55a973",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 0.5
+                }
+            ]
+        },
+        {
+            "id": "lnd-fts-landpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#55a973",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "lnd-fts-landform",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#55a973",
+                    "fill-opacity": 1,
+                    "fill-outline-color": "#55a973",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 0.5
+                }
+            ]
+        },
+        {
+            "id": "lnd-fts-landformline",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#55a973",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "lnd-fts-landformpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#55a973",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "lus-fts-site",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#b38b6d",
+                    "fill-opacity": 1,
+                    "fill-outline-color": "#7f5a40",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "lus-fts-siteaccesslocation",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#694125",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "lus-fts-siteroutingpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#b38b6d",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "str-fts-compoundstructure",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#edb5b5",
+                    "fill-opacity": 0.4,
+                    "fill-outline-color": "#edb5b5",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "str-fts-fieldboundary",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#edb5b5",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "str-fts-structure",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#edb5b5",
+                    "fill-opacity": 1,
+                    "fill-outline-color": "#edb5b5",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "str-fts-structureline",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#edb5b5",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "str-fts-structurepoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#edb5b5",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-fts-cartographicraildetail",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#bd6c25",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-fts-rail",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#f19748",
+                    "fill-opacity": 0.8,
+                    "fill-outline-color": "#f19748",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-fts-roadline",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a15e23",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-fts-roadtrackorpath",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#f19748",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#f19748",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-fts-streetlight",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#f19748",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-connectinglink",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6943e",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-connectingnode",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#f6bc89",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#f6bc89",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-ferrylink",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#d17729",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        4,
+                        4
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-ferrynode",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#d17729",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-ferryterminal",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#d17729",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#d17729",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-path",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6943e",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        4,
+                        4
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-pathlink",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6943e",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        4,
+                        4
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-pathnode",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#f6943e",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-pavementlink",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-railwaylink",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-railwaylinkset",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-railwaynode",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#f6bc89",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-road",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-roadjunction",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#f6bc89",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-roadlink",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-roadnode",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#f6bc89",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-street",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-tramonroad",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-averageandindicativespeed",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a6540d",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        2,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-highwaydedication",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a6540d",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        2,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-maintenancearea",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#a6540d",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#a6540d",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-maintenanceline",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a6540d",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        2,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-maintenancepoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#a6540d",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-reinstatementarea",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#a6540d",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#a6540d",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-reinstatementline",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a6540d",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        2,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-reinstatementpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#a6540d",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-restriction",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a6540d",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        2,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-routinghazard",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a6540d",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        2,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-routingstructure",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a6540d",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        2,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-specialdesignationarea",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#a6540d",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#a6540d",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-specialdesignationline",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a6540d",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-dasharray": [
+                        2,
+                        2
+                    ],
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "trn-rami-specialdesignationpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#a6540d",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#ffffff",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "wtr-fts-intertidalline",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#2d8fb6",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "wtr-fts-riverbasindistrictcatchment",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#2d8fb6",
+                    "fill-opacity": 0.4,
+                    "fill-outline-color": "#2d8fb6",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "wtr-fts-tidalboundary",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#2d8fb6",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "wtr-fts-water",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#2d8fb6",
+                    "fill-opacity": 0.6,
+                    "fill-outline-color": "#2d8fb6",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "wtr-fts-waterbodycatchment",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#2d8fb6",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#2d8fb6",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "wtr-fts-waterpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "wtr-ntwk-waterlink",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#99d0e6",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "wtr-ntwk-waternode",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#99d0e6",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "wtr-ntwk-waterlinkset",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#99d0e6",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        }
+    ]
+}
