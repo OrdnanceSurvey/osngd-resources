@@ -28,8 +28,17 @@ CREATE TABLE wtr_ntwk_waterlink (
 	catchmentid nvarchar(20),
 	width numeric(7,2),
 	gradient numeric(5,2),
-	startnode uniqueidentifier not null,
-	endnode uniqueidentifier not null,
+/*
+ *	There is currently a known issue affecting the `startnode` and `endnode`
+ *	attributes where missing data is supplied as the text string 'MissingXRef'.
+ *	This means that the attributes must be set to `nvarchar` (not `uniqueidentifier`).
+ *	For details see Current Known Data Issues page for the latest update:
+ *	https://docs.os.uk/osngd/using-os-ngd-data/current-known-data-issues
+*/
+	-- startnode uniqueidentifier not null,
+	-- endnode uniqueidentifier not null,
+	startnode nvarchar(36) not null,
+	endnode nvarchar(36) not null,
 	nameid uniqueidentifier,
 	name1_text nvarchar(254),
 	name1_language nvarchar(3),
