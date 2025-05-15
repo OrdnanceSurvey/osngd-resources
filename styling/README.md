@@ -1,9 +1,6 @@
 ## Resources for styling OS Select+Build and OS NGD API - Features ##
 
-The 'stylesheets' folder above contains cartographic and analytical styling resources for OS Select+ Built, and the OS NGD API - Features. 
-
-
-
+The 'stylesheets' folder above contains cartographic and analytical styling resources for OS Select+Build, and the OS NGD API - Features. 
 
 ## Resources for styling OS NGD API - Tiles ##
 
