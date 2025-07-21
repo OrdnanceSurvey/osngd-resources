@@ -17,7 +17,7 @@ CREATE TABLE bld_fts_buildingpart (
 	description_evidencedate date,
 	description_updatedate date not null,
 	description_capturemethod nvarchar(25) not null,
-	oslandcovertiera nvarchar(15) not null,
+	oslandcovertiera nvarchar(20) not null,
 	oslandcovertierb nvarchar(20) not null,
 	oslandcover_evidencedate date,
 	oslandcover_updatedate date not null,
