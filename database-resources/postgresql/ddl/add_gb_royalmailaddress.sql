@@ -6,7 +6,7 @@ CREATE TABLE add_gb_royalmailaddress (
 	versionavailabletodate timestamp,
 	changetype varchar(50) not null,
 	theme varchar(40) not null,
-	description varchar(25) not null,
+	description varchar(50) not null,
 	organisationname varchar(60),
 	departmentname varchar(60),
 	subbuildingname varchar(30),

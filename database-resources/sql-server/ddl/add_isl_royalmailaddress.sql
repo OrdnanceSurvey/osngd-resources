@@ -6,7 +6,7 @@ CREATE TABLE add_isl_royalmailaddress (
 	versionavailabletodate datetime,
 	changetype nvarchar(50) not null,
 	theme nvarchar(40) not null,
-	description nvarchar(25) not null,
+	description nvarchar(50) not null,
 	organisationname nvarchar(60),
 	departmentname nvarchar(60),
 	subbuildingname nvarchar(30),
