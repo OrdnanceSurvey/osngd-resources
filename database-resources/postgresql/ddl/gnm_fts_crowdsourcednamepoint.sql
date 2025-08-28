@@ -15,7 +15,7 @@ CREATE TABLE gnm_fts_crowdsourcednamepoint (
 	hassimilarosname boolean not null,
 	matchtype varchar(60) not null,
 	sourceclassification varchar(200) not null,
-	matchedosid varchar(36),
+	matchedosid uuid,
 	matchedosid_theme varchar(20),
 	matchedosid_featuretype varchar(20),
 	matcheduprn bigint,

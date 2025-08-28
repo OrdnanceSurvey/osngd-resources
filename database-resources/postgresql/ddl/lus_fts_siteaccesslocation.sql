@@ -16,9 +16,9 @@ CREATE TABLE lus_fts_siteaccesslocation (
 	access_purpose varchar(30),
 	access_evidencedate date,
 	access_updatedate date not null,
-	accessedsiteid varchar(36) not null,
+	accessedsiteid uuid not null,
 	accessednetworknodefeaturetype varchar(20),
-	accessednetworknodeid varchar(36),
+	accessednetworknodeid uuid,
 	distancetonetworknode_m numeric(5,1),
 	PRIMARY KEY (osid)
 );
