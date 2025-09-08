@@ -103,7 +103,7 @@ CREATE TABLE add_gb_builtaddress_otrclass (
 	classificationcode nvarchar(6) not null,
 	classificationdescription nvarchar(230),
 	classificationscheme nvarchar(60),
-	schemeversion nvarchar(60),
+	schemeversion numeric(2,1),
 	updatedate date not null,
 	PRIMARY KEY (otherclassificationid,featuretypeversiondate)
 );

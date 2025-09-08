@@ -103,7 +103,7 @@ CREATE TABLE add_gb_prebuildaddress_otrclass (
 	classificationcode varchar(6) not null,
 	classificationdescription varchar(230),
 	classificationscheme varchar(60),
-	schemeversion varchar(60),
+	schemeversion numeric(2,1),
 	updatedate date not null,
 	PRIMARY KEY (otherclassificationid,featuretypeversiondate)
 );
