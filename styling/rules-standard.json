@@ -57,6 +57,20 @@
             ]
         },
         {
+            "id": "add-gb-royalmailaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
             "id": "add-gb-streetaddress",
             "type": "circle",
             "style": [
@@ -114,6 +128,20 @@
         },
         {
             "id": "add-isl-prebuildaddress",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "add-isl-royalmailaddress",
             "type": "circle",
             "style": [
                 {
@@ -715,6 +743,18 @@
             ]
         },
         {
+            "id": "trn-ntwk-buslane",
+            "type": "line",
+            "style": [
+               {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
             "id": "trn-ntwk-connectinglink",
             "type": "line",
             "style": [
@@ -737,6 +777,18 @@
                     "circle-stroke-color": "#f6bc89",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "trn-ntwk-cyclelane",
+            "type": "line",
+            "style": [
+               {
+                    "line-color": "#f6bc89",
+                    "line-width": 2,
+                    "line-cap": "butt",
+                    "line-opacity": 1
                 }
             ]
         },
@@ -1203,6 +1255,30 @@
             ]
         },
         {
+            "id": "wtr-fts-tidalboundarycontinuoushigh",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a4daeb",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
+            "id": "wtr-fts-tidalboundarycontinuouslow",
+            "type": "line",
+            "style": [
+                {
+                    "line-color": "#a4daeb",
+                    "line-width": 1,
+                    "line-cap": "butt",
+                    "line-opacity": 1
+                }
+            ]
+        },
+        {
             "id": "wtr-fts-water",
             "type": "fill",
             "style": [
@@ -1280,5 +1356,109 @@
                 }
             ]
         }
-    ]
+    ],
+    "metadata": {
+        "structured-names": {
+            "add-gb-builtaddress": "OS NGD Address | GB Address | Built Address",
+            "add-gb-historicaddress": "OS NGD Address | GB Address | Historic Address",
+            "add-gb-nonaddressableobject": "OS NGD Address | GB Address | Non Addressable Object",
+            "add-gb-prebuildaddress": "OS NGD Address | GB Address | Pre-Build Address",
+            "add-gb-royalmailaddress": "OS NGD Address | GB Address | Royal Mail Address",
+            "add-gb-streetaddress": "OS NGD Address | GB Address | Street Address",
+            "add-isl-builtaddress": "OS NGD Address | Islands Address | Built Address",
+            "add-isl-historicaddress": "OS NGD Address | Islands Address | Historic Address",
+            "add-isl-nonaddressableobject": "OS NGD Address | Islands Address | Non Addressable Object",
+            "add-isl-prebuildaddress": "OS NGD Address | Islands Address | Pre-Build Address",
+            "add-isl-royalmailaddress": "OS NGD Address | Islands Address | Royal Mail Address",
+            "add-isl-streetaddress": "OS NGD Address | Islands Address | Street Address",
+            "asu-bdy-boundaryhighwatermark": "OS NGD Administrative and Statistical Units | Boundaries | Boundary High Water Mark",
+            "asu-bdy-ceremonialcounty": "OS NGD Administrative and Statistical Units | Boundaries | Ceremonial County",
+            "asu-bdy-country": "OS NGD Administrative and Statistical Units | Boundaries | Country",
+            "asu-bdy-pollingdistrict": "OS NGD Administrative and Statistical Units | Boundaries | Polling District",
+            "asu-bdy-devolvedparliamentconstituency": "OS NGD Administrative and Statistical Units | Boundaries | Devolved Parliament Constituency",
+            "asu-bdy-devolvedparliamentelectoralregion": "OS NGD Administrative and Statistical Units | Boundaries | Devolved Parliament Electoral Region",
+            "asu-bdy-electoraldivision": "OS NGD Administrative and Statistical Units | Boundaries | Electoral Division",
+            "asu-bdy-ward": "OS NGD Administrative and Statistical Units | Boundaries | Ward",
+            "asu-bdy-westminsterconstituency": "OS NGD Administrative and Statistical Units | Boundaries | Westminster Constituency",
+            "asu-bdy-glaassemblyconstituency": "OS NGD Administrative and Statistical Units | Boundaries | GLA Assembly Constituency",
+            "asu-bdy-lowertierlocalauthority": "OS NGD Administrative and Statistical Units | Boundaries | Lower Tier Local Authority",
+            "asu-bdy-parishorcommunity": "OS NGD Administrative and Statistical Units | Boundaries | Parish Or Community",
+            "asu-bdy-uppertierlocalauthority": "OS NGD Administrative and Statistical Units | Boundaries | Upper Tier Local Authority",
+            "asu-bdy-historiccounty": "OS NGD Administrative and Statistical Units | Boundaries | Historic County",
+            "asu-bdy-historiceuropeanregion": "OS NGD Administrative and Statistical Units | Boundaries | Historic European Region",
+            "asu-bdy-region": "OS NGD Administrative and Statistical Units | Boundaries | Region",
+            "asu-bdy-regionalauthority": "OS NGD Administrative and Statistical Units | Boundaries | Regional Authority",
+            "bld-fts-building": "OS NGD Buildings | Building Features | Building",
+            "bld-fts-buildingline": "OS NGD Buildings | Building Features | Building Line",
+            "bld-fts-buildingpart": "OS NGD Buildings | Building Features | Building Part",
+            "bld-fts-buildingaccesslocation": "OS NGD Buildings | Building Features | Building Access Location",
+            "gnm-fts-namedarea": "OS NGD Geographical Names | Named Features | Named Area",
+            "gnm-fts-namedpoint": "OS NGD Geographical Names | Named Features | Named Point",
+            "gnm-fts-namedroadjunction": "OS NGD Geographical Names | Named Features | Named Road Junction",
+            "gnm-fts-crowdsourcednamepoint": "OS NGD Geographical Names | Named Features | Crowd Sourced Name Point",
+            "lnd-fts-land": "OS NGD Land | Land Features | Land",
+            "lnd-fts-landpoint": "OS NGD Land | Land Features | Land Point",
+            "lnd-fts-landform": "OS NGD Land | Land Features | Landform",
+            "lnd-fts-landformline": "OS NGD Land | Land Features | Landform Line",
+            "lnd-fts-landformpoint": "OS NGD Land | Land Features | Landform Point",
+            "lus-fts-site": "OS NGD Land Use | Land Use Features | Site",
+            "lus-fts-siteaccesslocation": "OS NGD Land Use | Land Use Features | Site Access Location",
+            "lus-fts-siteroutingpoint": "OS NGD Land Use | Land Use Features | Site Routing Point",
+            "str-fts-compoundstructure": "OS NGD Structures | Structure Features | Compound Structure",
+            "str-fts-fieldboundary": "OS NGD Structures | Structure Features | Field Boundary",
+            "str-fts-structure": "OS NGD Structures | Structure Features | Structure",
+            "str-fts-structureline": "OS NGD Structures | Structure Features | Structure Line",
+            "str-fts-structurepoint": "OS NGD Structures | Structure Features | Structure Point",
+            "trn-rami-averageandindicativespeed": "OS NGD Transport | RAMI | Average And Indicative Speed",
+            "trn-rami-highwaydedication": "OS NGD Transport | RAMI | Highway Dedication",
+            "trn-rami-restriction": "OS NGD Transport | RAMI | Restriction",
+            "trn-rami-routinghazard": "OS NGD Transport | RAMI | Routing Hazard",
+            "trn-rami-routingstructure": "OS NGD Transport | RAMI | RoutingStructure",
+            "trn-rami-maintenancearea": "OS NGD Transport | RAMI | Maintenance Area",
+            "trn-rami-maintenanceline": "OS NGD Transport | RAMI | Maintenance Line",
+            "trn-rami-maintenancepoint": "OS NGD Transport | RAMI | Maintenance Point",
+            "trn-rami-reinstatementarea": "OS NGD Transport | RAMI | Reinstatement Area",
+            "trn-rami-reinstatementline": "OS NGD Transport | RAMI | Reinstatement Line",
+            "trn-rami-reinstatementpoint": "OS NGD Transport | RAMI | Reinstatement Point",
+            "trn-rami-specialdesignationarea": "OS NGD Transport | RAMI | Special Designation Area",
+            "trn-rami-specialdesignationline": "OS NGD Transport | RAMI | Special Designation Line",
+            "trn-rami-specialdesignationpoint": "OS NGD Transport | RAMI | Special Designation Point",
+            "trn-fts-cartographicraildetail": "OS NGD Transport | Transport Features | Cartographic Rail Detail",
+            "trn-fts-rail": "OS NGD Transport | Transport Features | Rail",
+            "trn-fts-roadline": "OS NGD Transport | Transport Features | Road Line",
+            "trn-fts-roadtrackorpath": "OS NGD Transport | Transport Features | Road Track Or Path",
+            "trn-fts-streetlight": "OS NGD Transport | Transport Features | Street Light",
+            "trn-ntwk-buslane": "OS NGD Transport | Transport Network | Bus Lane",
+            "trn-ntwk-connectinglink": "OS NGD Transport | Transport Network | Connecting Link",
+            "trn-ntwk-connectingnode": "OS NGD Transport | Transport Network | Connecting Node",
+            "trn-ntwk-cyclelane": "OS NGD Transport | Transport Network | Cycle Lane",
+            "trn-ntwk-ferrylink": "OS NGD Transport | Transport Network | Ferry Link",
+            "trn-ntwk-ferrynode": "OS NGD Transport | Transport Network | Ferry Node",
+            "trn-ntwk-ferryterminal": "OS NGD Transport | Transport Network | Ferry Terminal",
+            "trn-ntwk-path": "OS NGD Transport | Transport Network | Path",
+            "trn-ntwk-pathlink": "OS NGD Transport | Transport Network | Path Link",
+            "trn-ntwk-pathnode": "OS NGD Transport | Transport Network | Path Node",
+            "trn-ntwk-pavementlink": "OS NGD Transport | Transport Network | Pavement Link",
+            "trn-ntwk-railwaylink": "OS NGD Transport | Transport Network | Railway Link",
+            "trn-ntwk-railwaylinkset": "OS NGD Transport | Transport Network | Railway Link Set",
+            "trn-ntwk-railwaynode": "OS NGD Transport | Transport Network | Railway Node",
+            "trn-ntwk-road": "OS NGD Transport | Transport Network | Road",
+            "trn-ntwk-roadjunction": "OS NGD Transport | Transport Network | Road Junction",
+            "trn-ntwk-roadlink": "OS NGD Transport | Transport Network | Road Link",
+            "trn-ntwk-roadnode": "OS NGD Transport | Transport Network | Road Node",
+            "trn-ntwk-street": "OS NGD Transport | Transport Network | Street",
+            "trn-ntwk-tramonroad": "OS NGD Transport | Transport Network | Tram On Road",
+            "wtr-fts-intertidalline": "OS NGD Water | Water Features | Inter Tidal Line",
+            "wtr-fts-riverbasindistrictcatchment": "OS NGD Water | Water Features | River Basin District Catchment",
+            "wtr-fts-tidalboundary": "OS NGD Water | Water Features | Tidal Boundary",
+            "wtr-fts-tidalboundarycontinuoushigh": "OS NGD Water | Water Features | Tidal Boundary Continuous High",
+            "wtr-fts-tidalboundarycontinuouslow": "OS NGD Water | Water Features | Tidal Boundary Continuous Low",
+            "wtr-fts-water": "OS NGD Water | Water Features | Water",
+            "wtr-fts-waterbodycatchment": "OS NGD Water | Water Features | Waterbody Catchment",
+            "wtr-fts-waterpoint": "OS NGD Water | Water Features | Water Point",
+            "wtr-ntwk-waterlink": "OS NGD Water | Water Network | Water Link",
+            "wtr-ntwk-waternode": "OS NGD Water | Water Network | Water Node",
+            "wtr-ntwk-waterlinkset": "OS NGD Water | Water Network | Water Link Set"
+        }
+    }
 }

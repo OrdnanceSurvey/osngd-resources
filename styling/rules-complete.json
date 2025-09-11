@@ -1,44 +1,33 @@
 {
     "style-options": {
-        "analytical": {
-            "fill": {
-                "fill-color": "{color-options[default:string]}",
-                "fill-opacity": 0.3,
-                "fill-outline-color": "{fill-color}",
-                "fill-outline-opacity": 1.0,
-                "fill-outline-width": 1
-            },
-            "line": {
-                "line-color": "{color-options[default:string]}",
-                "line-width": 1,
-                "line-cap": "butt",
-                "line-dasharray": [ 2, 2 ],
-                "line-opacity": 1.0
-            },
-            "circle": {
-                "circle-radius": 4,
-                "circle-color": "{color-options[default:string]}",
-                "circle-opacity": 1.0,
-                "circle-stroke-color": "#ffffff",
-                "circle-stroke-opacity": 0.9,
-                "circle-stroke-width": 1
-            },
-            "symbol": {
-                "icon-image": "marker.svg",
-                "icon-anchor": [ 0, 0 ],
-                "icon-size": [ 24, 24 ],
-                "icon-rotate": 0,
-                "icon-opacity": 1.0
-            }
+        "fill": {
+            "fill-color": "{color-options[default:string]}",
+            "fill-opacity": 0.3,
+            "fill-outline-color": "{fill-color}",
+            "fill-outline-opacity": 1.0,
+            "fill-outline-width": 1
         },
-        "contextual": {
-            "fill": {
-                "fill-color": "{color-options[default:string]}",
-                "fill-opacity": 1.0,
-                "fill-outline-color": "#cccccc",
-                "fill-outline-opacity": 1.0,
-                "fill-outline-width": 1
-            }
+        "line": {
+            "line-color": "{color-options[default:string]}",
+            "line-width": 1,
+            "line-cap": "butt",
+            "line-dasharray": [ 2, 2 ],
+            "line-opacity": 1.0
+        },
+        "circle": {
+            "circle-radius": 4,
+            "circle-color": "{color-options[default:string]}",
+            "circle-opacity": 1.0,
+            "circle-stroke-color": "#ffffff",
+            "circle-stroke-opacity": 0.9,
+            "circle-stroke-width": 1
+        },
+        "symbol": {
+            "icon-image": "marker.svg",
+            "icon-anchor": [ 0, 0 ],
+            "icon-size": [ 24, 24 ],
+            "icon-rotate": 0,
+            "icon-opacity": 1.0
         }
     },
     "color-options": {
@@ -61,19 +50,19 @@
                 "add-gb-historicaddress": "circle",
                 "add-gb-nonaddressableobject": "circle",
                 "add-gb-prebuildaddress": "circle",
+                "add-gb-royalmailaddress": "circle",
                 "add-gb-streetaddress": "circle",
                 "add-isl-builtaddress": "circle",
                 "add-isl-historicaddress": "circle",
                 "add-isl-nonaddressableobject": "circle",
                 "add-isl-prebuildaddress": "circle",
+                "add-isl-royalmailaddress": "circle",
                 "add-isl-streetaddress": "circle"
             },
             "default-color": "#dc5b6e",
-            "analytical-colors": {
-                "collections": {
-                    "gb": "#dc5b6e",
-                    "isl": "#eb91a2"
-                }
+            "collection-colors": {
+                "gb": "#dc5b6e",
+                "isl": "#eb91a2"
             }
         },
         "asu": {
@@ -98,10 +87,8 @@
                 "asu-bdy-regionalauthority": "fill"
             },
             "default-color": "#6a54b4",
-            "analytical-colors": {
-                "collections": {
-                    "bdy": "#6a54b4"
-                }
+            "collection-colors": {
+                "bdy": "#6a54b4"
             }
         },
         "bld": {
@@ -113,13 +100,8 @@
                 "bld-fts-buildingaccesslocation": "circle"
             },
             "default-color": "#ead04b",
-            "analytical-colors": {
-                "collections": {
-                    "fts": "#ead04b"
-                }
-            },
-            "contextual-colors": {
-                "bld-fts-buildingpart": "#dcd7c6"
+            "collection-colors": {
+                "fts": "#ead04b"
             }
         },
         "gnm": {
@@ -131,10 +113,8 @@
                 "gnm-fts-crowdsourcednamepoint": "circle"
             },
             "default-color": "#857b82",
-            "analytical-colors": {
-                "collections": {
-                    "fts": "#857b82"
-                }
+            "collection-colors": {
+                "fts": "#857b82"
             }
         },
         "lnd": {
@@ -147,28 +127,8 @@
                 "lnd-fts-landformpoint": "circle"
             },
             "default-color": "#55a973",
-            "analytical-colors": {
-                "collections": {
-                    "fts": "#55a973"
-                }
-            },
-            "contextual-colors": {
-                "lnd-fts-land": [
-                    "oslandcovertiera",
-                    {
-                        "Excavated Or Deposited": "#eaeae4",
-                        "Made": "#f2f2e9",
-                        "Mineral": "#eaead3",
-                        "Multiple": "#eeefda",
-                        "Open Vegetation": "#e4efda",
-                        "Open Vegetation And Mineral": "#e4efda",
-                        "Trees": "#cee6bd",
-                        "Under Construction": "#f8f6f0",
-                        "Water": "#aadeef"
-                    },
-                    "#000000"
-                ],
-                "lnd-fts-landform": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAArwAAAK8AFCrDSYAAAAB3RJTUUH5gMEDzAgK3/uvgAAAtpJREFUeNrt2bENACAMA0H23yDTmg2cHq6g4ipLiOJPkrOdmQnH/eiMwnHFGYXjijMKxxVnFI4rzigcV5xROK44o3BcuTcKx7UHYhSOW34Qo3Ccks5xSjrHKekcp6RznJLOcUo6xynpHKekc5ySbjyOU9I5TknnOCWd45R0jlPSOU5J5zglneOUdI5T0o3HKelG4TglneOUdI5T0jlOSec4JZ3jlHSOU9I5TknnOCXdeBynpHOcks5xSjrHKekcp6RznJLOcUo6xynpHKekG49T0o3CcUo6xynpHKekc5ySznFKOscp6RynpHOcks5xSrrxOE5J5zglneOUdI5T0jlOSec4JZ3jlHSOU9I5TknnOCXdKBynpHOcks5xSjrHKekcp6RznJLOcUo6xynpHKekG49T0o3CcUo6xynpHKekc5ySznFKOscp6RynpHOcks5xSrpROE5J5zglneOUdI5T0jlOSec4JZ3jlHSOU9I5Tkk3HqekG4XjlHSOU9I5TknnOCWd45R0jlPSOU5J5zglneOUdONxnJLOcUo6xynpHKekc5ySznFKOscp6RynpHOckm48Tkk3Cscp6RynpHOcks5xSjrHKekcp6RznJLOcUo6xynpxuM4JZ3jlHSOU9I5TknnOCWd45R0jlPSOU5J5zgl3Xickm4UjlPSOU5J5zglneOUdI5T0jlOSec4JZ3jlHSOU9KNx3FKOscp6RynpHOcks5xSjrHKekcp6RznJLOcUo6xynpRuE4JZ3jlHSOU9I5TknnOCWd45R0jlPSOU5J5zgl3Xickm4UjlPSOU5J5zglneOUdI5T0jlOSec4JZ3jlHSOU9KNwnFKOscp6RynpHOcks5xSjrHKekcp6RznJLOcUq68Tgl3Sgcp6RznJLOcUo6xynpHKekc5ySznFKOscp6RynpBuP45R0jlPSOU5J5zglneOUdI5T0jlOSec4JZ3jHncXLOvpgoZEV/4AAAAASUVORK5CYII="
+            "collection-colors": {
+                "fts": "#55a973"
             }
         },
         "lus": {
@@ -179,10 +139,8 @@
                 "lus-fts-siteroutingpoint": "circle"
             },
             "default-color": "#b38b6d",
-            "analytical-colors": {
-                "collections": {
-                    "fts": "#b38b6d"
-                }
+            "collection-colors": {
+                "fts": "#b38b6d"
             }
         },
         "str": {
@@ -195,13 +153,8 @@
                 "str-fts-structurepoint": "circle"
             },
             "default-color": "#edb5b5",
-            "analytical-colors": {
-                "collections": {
-                    "fts": "#edb5b5"
-                }
-            },
-            "contextual-colors": {
-                "str-fts-structure": "#e7c9c8"
+            "collection-colors": {
+                "fts": "#edb5b5"
             }
         },
         "trn": {
@@ -212,8 +165,10 @@
                 "trn-fts-roadline": "line",
                 "trn-fts-roadtrackorpath": "fill",
                 "trn-fts-streetlight": "circle",
+                "trn-ntwk-buslane": "line",
                 "trn-ntwk-connectinglink": "line",
                 "trn-ntwk-connectingnode": "circle",
+                "trn-ntwk-cyclelane": "line",
                 "trn-ntwk-ferrylink": "line",
                 "trn-ntwk-ferrynode": "circle",
                 "trn-ntwk-ferryterminal": "circle",
@@ -246,45 +201,10 @@
                 "trn-rami-specialdesignationpoint": "circle"
             },
             "default-color": "#f19748",
-            "analytical-colors": {
-                "collections": {
-                    "fts": "#f19748",
-                    "ntwk": "#f6bc89",
-                    "rami": "#a6540d"
-                }
-            },
-            "contextual-colors": {
-                "trn-fts-rail": "#cccbcb",
-                "trn-fts-roadtrackorpath": [
-                    "description",
-                    {
-                        "Central Reservation": "#cccbcb",
-                        "Cycle Way": "#fcfdff",
-                        "Escape Lane": "#fcfdff",
-                        "Ford": "#fcfdff",
-                        "Lay-by": "#fcfdff",
-                        "Level Crossing": "#fcfdff",
-                        "Path": "#dcdcdb",
-                        "Path And Steps": "#dcdcdb",
-                        "Path On Pipe": "#dcdcdb",
-                        "Pavement": "#cccbcb",
-                        "Pavement And Steps": "#cccbcb",
-                        "Pedestrian Crossing": "#fcfdff",
-                        "Road": "#fcfdff",
-                        "Road Turntable": "#fcfdff",
-                        "Roofed Path": "#dcdcdb",
-                        "Roofed Track": "#dcdcdb",
-                        "Sand Drag": "#f4f0d3",
-                        "Shared Use Carriageway": "#fcfdff",
-                        "Towing Path": "#fcfdff",
-                        "Track": "#dcdcdb",
-                        "Traffic Calming": "#fcfdff",
-                        "Transport Curtilage": "#cccbcb",
-                        "Travelling Walkway": "#dcdcdb",
-                        "Vehicle Dip": "#fcfdff"
-                    },
-                    "#000000"
-                ]
+            "collection-colors": {
+                "fts": "#f19748",
+                "ntwk": "#f6bc89",
+                "rami": "#a6540d"
             }
         },
         "wtr": {
@@ -293,6 +213,8 @@
                 "wtr-fts-intertidalline": "line",
                 "wtr-fts-riverbasindistrictcatchment": "fill",
                 "wtr-fts-tidalboundary": "line",
+                "wtr-fts-tidalboundarycontinuoushigh": "line",
+                "wtr-fts-tidalboundarycontinuouslow": "line",
                 "wtr-fts-water": "fill",
                 "wtr-fts-waterbodycatchment": "fill",
                 "wtr-fts-waterpoint": "circle",
@@ -301,14 +223,9 @@
                 "wtr-ntwk-waterlinkset": "line"
             },
             "default-color": "#2d8fb6",
-            "analytical-colors": {
-                "collections": {
-                    "fts": "#2d8fb6",
-                    "ntwk": "#99d0e6"
-                }
-            },
-            "contextual-colors": {
-                "wtr-fts-water": "#aadeef"
+            "collection-colors": {
+                "fts": "#2d8fb6",
+                "ntwk": "#99d0e6"
             }
         }
     },
@@ -318,11 +235,13 @@
             "add-gb-historicaddress": "OS NGD Address | GB Address | Historic Address",
             "add-gb-nonaddressableobject": "OS NGD Address | GB Address | Non Addressable Object",
             "add-gb-prebuildaddress": "OS NGD Address | GB Address | Pre-Build Address",
+            "add-gb-royalmailaddress": "OS NGD Address | GB Address | Royal Mail Address",
             "add-gb-streetaddress": "OS NGD Address | GB Address | Street Address",
             "add-isl-builtaddress": "OS NGD Address | Islands Address | Built Address",
             "add-isl-historicaddress": "OS NGD Address | Islands Address | Historic Address",
             "add-isl-nonaddressableobject": "OS NGD Address | Islands Address | Non Addressable Object",
             "add-isl-prebuildaddress": "OS NGD Address | Islands Address | Pre-Build Address",
+            "add-isl-royalmailaddress": "OS NGD Address | Islands Address | Royal Mail Address",
             "add-isl-streetaddress": "OS NGD Address | Islands Address | Street Address",
             "asu-bdy-boundaryhighwatermark": "OS NGD Administrative and Statistical Units | Boundaries | Boundary High Water Mark",
             "asu-bdy-ceremonialcounty": "OS NGD Administrative and Statistical Units | Boundaries | Ceremonial County",
@@ -381,8 +300,10 @@
             "trn-fts-roadline": "OS NGD Transport | Transport Features | Road Line",
             "trn-fts-roadtrackorpath": "OS NGD Transport | Transport Features | Road Track Or Path",
             "trn-fts-streetlight": "OS NGD Transport | Transport Features | Street Light",
+            "trn-ntwk-buslane": "OS NGD Transport | Transport Network | Bus Lane",
             "trn-ntwk-connectinglink": "OS NGD Transport | Transport Network | Connecting Link",
             "trn-ntwk-connectingnode": "OS NGD Transport | Transport Network | Connecting Node",
+            "trn-ntwk-cyclelane": "OS NGD Transport | Transport Network | Cycle Lane",
             "trn-ntwk-ferrylink": "OS NGD Transport | Transport Network | Ferry Link",
             "trn-ntwk-ferrynode": "OS NGD Transport | Transport Network | Ferry Node",
             "trn-ntwk-ferryterminal": "OS NGD Transport | Transport Network | Ferry Terminal",
@@ -402,6 +323,8 @@
             "wtr-fts-intertidalline": "OS NGD Water | Water Features | Inter Tidal Line",
             "wtr-fts-riverbasindistrictcatchment": "OS NGD Water | Water Features | River Basin District Catchment",
             "wtr-fts-tidalboundary": "OS NGD Water | Water Features | Tidal Boundary",
+            "wtr-fts-tidalboundarycontinuoushigh": "OS NGD Water | Water Features | Tidal Boundary Continuous High",
+            "wtr-fts-tidalboundarycontinuouslow": "OS NGD Water | Water Features | Tidal Boundary Continuous Low",
             "wtr-fts-water": "OS NGD Water | Water Features | Water",
             "wtr-fts-waterbodycatchment": "OS NGD Water | Water Features | Waterbody Catchment",
             "wtr-fts-waterpoint": "OS NGD Water | Water Features | Water Point",

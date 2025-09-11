@@ -1,6 +1,10 @@
 ## Resources for styling OS Select+Build and OS NGD API - Features ##
 
-The 'stylesheets' folder above contains cartographic and analytical styling resources for OS Select+Build, and the OS NGD API - Features. 
+Cartographic styles are available in Outdoor, Road, Light, and Black & White. These can be applied to OS NGD data to give it a cartographic appearance and are available for download [here](https://github.com/OrdnanceSurvey/OS-NGD-Stylesheets).
+
+The following [page](https://labs.os.uk/public/osngd/styling/theme-colors.html) illustrates the "analytical" colours for each theme (then hues of the colour at collection level).
+
+The styling rules in a machine readable (JSON) format can be found in `rules-complete.json`. If preferred, an alternate set (as seen in the documentation images) can be accessed via `rules-standard.json`.
 
 ## Resources for styling OS NGD API - Tiles ##
 
