@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 3.0 */
+/* This DDL is based on data schema version 3.2 */
 CREATE TABLE lnd_fts_land (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),
@@ -33,7 +33,7 @@ CREATE TABLE lnd_fts_land (
 	isobscured BIT not null,
 	physicallevel nvarchar(15) not null,
 	capturespecification nvarchar(10) not null,
-	containingsitecount integer not null,
+	containingsitecount integer,
 	smallestsite_siteid uniqueidentifier,
 	smallestsite_landusetiera nvarchar(50),
 	smallestsite_landusetierb nvarchar(200),
@@ -46,7 +46,7 @@ CREATE TABLE lnd_fts_land (
 	address_primarydescription nvarchar(120),
 	address_secondarydescription nvarchar(120),
 	lowertierlocalauthority_gsscode nvarchar(10),
-	lowertierlocalauthority_count integer not null,
+	lowertierlocalauthority_count integer,
 	status nvarchar(20),
 	status_updatedate date,
 	PRIMARY KEY (osid)
