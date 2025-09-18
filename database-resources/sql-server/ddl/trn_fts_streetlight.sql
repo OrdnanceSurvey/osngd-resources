@@ -11,7 +11,7 @@ CREATE TABLE trn_fts_streetlight (
 	geometry_capturemethod nvarchar(25) not null,
 	theme nvarchar(40) not null,
 	description nvarchar(13) not null,
-	linkid nvarchar(36),
+	linkid uniqueidentifier,
 	linkid_featuretype nvarchar(10),
 	linkid_confidence nvarchar(25) not null,
 	linkid_evidencedate date not null,

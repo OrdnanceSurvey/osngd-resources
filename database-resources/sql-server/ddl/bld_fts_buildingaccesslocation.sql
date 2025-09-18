@@ -17,6 +17,6 @@ CREATE TABLE bld_fts_buildingaccesslocation (
 	access_level nvarchar(20) not null,
 	access_evidencedate date not null,
 	access_updatedate date not null,
-	accessedbuildingid nvarchar(36),
+	accessedbuildingid uniqueidentifier,
 	PRIMARY KEY (osid)
 );

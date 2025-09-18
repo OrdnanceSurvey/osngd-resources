@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 2.0 */
+/* This DDL is based on data schema version 3.0 */
 CREATE TABLE trn_ntwk_pathlink (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),
@@ -19,8 +19,6 @@ CREATE TABLE trn_ntwk_pathlink (
 	alternatename2_text nvarchar(254),
 	alternatename2_language nvarchar(3),
 	surfacetype nvarchar(13),
-	cyclefacility nvarchar(50),
-	cyclefacility_wholelink BIT,
 	elevationgain_indirection numeric(6,1) not null,
 	elevationgain_againstdirection numeric(6,1) not null,
 	heightingmethod nvarchar(19) not null,
@@ -34,5 +32,16 @@ CREATE TABLE trn_ntwk_pathlink (
 	presenceofstreetlight_evidencedate date not null,
 	presenceofstreetlight_updatedate date not null,
 	presenceofstreetlight_capturemethod nvarchar(25) not null,
+	presenceofcyclelane_overall_m numeric(6,2) not null,
+	presenceofcyclelane_overallpercentage integer not null,
+	presenceofcyclelane_indirection_m numeric(6,2) not null,
+	presenceofcyclelane_indirectionsegregated_m numeric(6,2) not null,
+	presenceofcyclelane_indirectionpercentage integer not null,
+	presenceofcyclelane_inoppositedirection_m numeric(6,2) not null,
+	presenceofcyclelane_inoppositedirectionsegregated_m numeric(6,2) not null,
+	presenceofcyclelane_inoppositedirectionpercentage integer not null,
+	presenceofcyclelane_evidencedate date not null,
+	presenceofcyclelane_updatedate date not null,
+	presenceofcyclelane_capturemethod nvarchar(25) not null,
 	PRIMARY KEY (osid)
 );

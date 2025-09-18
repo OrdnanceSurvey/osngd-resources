@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 4.0 */
+/* This DDL is based on data schema version 5.0 */
 CREATE TABLE trn_ntwk_roadlink (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),
@@ -25,8 +25,6 @@ CREATE TABLE trn_ntwk_roadlink (
 	alternatename2_language nvarchar(3),
 	operationalstate nvarchar(19) not null,
 	directionality nvarchar(21) not null,
-	cyclefacility nvarchar(50),
-	cyclefacility_wholelink BIT,
 	roadstructure nvarchar(14),
 	roadwidth_average numeric(3,1),
 	roadwidth_minimum numeric(3,1),
@@ -60,6 +58,26 @@ CREATE TABLE trn_ntwk_roadlink (
 	presenceofstreetlight_evidencedate date not null,
 	presenceofstreetlight_updatedate date not null,
 	presenceofstreetlight_capturemethod nvarchar(25) not null,
+	presenceofbuslane_overall_m numeric(6,2) not null,
+	presenceofbuslane_overallpercentage integer not null,
+	presenceofbuslane_indirection_m numeric(6,2) not null,
+	presenceofbuslane_indirectionpercentage integer not null,
+	presenceofbuslane_inoppositedirection_m numeric(6,2) not null,
+	presenceofbuslane_inoppositedirectionpercentage integer not null,
+	presenceofbuslane_evidencedate date not null,
+	presenceofbuslane_updatedate date not null,
+	presenceofbuslane_capturemethod nvarchar(25) not null,
+	presenceofcyclelane_overall_m numeric(6,2) not null,
+	presenceofcyclelane_overallpercentage integer not null,
+	presenceofcyclelane_indirection_m numeric(6,2) not null,
+	presenceofcyclelane_indirectionsegregated_m numeric(6,2) not null,
+	presenceofcyclelane_indirectionpercentage integer not null,
+	presenceofcyclelane_inoppositedirection_m numeric(6,2) not null,
+	presenceofcyclelane_inoppositedirectionsegregated_m numeric(6,2) not null,
+	presenceofcyclelane_inoppositedirectionpercentage integer not null,
+	presenceofcyclelane_evidencedate date not null,
+	presenceofcyclelane_updatedate date not null,
+	presenceofcyclelane_capturemethod nvarchar(25) not null,
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_ntwk_roadlink_rdtrkpthref (
