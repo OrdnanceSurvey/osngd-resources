@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 2.0 */
 CREATE TABLE wtr_ntwk_waterlink (
 	osid uuid not null,
 	toid varchar(20),
@@ -7,7 +7,7 @@ CREATE TABLE wtr_ntwk_waterlink (
 	versionavailabletodate timestamp,
 	changetype varchar(50) not null,
 	geometry geometry(LineStringZ, 7405) not null,
-	geometry_length numeric(15,6) not null,
+	geometry_length_m numeric(15,6) not null,
 	geometry_evidencedate date,
 	geometry_updatedate date not null,
 	geometry_source varchar(50),
@@ -26,7 +26,12 @@ CREATE TABLE wtr_ntwk_waterlink (
 	levelofdetail varchar(8),
 	catchmentname varchar(254),
 	catchmentid varchar(20),
-	width numeric(7,2),
+	width_average numeric(5,1),
+	width_minimum numeric(5,1),
+	width_maximum numeric(5,1),
+	width_derivationmethod varchar(35),
+	width_evidencedate date,
+	width_updatedate date,
 	gradient numeric(5,2),
 /*
  *	There is currently a known issue affecting the `startnode` and `endnode`
