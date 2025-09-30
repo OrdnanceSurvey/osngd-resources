@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 1.1 */
 CREATE TABLE trn_ntwk_path (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),

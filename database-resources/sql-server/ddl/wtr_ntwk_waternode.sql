@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.1 */
+/* This DDL is based on data schema version 1.0 */
 CREATE TABLE wtr_ntwk_waternode (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),

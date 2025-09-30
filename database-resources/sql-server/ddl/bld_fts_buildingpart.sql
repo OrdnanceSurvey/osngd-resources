@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 2.0 */
+/* This DDL is based on data schema version 2.2 */
 CREATE TABLE bld_fts_buildingpart (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),

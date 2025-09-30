@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 1.1 */
 CREATE TABLE TRN_NTWK_CONNECTINGNODE (
 	OSID VARCHAR2(36) not null,
 	TOID VARCHAR2(20),
@@ -9,6 +9,6 @@ CREATE TABLE TRN_NTWK_CONNECTINGNODE (
 	GEOMETRY SDO_GEOMETRY not null,
 	THEME VARCHAR2(40) not null,
 	DESCRIPTION VARCHAR2(15) not null,
-	ROADLINKID VARCHAR2(15),
+	ROADLINKID VARCHAR2(36),
 	PRIMARY KEY (osid)
 );

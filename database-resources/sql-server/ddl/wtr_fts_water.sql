@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 3.0 */
+/* This DDL is based on data schema version 3.1 */
 CREATE TABLE wtr_fts_water (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),

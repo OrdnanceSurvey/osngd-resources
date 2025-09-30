@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 3.0 */
+/* This DDL is based on data schema version 3.1 */
 CREATE TABLE STR_FTS_STRUCTURE (
 	OSID VARCHAR2(36) not null,
 	TOID VARCHAR2(20),

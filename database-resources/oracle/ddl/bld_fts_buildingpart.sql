@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 2.0 */
+/* This DDL is based on data schema version 2.2 */
 CREATE TABLE BLD_FTS_BUILDINGPART (
 	OSID VARCHAR2(36) not null,
 	TOID VARCHAR2(20),

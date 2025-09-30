@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 2.0 */
+/* This DDL is based on data schema version 2.3 */
 CREATE TABLE lus_fts_site (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),

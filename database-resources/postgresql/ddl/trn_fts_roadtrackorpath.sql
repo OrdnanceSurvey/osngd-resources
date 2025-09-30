@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 3.0 */
+/* This DDL is based on data schema version 3.1 */
 CREATE TABLE trn_fts_roadtrackorpath (
 	osid uuid not null,
 	toid varchar(20),

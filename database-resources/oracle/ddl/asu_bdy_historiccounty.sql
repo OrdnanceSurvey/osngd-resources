@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 1.1 */
 CREATE TABLE ASU_BDY_HISTORICCOUNTY (
 	OSID VARCHAR2(36) not null,
 	VERSIONDATE DATE not null,

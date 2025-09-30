@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 1.1 */
 CREATE TABLE TRN_NTWK_FERRYLINK (
 	OSID VARCHAR2(36) not null,
 	TOID VARCHAR2(20),
@@ -13,7 +13,7 @@ CREATE TABLE TRN_NTWK_FERRYLINK (
 	FICTITIOUS NUMBER(1),
 	VEHICULARFERRY NUMBER(1) not null,
 	ROUTEOPERATOR VARCHAR2(250),
-	STARTNODE VARCHAR2(10) not null,
-	ENDNODE VARCHAR2(10) not null,
+	STARTNODE VARCHAR2(36) not null,
+	ENDNODE VARCHAR2(36) not null,
 	PRIMARY KEY (osid)
 );

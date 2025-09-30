@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 1.1 */
 CREATE TABLE asu_bdy_glaassemblyconstituency (
 	osid uuid not null,
 	toid varchar(20),
