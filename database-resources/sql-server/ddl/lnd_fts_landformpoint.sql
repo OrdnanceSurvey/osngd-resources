@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version . */
+/* This DDL is based on data schema version 1.0 */
 CREATE TABLE lnd_fts_landformpoint (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),

@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version . */
+/* This DDL is based on data schema version 1.0 */
 CREATE TABLE LND_FTS_LANDFORMLINE (
 	OSID VARCHAR2(36) not null,
 	TOID VARCHAR2(20),
