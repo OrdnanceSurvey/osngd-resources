@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 1.1 */
 CREATE TABLE asu_nipcd_postcodeunitpoint (
 	postcode varchar(8) not null,
 	versiondate date not null,

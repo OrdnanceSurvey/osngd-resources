@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 4.0 */
+/* This DDL is based on data schema version 4.1 */
 CREATE TABLE BLD_FTS_BUILDING (
 	OSID VARCHAR2(36) not null,
 	VERSIONDATE DATE not null,
