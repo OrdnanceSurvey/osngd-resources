@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 1.1 */
 CREATE TABLE asu_bdy_devolvedparliamentconstituency (
 	osid uniqueidentifier not null,
 	toid nvarchar(20),
@@ -16,10 +16,10 @@ CREATE TABLE asu_bdy_devolvedparliamentconstituency (
 	name2_language nvarchar(3),
 	gsscode nvarchar(10) not null,
 	boundarytype nvarchar(50) not null,
-	boundaryparentreference_id uniqueidentifier not null,
-	boundaryparentreference_featuretype nvarchar(50) not null,
-	boundaryparentreference_classification nvarchar(50) not null,
-	boundaryparentreference_name1_text nvarchar(254) not null,
+	boundaryparentreference_id uniqueidentifier,
+	boundaryparentreference_featuretype nvarchar(50),
+	boundaryparentreference_classification nvarchar(50),
+	boundaryparentreference_name1_text nvarchar(254),
 	boundaryparentreference_name1_language nvarchar(3),
 	boundaryparentreference_name2_text nvarchar(254),
 	boundaryparentreference_name2_language nvarchar(3),

@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 3.2 */
+/* This DDL is based on data schema version 3.3 */
 CREATE TABLE LND_FTS_LAND (
 	OSID VARCHAR2(36) not null,
 	TOID VARCHAR2(20),
