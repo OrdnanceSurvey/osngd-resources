@@ -1,0 +1,1548 @@
+{
+    "data": [
+        {
+            "Feature Type": "add_gb_builtaddress",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Built Address Feature Type."
+        },
+        {
+            "Feature Type": "add_gb_builtaddress",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new attribution for Full Address, Alternate Language Full Address, Lowest Floor Level, Highest Floor Level, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description."
+        },
+        {
+            "Feature Type": "add_gb_builtaddress",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment implementing the following changes:<ul><li>Extended the max length of the Postcode Source, Full Address, Alternate Language Full Address, Sub Name, Alternate Language Sub Name and Build Status attributes.</li><li>Modified the associated code lists for the Description, Positional Accuracy and Postcode Source attributes.</li><li>Added download filters for Primary Classification Description, Secondary Classification Description, and Tertiary Classification Description attributes.</li><li>New associated code lists added to the Classification Code, Classification Description, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description attributes.</li></ul>"
+        },
+        {
+            "Feature Type": "add_gb_historicaddress",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Historic Address Feature Type."
+        },
+        {
+            "Feature Type": "add_gb_historicaddress",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new attribution for Full Address, Alternate Language Full Address, Lowest Floor Level, Highest Floor Level, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description."
+        },
+        {
+            "Feature Type": "add_gb_historicaddress",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment implementing the following changes:<ul><li>Extended the max length of the Postcode Source, Full Address, Alternate Language Full Address, Sub Name, Alternate Language Sub Name and Build Status attributes.</li><li>Modified the associated code lists for the Description, Positional Accuracy and Postcode Source attributes.</li><li>Added download filters for Primary Classification Description, Secondary Classification Description, and Tertiary Classification Description attributes.</li><li>New associated code lists added to the Classification Code, Classification Description, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description attributes.</li></ul>"
+        },
+        {
+            "Feature Type": "add_gb_nonaddressableobject",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Non-Addressable Object Feature Type."
+        },
+        {
+            "Feature Type": "add_gb_nonaddressableobject",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new attribution for Full Address, Alternate Language Full Address, Lowest Floor Level, Highest Floor Level, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description."
+        },
+        {
+            "Feature Type": "add_gb_nonaddressableobject",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment implementing the following changes:<ul><li>Extended the max length of the Postcode Source, Full Address, Alternate Language Full Address, Sub Name, Alternate Language Sub Name and Build Status attributes.</li><li>Modified the associated code lists for the Description, Positional Accuracy and Postcode Source attributes.</li><li>Added download filters for Primary Classification Description, Secondary Classification Description, and Tertiary Classification Description attributes.</li><li>New associated code lists added to the Classification Code, Classification Description, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description attributes.</li></ul>"
+        },
+        {
+            "Feature Type": "add_gb_prebuildaddress",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Pre-Build Address Feature Type."
+        },
+        {
+            "Feature Type": "add_gb_prebuildaddress",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new attribution for Full Address, Alternate Language Full Address, Lowest Floor Level, Highest Floor Level, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description."
+        },
+        {
+            "Feature Type": "add_gb_prebuildaddress",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment implementing the following changes:<ul><li>Extended the max length of the Postcode Source, Full Address, Alternate Language Full Address, Sub Name, Alternate Language Sub Name and Build Status attributes.</li><li>Modified the associated code lists for the Description, Positional Accuracy and Postcode Source attributes.</li><li>Added download filters for Primary Classification Description, Secondary Classification Description, and Tertiary Classification Description attributes.</li><li>New associated code lists added to the Classification Code, Classification Description, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description attributes.</li></ul>"
+        },
+        {
+            "Feature Type": "add_gb_royalmailaddress",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Royal Mail Address Feature Type."
+        },
+        {
+            "Feature Type": "add_gb_streetaddress",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Street Address Feature Type."
+        },
+        {
+            "Feature Type": "add_isl_builtaddress",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Built Address Feature Type."
+        },
+        {
+            "Feature Type": "add_isl_builtaddress",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new attribution for Full Address, Alternate Language Full Address, Lowest Floor Level, Highest Floor Level, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description."
+        },
+        {
+            "Feature Type": "add_isl_builtaddress",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment implementing the following changes:<ul><li>Extended the max length of the Postcode Source, Full Address, Alternate Language Full Address, Sub Name, Alternate Language Sub Name and Build Status attributes.</li><li>Modified the associated code lists for the Description, Positional Accuracy and Postcode Source attributes.</li><li>Added download filters for Primary Classification Description, Secondary Classification Description, and Tertiary Classification Description attributes.</li><li>New associated code lists added to the Classification Code, Classification Description, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description attributes.</li></ul>"
+        },
+        {
+            "Feature Type": "add_isl_historicaddress",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Historic Address Feature Type."
+        },
+        {
+            "Feature Type": "add_isl_historicaddress",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new attribution for Full Address, Alternate Language Full Address, Lowest Floor Level, Highest Floor Level, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description."
+        },
+        {
+            "Feature Type": "add_isl_historicaddress",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment implementing the following changes:<ul><li>Extended the max length of the Postcode Source, Full Address, Alternate Language Full Address, Sub Name, Alternate Language Sub Name and Build Status attributes.</li><li>Modified the associated code lists for the Description, Positional Accuracy and Postcode Source attributes.</li><li>Added download filters for Primary Classification Description, Secondary Classification Description, and Tertiary Classification Description attributes.</li><li>New associated code lists added to the Classification Code, Classification Description, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description attributes.</li></ul>"
+        },
+        {
+            "Feature Type": "add_isl_nonaddressableobject",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Non-Addressable Object Feature Type."
+        },
+        {
+            "Feature Type": "add_isl_nonaddressableobject",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new attribution for Full Address, Alternate Language Full Address, Lowest Floor Level, Highest Floor Level, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description."
+        },
+        {
+            "Feature Type": "add_isl_nonaddressableobject",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment implementing the following changes:<ul><li>Extended the max length of the Postcode Source, Full Address, Alternate Language Full Address, Sub Name, Alternate Language Sub Name and Build Status attributes.</li><li>Modified the associated code lists for the Description, Positional Accuracy and Postcode Source attributes.</li><li>Added download filters for Primary Classification Description, Secondary Classification Description, and Tertiary Classification Description attributes.</li><li>New associated code lists added to the Classification Code, Classification Description, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description attributes.</li></ul>"
+        },
+        {
+            "Feature Type": "add_isl_prebuildaddress",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Pre-Build Address Feature Type."
+        },
+        {
+            "Feature Type": "add_isl_prebuildaddress",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new attribution for Full Address, Alternate Language Full Address, Lowest Floor Level, Highest Floor Level, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description."
+        },
+        {
+            "Feature Type": "add_isl_prebuildaddress",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment implementing the following changes:<ul><li>Extended the max length of the Postcode Source, Full Address, Alternate Language Full Address, Sub Name, Alternate Language Sub Name and Build Status attributes.</li><li>Modified the associated code lists for the Description, Positional Accuracy and Postcode Source attributes.</li><li>Added download filters for Primary Classification Description, Secondary Classification Description, and Tertiary Classification Description attributes.</li><li>New associated code lists added to the Classification Code, Classification Description, Primary Classification Description, Secondary Classification Description, Tertiary Classification Description and Quaternary Classification Description attributes.</li></ul>"
+        },
+        {
+            "Feature Type": "add_isl_royalmailaddress",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "30 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Royal Mail Address Feature Type."
+        },
+        {
+            "Feature Type": "add_isl_streetaddress",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "02 November 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Street Address Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_boundaryhighwatermark",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Boundary High Water Mark Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_boundaryhighwatermark",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "asu_bdy_ceremonialcounty",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Ceremonial County Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_country",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Country Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_country",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "asu_bdy_devolvedparliamentconstituency",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "30 April 2026",
+            "Change": "Initial launch of the Devolved Parliament Constituency Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_devolvedparliamentconstituency",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "01 May 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment to make Boundary Parent Reference ID, Boundary Parent Reference Feature Type, Boundary Parent Reference Classification and Boundary Parent Reference Name 1 Text attributes nullable in line with boundary changes in Wales."
+        },
+        {
+            "Feature Type": "asu_bdy_devolvedparliamentelectoralregion",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Devolved Parliament Electoral Region Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_electoraldivision",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Electoral Division Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_glaassemblyconstituency",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the GLA Assembly Constituency Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_glaassemblyconstituency",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "asu_bdy_historiccounty",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Historic County Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_historiccounty",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "asu_bdy_historiceuropeanregion",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Historic European Region Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_historiceuropeanregion",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "asu_bdy_lowertierlocalauthority",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Lower Tier Local Authority Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_parishorcommunity",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Parish Or Community Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_pollingdistrict",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Polling District Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_region",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Region Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_regionalauthority",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Regional Authority Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_regionalauthority",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "asu_bdy_uppertierlocalauthority",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Upper Tier Local Authority Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_ward",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Ward Feature Type."
+        },
+        {
+            "Feature Type": "asu_bdy_westminsterconstituency",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Westminster Constituency Feature Type."
+        },
+        {
+            "Feature Type": "asu_funcarea_retailareaaggregated",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "26 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Retail Area Aggregated Feature Type."
+        },
+        {
+            "Feature Type": "asu_funcarea_retailareamajor",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "26 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Retail Area Major Feature Type."
+        },
+        {
+            "Feature Type": "asu_funcarea_retailareaminor",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "26 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Retail Area Minor Feature Type."
+        },
+        {
+            "Feature Type": "asu_gbpcd_postcodeunitarea",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "20 February 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Postcode Unit Area Feature Type."
+        },
+        {
+            "Feature Type": "asu_gbpcd_postcodeunitpoint",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "20 February 2026",
+            "Latest Date": "06 April 2026",
+            "Change": "Initial launch of the Postcode Unit Point Feature Type."
+        },
+        {
+            "Feature Type": "asu_gbpcd_postcodeunitpoint",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "07 April 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Schema update to the coordinate reference system and storage coordinate reference system URLs."
+        },
+        {
+            "Feature Type": "asu_nipcd_postcodeunitpoint",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "20 February 2026",
+            "Latest Date": "06 April 2026",
+            "Change": "Initial launch of the Postcode Unit Point Feature Type."
+        },
+        {
+            "Feature Type": "asu_nipcd_postcodeunitpoint",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "07 April 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Schema update to the crs and storage crs URLs."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "27 September 2023",
+            "Latest Date": "02 April 2025",
+            "Change": "Initial launch of the Building Feature Type."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "1.1",
+            "Status": "End Of Life",
+            "Launch Date": "03 April 2025",
+            "Latest Date": "11 March 2026",
+            "Change": "Max Length removed from UPRN attribute (within the UPRN Reference cross reference table that maps Address to Building) as it is not relevant for the number or integer data types provided for this attribute."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "1.2",
+            "Status": "Maintenance",
+            "Launch Date": "12 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to the definitions for the Building Use Address Count Total, Building Use Address Count Residential, Building Use Address Count Commercial and Building Use Address Count Other attributes to change 'built in use' to 'built complete' to align with the updated label in v2.0 of the Build Status Value Code List."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "2.0",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "11 March 2026",
+            "Change": "Major version increment adding new Description, Construction Material, Building Age, and Basement Presence attribution."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "2.1",
+            "Status": "Maintenance",
+            "Launch Date": "12 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to the definitions for the Building Use Address Count Total, Building Use Address Count Residential, Building Use Address Count Commercial and Building Use Address Count Other attributes to change 'built in use' to 'built complete' to align with the updated label in v2.0 of the Build Status Value Code List."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "3.0",
+            "Status": "End Of Life",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "11 March 2026",
+            "Change": "Major version increment adding new Number Of Floors attribution and amending the names of some existing attributes."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "3.1",
+            "Status": "Maintenance",
+            "Launch Date": "12 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to the definitions for the Building Use Address Count Total, Building Use Address Count Residential, Building Use Address Count Commercial and Building Use Address Count Other attributes to change 'built in use' to 'built complete' to align with the updated label in v2.0 of the Build Status Value Code List."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "4.0",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "11 March 2026",
+            "Change": "Major version increment adding new Height metadata, Physical State, Roof Material, and Roof Shape Aspect attribution."
+        },
+        {
+            "Feature Type": "bld_fts_building",
+            "Version": "4.1",
+            "Status": "Latest",
+            "Launch Date": "12 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to the definitions for the Building Use Address Count Total, Building Use Address Count Residential, Building Use Address Count Commercial and Building Use Address Count Other attributes to change 'built in use' to 'built complete' to align with the updated label in v2.0 of the Build Status Value Code List."
+        },
+        {
+            "Feature Type": "bld_fts_buildingaccesslocation",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "26 April 2026",
+            "Change": "Initial launch of the Building Access Location Feature Type."
+        },
+        {
+            "Feature Type": "bld_fts_buildingaccesslocation",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "27 April 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to Access Obstruction attribute's max length from 20 to 30. Clarified documentation to specify the handling of multiple obstruction values."
+        },
+        {
+            "Feature Type": "bld_fts_buildingline",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Building Line Feature Type."
+        },
+        {
+            "Feature Type": "bld_fts_buildingpart",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "16 July 2025",
+            "Change": "Initial launch of the Building Part Feature Type."
+        },
+        {
+            "Feature Type": "bld_fts_buildingpart",
+            "Version": "1.1",
+            "Status": "Maintenance",
+            "Launch Date": "17 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to OS Land Cover Tier A attribute's max length from 15 to 20 and OS Land Cover Tier B attribute's max length from 25 to 20.<br>New value (Under Construction) added to Building Part Land Cover Tier A Value and Building Part Land Cover Tier B Value Code Lists."
+        },
+        {
+            "Feature Type": "bld_fts_buildingpart",
+            "Version": "2.0",
+            "Status": "End Of Life",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "26 March 2025",
+            "Change": "Major version increment adding new Land Use attribution, NLUD attribution and a cross-reference table to Site.<br>New value added to the Building Part Description Value Code List for Building Under Construction."
+        },
+        {
+            "Feature Type": "bld_fts_buildingpart",
+            "Version": "2.1",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "16 July 2025",
+            "Change": "Minor version increment. Update to Status attribute length from 10 to 20 to allow for 'Under Construction'."
+        },
+        {
+            "Feature Type": "bld_fts_buildingpart",
+            "Version": "2.2",
+            "Status": "Latest",
+            "Launch Date": "17 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to OS Land Cover Tier A attribute's max length from 15 to 20 and OS Land Cover Tier B attribute's max length from 25 to 20.<br>New value (Under Construction) added to Building Part Land Cover Tier A Value and Building Part Land Cover Tier B Value Code Lists."
+        },
+        {
+            "Feature Type": "gnm_fts_crowdsourcednamepoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Crowd Sourced Name Point Feature Type."
+        },
+        {
+            "Feature Type": "gnm_fts_namedarea",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Named Area Feature Type."
+        },
+        {
+            "Feature Type": "gnm_fts_namedpoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Named Point Feature Type."
+        },
+        {
+            "Feature Type": "gnm_fts_namedroadjunction",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Named Road Junction Feature Type."
+        },
+        {
+            "Feature Type": "lnd_fts_land",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "10 May 2026",
+            "Change": "Initial launch of the Land Feature Type."
+        },
+        {
+            "Feature Type": "lnd_fts_land",
+            "Version": "1.1",
+            "Status": "Maintenance",
+            "Launch Date": "11 May 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Updates made to the Land Description Value Code List (now on v2.0) to indicate two deprecated values no longer in the data."
+        },
+        {
+            "Feature Type": "lnd_fts_land",
+            "Version": "2.0",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "10 May 2026",
+            "Change": "Major version increment adding the Habitat Coverage cross-reference table."
+        },
+        {
+            "Feature Type": "lnd_fts_land",
+            "Version": "2.1",
+            "Status": "Maintenance",
+            "Launch Date": "11 May 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Updates made to the Land Description Value Code List (now on v2.0) to indicate two deprecated values no longer in the data."
+        },
+        {
+            "Feature Type": "lnd_fts_land",
+            "Version": "3.0",
+            "Status": "End Of Life",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "26 March 2025",
+            "Change": "Major version increment adding new Land Use attribution, NLUD attribution and a cross-reference table to Site."
+        },
+        {
+            "Feature Type": "lnd_fts_land",
+            "Version": "3.1",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "26 September 2025",
+            "Change": "Minor version increment. Update to Status attribute length from 10 to 20 to allow for 'Under Construction'."
+        },
+        {
+            "Feature Type": "lnd_fts_land",
+            "Version": "3.2",
+            "Status": "End Of Life",
+            "Launch Date": "27 September 2025",
+            "Latest Date": "10 May 2026",
+            "Change": "Minor version increment. Update to schema to make Containing Site Count and Lower Tier Local Authority Count attributes nullable."
+        },
+        {
+            "Feature Type": "lnd_fts_land",
+            "Version": "3.3",
+            "Status": "Latest",
+            "Launch Date": "11 May 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Updates made to the Land Description Value Code List (now on v2.0) to indicate two deprecated values no longer in the data."
+        },
+        {
+            "Feature Type": "lnd_fts_landform",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Landform Feature Type."
+        },
+        {
+            "Feature Type": "lnd_fts_landformline",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Landform Line Feature Type."
+        },
+        {
+            "Feature Type": "lnd_fts_landformpoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Landform Point Feature Type."
+        },
+        {
+            "Feature Type": "lnd_fts_landpoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Land Point Feature Type."
+        },
+        {
+            "Feature Type": "lus_fts_site",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "04 October 2022",
+            "Latest Date": "13 February 2025",
+            "Change": "Initial launch of the Site Feature Type."
+        },
+        {
+            "Feature Type": "lus_fts_site",
+            "Version": "1.1",
+            "Status": "End Of Life",
+            "Launch Date": "14 February 2025",
+            "Latest Date": "26 March 2025",
+            "Change": "Minor version increment that updates the case of two code list values (Public Waste Disposal Site and Education Support Site) within the Site Description Value Code List from sentence case to title case."
+        },
+        {
+            "Feature Type": "lus_fts_site",
+            "Version": "1.2",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "26 September 2025",
+            "Change": "Minor version increment that adds Beach, Military Training Area, and Wind Farm to the Site Description Value Code List."
+        },
+        {
+            "Feature Type": "lus_fts_site",
+            "Version": "1.3",
+            "Status": "Maintenance",
+            "Launch Date": "27 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that adds Derelict Site to the Site Description Value Code List."
+        },
+        {
+            "Feature Type": "lus_fts_site",
+            "Version": "2.0",
+            "Status": "End Of Life",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "13 February 2025",
+            "Change": "Major version increment adding new address, NLUD, Main Building ID, and Status attribution, as well as a cross reference table to Address."
+        },
+        {
+            "Feature Type": "lus_fts_site",
+            "Version": "2.1",
+            "Status": "End Of Life",
+            "Launch Date": "14 February 2025",
+            "Latest Date": "26 March 2025",
+            "Change": "Minor version increment that removes Derelict Site from the Site Description Value Code List."
+        },
+        {
+            "Feature Type": "lus_fts_site",
+            "Version": "2.2",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "26 September 2025",
+            "Change": "Minor version increment that adds Beach, Military Training Area, and Wind Farm to the Site Description Value Code List."
+        },
+        {
+            "Feature Type": "lus_fts_site",
+            "Version": "2.3",
+            "Status": "Latest",
+            "Launch Date": "27 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that adds Derelict Site to the Site Description Value Code List."
+        },
+        {
+            "Feature Type": "lus_fts_siteaccesslocation",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "03 October 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Site Access Location Feature Type."
+        },
+        {
+            "Feature Type": "lus_fts_siteaccesslocation",
+            "Version": "1.1",
+            "Status": "Maintenance",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "lus_fts_siteaccesslocation",
+            "Version": "2.0",
+            "Status": "Latest",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Access Purpose, Accessed Network Node Feature Type, Accessed Network Node ID, and Distance To Network Node attribution."
+        },
+        {
+            "Feature Type": "lus_fts_siteroutingpoint",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "03 October 2022",
+            "Latest Date": "25 April 2023",
+            "Change": "Initial launch of the Site Routing Point Feature Type."
+        },
+        {
+            "Feature Type": "str_fts_compoundstructure",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "24 September 2024",
+            "Change": "Initial launch of the Compound Structure Feature Type."
+        },
+        {
+            "Feature Type": "str_fts_compoundstructure",
+            "Version": "1.1",
+            "Status": "Maintenance",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment adding classification values for Tunnels."
+        },
+        {
+            "Feature Type": "str_fts_compoundstructure",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Network Over attribution, Network Under attribution and classification values for Tunnels."
+        },
+        {
+            "Feature Type": "str_fts_compoundstructure",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "26 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding a Related Entity Related Component; adding Geometry Capture Method and Description Capture Method attribution; retiring the four Name Source attributes, and retiring the Geometry Source and Description Source attributes. Operational Status attribute was renamed to Status, and the attribute length was changed from 10 to 20 to allow for 'Under Construction'."
+        },
+        {
+            "Feature Type": "str_fts_fieldboundary",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Filed Boundary Feature Type."
+        },
+        {
+            "Feature Type": "str_fts_structure",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Structure Feature Type."
+        },
+        {
+            "Feature Type": "str_fts_structure",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding the Habitat Coverage cross-reference table."
+        },
+        {
+            "Feature Type": "str_fts_structure",
+            "Version": "3.0",
+            "Status": "End Of Life",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "26 March 2025",
+            "Change": "Major version increment adding new Land Use attribution, NLUD attribution and a cross-reference table to Site."
+        },
+        {
+            "Feature Type": "str_fts_structure",
+            "Version": "3.1",
+            "Status": "Latest",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to Status attribute length from 10 to 20 to allow for 'Under Construction'."
+        },
+        {
+            "Feature Type": "str_fts_structureline",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Structure Line Feature Type."
+        },
+        {
+            "Feature Type": "str_fts_structurepoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Structure Point Feature Type."
+        },
+        {
+            "Feature Type": "trn_fts_cartographicraildetail",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Cartographic Rail Detail Feature Type."
+        },
+        {
+            "Feature Type": "trn_fts_rail",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Rail Feature Type."
+        },
+        {
+            "Feature Type": "trn_fts_rail",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding the Habitat Coverage cross-reference table."
+        },
+        {
+            "Feature Type": "trn_fts_rail",
+            "Version": "3.0",
+            "Status": "End Of Life",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "26 March 2025",
+            "Change": "Major version increment adding new Land Use attribution, NLUD attribution and a cross-reference table to Site."
+        },
+        {
+            "Feature Type": "trn_fts_rail",
+            "Version": "3.1",
+            "Status": "Latest",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to Status attribute length from 10 to 20 to allow for 'Under Construction'."
+        },
+        {
+            "Feature Type": "trn_fts_roadline",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Road Line Feature Type."
+        },
+        {
+            "Feature Type": "trn_fts_roadtrackorpath",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Road Track Or Path Feature Type."
+        },
+        {
+            "Feature Type": "trn_fts_roadtrackorpath",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding the Habitat Coverage cross-reference table."
+        },
+        {
+            "Feature Type": "trn_fts_roadtrackorpath",
+            "Version": "3.0",
+            "Status": "End Of Life",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "26 March 2025",
+            "Change": "Major version increment adding new Land Use attribution, NLUD attribution and a cross-reference table to Site."
+        },
+        {
+            "Feature Type": "trn_fts_roadtrackorpath",
+            "Version": "3.1",
+            "Status": "End Of Life",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "02 March 2026",
+            "Change": "Minor version increment. Update to Status attribute length from 10 to 20 to allow for 'Under Construction'."
+        },
+        {
+            "Feature Type": "trn_fts_roadtrackorpath",
+            "Version": "3.2",
+            "Status": "Latest",
+            "Launch Date": "03 March 2026",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to the OS Land Cover Tier A attribute to make it filterable in OS Select+Build."
+        },
+        {
+            "Feature Type": "trn_fts_streetlight",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Street Light Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_buslane",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "25 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Bus Lane Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_connectinglink",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Connecting Link Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_connectinglink",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_connectingnode",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Connecting Node Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_connectingnode",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_cyclelane",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "25 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Cycle Lane Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_ferrylink",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Ferry Link Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_ferrylink",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_ferrynode",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Ferry Node Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_ferrynode",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_ferryterminal",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Ferry Terminal Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_ferryterminal",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_path",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Path Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_path",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_pathlink",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Path Link Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_pathlink",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Presence Of Street Light attribution."
+        },
+        {
+            "Feature Type": "trn_ntwk_pathlink",
+            "Version": "3.0",
+            "Status": "Latest",
+            "Launch Date": "25 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Presence Of Cycle Lane attribution. This also removes Cycle Facility attribution."
+        },
+        {
+            "Feature Type": "trn_ntwk_pathnode",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Path Node Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_pathnode",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_pavementlink",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "27 September 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Pavement Link Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_railwaylink",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "27 September 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Railway Link Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_railwaylinkset",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "27 September 2023",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Railway Link Set Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_railwaylinkset",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_railwaynode",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "27 September 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Railway Node Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_road",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 July 2025",
+            "Change": "Initial launch of the Road Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_road",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 July 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that removes the query and download filters from the Description attribute as this attribute supports only a single value."
+        },
+        {
+            "Feature Type": "trn_ntwk_roadjunction",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Road Junction Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_roadlink",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Road Link Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_roadlink",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "27 September 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Presence Of Pavement attribution."
+        },
+        {
+            "Feature Type": "trn_ntwk_roadlink",
+            "Version": "3.0",
+            "Status": "Maintenance",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Presence Of Tram attribution."
+        },
+        {
+            "Feature Type": "trn_ntwk_roadlink",
+            "Version": "4.0",
+            "Status": "Maintenance",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Presence Of Street Light attribution."
+        },
+        {
+            "Feature Type": "trn_ntwk_roadlink",
+            "Version": "5.0",
+            "Status": "Latest",
+            "Launch Date": "25 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Presence Of Bus Lane and Presence of Cycle Lane attribution. This also removes Cycle Lane Facility attribution."
+        },
+        {
+            "Feature Type": "trn_ntwk_roadnode",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Road Node Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_street",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Street Feature Type."
+        },
+        {
+            "Feature Type": "trn_ntwk_tramonroad",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Tram On Road Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_averageandindicativespeed",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Average And Indicative Speed Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_highwaydedication",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Highway Dedication Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_maintenancearea",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Maintenance Area Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_maintenanceline",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Maintenance Line Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_maintenancepoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Maintenance Point Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_reinstatementarea",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Reinstatement Area Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_reinstatementline",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Reinstatement Line Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_reinstatementpoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Reinstatement Point Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_restriction",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Restriction Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_routinghazard",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Routing Hazard Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_routingstructure",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Routing Structure Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_specialdesignationarea",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Special Designation Area Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_specialdesignationline",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Special Designation Line Feature Type."
+        },
+        {
+            "Feature Type": "trn_rami_specialdesignationpoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Special Designation Point Feature Type."
+        },
+        {
+            "Feature Type": "wtr_fts_intertidalline",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Inter Tidal Line Feature Type."
+        },
+        {
+            "Feature Type": "wtr_fts_riverbasindistrictcatchment",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the River Basin District Catchment Feature Type."
+        },
+        {
+            "Feature Type": "wtr_fts_tidalboundary",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Tidal Boundary Feature Type."
+        },
+        {
+            "Feature Type": "wtr_fts_tidalboundarycontinuoushigh",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "25 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Tidal Boundary Continuous High Feature Type."
+        },
+        {
+            "Feature Type": "wtr_fts_tidalboundarycontinuouslow",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "25 September 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Tidal Boundary Continuous Low Feature Type."
+        },
+        {
+            "Feature Type": "wtr_fts_water",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Water Feature Type."
+        },
+        {
+            "Feature Type": "wtr_fts_water",
+            "Version": "2.0",
+            "Status": "Maintenance",
+            "Launch Date": "27 March 2024",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding the Habitat Coverage cross-reference table."
+        },
+        {
+            "Feature Type": "wtr_fts_water",
+            "Version": "3.0",
+            "Status": "End Of Life",
+            "Launch Date": "25 September 2024",
+            "Latest Date": "26 March 2025",
+            "Change": "Major version increment adding new Land Use attribution, NLUD attribution and a cross-reference table to Site."
+        },
+        {
+            "Feature Type": "wtr_fts_water",
+            "Version": "3.1",
+            "Status": "Latest",
+            "Launch Date": "27 March 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment. Update to Status attribute length from 10 to 20 to allow for 'Under Construction'."
+        },
+        {
+            "Feature Type": "wtr_fts_waterbodycatchment",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "28 March 2023",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Water Body Catchment Feature Type."
+        },
+        {
+            "Feature Type": "wtr_fts_waterpoint",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Water Point Feature Type."
+        },
+        {
+            "Feature Type": "wtr_ntwk_waterlink",
+            "Version": "1.0",
+            "Status": "Maintenance",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Water Link Feature Type."
+        },
+        {
+            "Feature Type": "wtr_ntwk_waterlink",
+            "Version": "2.0",
+            "Status": "Latest",
+            "Launch Date": "31 October 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Major version increment adding new Width Average, Width Minimum, Width Maximum, Width Derivation Method, Width Evidence Date, Width Update Date, and Description Capture Method attribution."
+        },
+        {
+            "Feature Type": "wtr_ntwk_waterlinkset",
+            "Version": "1.0",
+            "Status": "Latest",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "Ongoing",
+            "Change": "Initial launch of the Water Link Set Feature Type."
+        },
+        {
+            "Feature Type": "wtr_ntwk_waternode",
+            "Version": "1.0",
+            "Status": "End Of Life",
+            "Launch Date": "29 September 2022",
+            "Latest Date": "27 October 2025",
+            "Change": "Initial launch of the Water Node Feature Type."
+        },
+        {
+            "Feature Type": "wtr_ntwk_waternode",
+            "Version": "1.1",
+            "Status": "Latest",
+            "Launch Date": "28 October 2025",
+            "Latest Date": "Ongoing",
+            "Change": "Minor version increment that adds Tidal Outlet to the Water Node Description Value Code List and increases the Description attribute's max length from 8 to 12."
+        }
+    ]
+}
