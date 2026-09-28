@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 2.0 */
 CREATE TABLE add_gb_royalmailaddress (
 	udprn integer not null,
 	versiondate date not null,
@@ -6,7 +6,7 @@ CREATE TABLE add_gb_royalmailaddress (
 	versionavailabletodate datetime,
 	changetype nvarchar(50) not null,
 	theme nvarchar(40) not null,
-	description nvarchar(50) not null,
+	description nvarchar(25) not null,
 	organisationname nvarchar(60),
 	departmentname nvarchar(60),
 	subbuildingname nvarchar(30),
@@ -19,6 +19,13 @@ CREATE TABLE add_gb_royalmailaddress (
 	posttown nvarchar(30) not null,
 	postcode nvarchar(8) not null,
 	postcodetype nvarchar(10) not null,
+	postcodearea nvarchar(2) not null,
+	postcodedistrict nvarchar(4) not null,
+	postcodesector nvarchar(6) not null,
+	pifchecksumdigit nvarchar(1),
+	pifdisplaytext nvarchar(50),
+	fulladdress nvarchar(1000) not null,
+	country nvarchar(25),
 	deliverypointsuffix nvarchar(2) not null,
 	welshdependentthoroughfare nvarchar(80),
 	welshthoroughfare nvarchar(80),
@@ -39,9 +46,51 @@ CREATE TABLE add_gb_royalmailaddress (
 	unmatchedreasondate date,
 	uprn bigint,
 	matchedaddressfeaturetype nvarchar(25),
+	primaryuprnmatch nvarchar(5),
 	matchtype nvarchar(20) not null,
 	matchdate date,
 	matchmethod nvarchar(10),
 	matchingorganisation nvarchar(25),
 	PRIMARY KEY (udprn)
+);
+CREATE TABLE add_gb_royalmailaddress_multires (
+	umrrn integer not null,
+	uprn bigint,
+	udprn integer not null,
+	featuretypeversiondate date not null,
+	multiresorganisationname nvarchar(60),
+	multiresdepartmentname nvarchar(60),
+	multiressubbuildingname nvarchar(30),
+	multiresbuildingname nvarchar(50),
+	multiresbuildingnumber integer,
+	multiresdependentthoroughfare nvarchar(80),
+	multiresthoroughfare nvarchar(80),
+	multiresdoubledependentlocality nvarchar(35),
+	multiresdependentlocality nvarchar(35),
+	multiresposttown nvarchar(30) not null,
+	multirespostcode nvarchar(8) not null,
+	multirespostcodetype nvarchar(10) not null,
+	multiresdeliverypointsuffix nvarchar(2) not null,
+	PRIMARY KEY (umrrn,featuretypeversiondate)
+);
+CREATE TABLE add_gb_royalmailaddress_dlpalias (
+	aliasid nvarchar(36) not null,
+	udprn integer not null,
+	featuretypeversiondate date not null,
+	alias nvarchar(75) not null,
+	aliasrecordtype nvarchar(25) not null,
+	aliascategory nvarchar(50) not null,
+	aliascurrency nvarchar(10) not null,
+	aliascode nvarchar(150) not null,
+	PRIMARY KEY (aliasid,featuretypeversiondate)
+);
+CREATE TABLE add_gb_royalmailaddress_otralias (
+	aliasid nvarchar(36) not null,
+	udprn integer not null,
+	featuretypeversiondate date not null,
+	alias nvarchar(150) not null,
+	aliasrecordtype nvarchar(25) not null,
+	aliastype nvarchar(30) not null,
+	aliascode nvarchar(150) not null,
+	PRIMARY KEY (aliasid,featuretypeversiondate)
 );

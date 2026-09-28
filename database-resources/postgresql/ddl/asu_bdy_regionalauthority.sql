@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.1 */
+/* This DDL is based on data schema version 2.0 */
 CREATE TABLE asu_bdy_regionalauthority (
 	osid uuid not null,
 	toid varchar(20),
@@ -6,7 +6,7 @@ CREATE TABLE asu_bdy_regionalauthority (
 	versionavailablefromdate timestamp not null,
 	versionavailabletodate timestamp,
 	changetype varchar(50) not null,
-	geometry geometry(Polygon, 27700) not null,
+	geometry geometry(MultiPolygon, 27700) not null,
 	geometry_area numeric(18,6) not null,
 	theme varchar(40) not null,
 	description varchar(50) not null,

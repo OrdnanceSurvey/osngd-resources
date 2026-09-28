@@ -1,4 +1,4 @@
-/* This DDL is based on data schema version 1.0 */
+/* This DDL is based on data schema version 2.0 */
 CREATE TABLE add_isl_royalmailaddress (
 	udprn integer not null,
 	versiondate date not null,
@@ -6,7 +6,7 @@ CREATE TABLE add_isl_royalmailaddress (
 	versionavailabletodate timestamp,
 	changetype varchar(50) not null,
 	theme varchar(40) not null,
-	description varchar(50) not null,
+	description varchar(25) not null,
 	organisationname varchar(60),
 	departmentname varchar(60),
 	subbuildingname varchar(30),
@@ -19,6 +19,13 @@ CREATE TABLE add_isl_royalmailaddress (
 	posttown varchar(30) not null,
 	postcode varchar(8) not null,
 	postcodetype varchar(10) not null,
+	postcodearea varchar(2) not null,
+	postcodedistrict varchar(4) not null,
+	postcodesector varchar(6) not null,
+	pifchecksumdigit varchar(1),
+	pifdisplaytext varchar(50),
+	fulladdress varchar(1000) not null,
+	country varchar(25),
 	deliverypointsuffix varchar(2) not null,
 	welshdependentthoroughfare varchar(80),
 	welshthoroughfare varchar(80),
@@ -39,9 +46,51 @@ CREATE TABLE add_isl_royalmailaddress (
 	unmatchedreasondate date,
 	uprn bigint,
 	matchedaddressfeaturetype varchar(25),
+	primaryuprnmatch varchar(5),
 	matchtype varchar(20) not null,
 	matchdate date,
 	matchmethod varchar(10),
 	matchingorganisation varchar(25),
 	PRIMARY KEY (udprn)
+);
+CREATE TABLE add_isl_royalmailaddress_multires (
+	umrrn integer not null,
+	uprn bigint,
+	udprn integer not null,
+	featuretypeversiondate date not null,
+	multiresorganisationname varchar(60),
+	multiresdepartmentname varchar(60),
+	multiressubbuildingname varchar(30),
+	multiresbuildingname varchar(50),
+	multiresbuildingnumber integer,
+	multiresdependentthoroughfare varchar(80),
+	multiresthoroughfare varchar(80),
+	multiresdoubledependentlocality varchar(35),
+	multiresdependentlocality varchar(35),
+	multiresposttown varchar(30) not null,
+	multirespostcode varchar(8) not null,
+	multirespostcodetype varchar(10) not null,
+	multiresdeliverypointsuffix varchar(2) not null,
+	PRIMARY KEY (umrrn,featuretypeversiondate)
+);
+CREATE TABLE add_isl_royalmailaddress_dlpalias (
+	aliasid varchar(36) not null,
+	udprn integer not null,
+	featuretypeversiondate date not null,
+	alias varchar(75) not null,
+	aliasrecordtype varchar(25) not null,
+	aliascategory varchar(50) not null,
+	aliascurrency varchar(10) not null,
+	aliascode varchar(150) not null,
+	PRIMARY KEY (aliasid,featuretypeversiondate)
+);
+CREATE TABLE add_isl_royalmailaddress_otralias (
+	aliasid varchar(36) not null,
+	udprn integer not null,
+	featuretypeversiondate date not null,
+	alias varchar(150) not null,
+	aliasrecordtype varchar(25) not null,
+	aliastype varchar(30) not null,
+	aliascode varchar(150) not null,
+	PRIMARY KEY (aliasid,featuretypeversiondate)
 );
